@@ -1,0 +1,3156 @@
+{
+ "format": "tn-v2",
+ "sets": [
+  {
+   "id": "smvkx13dcui8",
+   "name": "GDQP",
+   "qs": [
+    {
+     "num": 1,
+     "q": "<p>Tập đoàn Pôn Pốt phát động chiến tranh xâm lược Việt Nam vào thời gian nào?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "30-4-1975.",
+      "30-4-1976.",
+      "30-4-1977.",
+      "30-4-1978."
+     ],
+     "ans": 2,
+     "id": "1tsp9kw"
+    },
+    {
+     "num": 2,
+     "q": "<p>Thủ đô Phnom Penh hoàn toàn giải phóng vào thời gian nào?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "07-01-1979.",
+      "23-12-1978.",
+      "15-06-1978.",
+      "30-04-1977."
+     ],
+     "ans": 0,
+     "id": "f2h7c5"
+    },
+    {
+     "num": 3,
+     "q": "<p>Chính quyền Trung Quốc tuyên bố rút quân khỏi lãnh thổ Việt Nam vào thời gian nào?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "17-02-1975.",
+      "05-03-1975.",
+      "17-02-1979.",
+      "05-03-1979."
+     ],
+     "ans": 3,
+     "id": "m5enq3"
+    },
+    {
+     "num": 4,
+     "q": "<p>Chính quyền Trung Quốc chiếm đóng trái phép nhóm đảo phía Đông quần đảo Hoàng Sa vào năm nào?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "1954.",
+      "1955.",
+      "1956.",
+      "1957."
+     ],
+     "ans": 2,
+     "id": "ro5vmc"
+    },
+    {
+     "num": 5,
+     "q": "<p>Chính quyền Trung Quốc sử dụng vũ lực chiếm đóng trái phép một số bãi đá thuộc quần đảo Trường Sa của Việt Nam: Chữ Thập, Châu Viên, Ga Ven, Tư Nghĩa, Gạc Ma, Xu Bi vào năm nào?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "1986.",
+      "1989.",
+      "1987.",
+      "1988."
+     ],
+     "ans": 3,
+     "id": "fvwpes"
+    },
+    {
+     "num": 6,
+     "q": "<p>Cuộc đấu tranh bảo vệ chủ quyền biển, đảo của Việt Nam khẳng định chủ quyền của Việt Nam đối với quần đảo nào?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Bạch Long Vĩ và Cô Tô.",
+      "Hoàng Sa và Trường Sa.",
+      "Phú Quốc và Lý Sơn.",
+      "Thổ Chu và Côn Đảo."
+     ],
+     "ans": 1,
+     "id": "10j6fqq"
+    },
+    {
+     "num": 7,
+     "q": "<p>Nòng cốt lực lượng bảo vệ chủ quyền biển, đảo của Việt Nam là:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Bộ đội biên phòng.",
+      "Không quân.",
+      "Hải quân.",
+      "Cảnh sát biển."
+     ],
+     "ans": 2,
+     "id": "jnq94d"
+    },
+    {
+     "num": 8,
+     "q": "<p>Công dân cần tự giác thực hiện nghĩa vụ nào để góp phần xây dựng nền quốc phòng toàn dân?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Nghĩa vụ tham gia công đoàn.",
+      "Nghĩa vụ bảo vệ môi trường.",
+      "Nghĩa vụ quân sự.",
+      "Nghĩa vụ giáo dục."
+     ],
+     "ans": 2,
+     "id": "1byhxbv"
+    },
+    {
+     "num": 9,
+     "q": "<p>Quân hiệu của Quân đội nhân dân Việt Nam hình tròn, có đường kính?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "41 mm hoặc 36 mm hoặc 33 mm.",
+      "38 mm hoặc 35 mm hoặc 30 mm.",
+      "40 mm hoặc 37 mm hoặc 32 mm.",
+      "42 mm hoặc 39 mm hoặc 34 mm."
+     ],
+     "ans": 0,
+     "id": "qgmae4"
+    },
+    {
+     "num": 10,
+     "q": "<p>Sĩ quan cấp uý trong Quân đội nhân dân Việt Nam có bao nhiêu bậc?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Bốn bậc.",
+      "Ba bậc.",
+      "Hai bậc.",
+      "Năm bậc."
+     ],
+     "ans": 0,
+     "id": "giwffi"
+    },
+    {
+     "num": 11,
+     "q": "<p>Binh sĩ trong Quân đội nhân dân Việt Nam có bao nhiêu bậc?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Một bậc.",
+      "Ba bậc.",
+      "Hai bậc.",
+      "Bốn bậc."
+     ],
+     "ans": 2,
+     "id": "1xoy23g"
+    },
+    {
+     "num": 12,
+     "q": "<p>Nền phù hiệu của công an nhân dân có màu gì?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Màu vàng.",
+      "Màu đỏ.",
+      "Màu xanh.",
+      "Màu trắng."
+     ],
+     "ans": 1,
+     "id": "1oxvon2"
+    },
+    {
+     "num": 13,
+     "q": "<p>Trang phục của cảnh sát giao thông Việt Nam có màu gì?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Màu lúa chín vàng.",
+      "Màu xanh lam.",
+      "Màu tím than.",
+      "Màu xanh than."
+     ],
+     "ans": 0,
+     "id": "kffurd"
+    },
+    {
+     "num": 14,
+     "q": "<p>Trang phục của cảnh sát cơ động Việt Nam có màu gì?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Màu đen.",
+      "Màu rêu đậm.",
+      "Màu xanh.",
+      "Màu đỏ."
+     ],
+     "ans": 1,
+     "id": "1hhfrn6"
+    },
+    {
+     "num": 15,
+     "q": "<p>Học viện nào dưới đây không thuộc hệ thống đào tạo của Quân đội nhân dân Việt Nam?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Học viện Biên phòng.",
+      "Học viện Kĩ thuật Quân sự.",
+      "Học viện Hàng không.",
+      "Học viện Chính trị."
+     ],
+     "ans": 2,
+     "id": "43owyt"
+    },
+    {
+     "num": 16,
+     "q": "<p>Thanh niên ngoài Quân đội dự tuyển sinh đào tạo cán bộ cấp phân đội trình độ đại học, cao đẳng hệ chính quy trong các trường Quân đội phải có độ tuổi (tính đến năm dự tuyển) là bao nhiêu?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Không quá 20 tuổi.",
+      "Không quá 21 tuổi.",
+      "Không quá 22 tuổi.",
+      "Không quá 23 tuổi."
+     ],
+     "ans": 1,
+     "id": "1wysgti"
+    },
+    {
+     "num": 17,
+     "q": "<p>Thí sinh dự tuyển sinh đào tạo cán bộ cấp phân đội trình độ đại học, cao đẳng hệ chính quy trong các trường Quân đội:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Đều phải qua sơ tuyển.",
+      "Không phải qua sơ tuyển nếu là học sinh giỏi cấp trung học phổ thông.",
+      "Không phải qua sơ tuyển nếu có anh (chị) ruột đã vào học một trường trong Quân đội.",
+      "Không phải qua sơ tuyển nếu bố (mẹ) đẻ là quân nhân."
+     ],
+     "ans": 0,
+     "id": "1ceko73"
+    },
+    {
+     "num": 18,
+     "q": "<p>Học viện Cảnh sát nhân dân đào tạo:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Sĩ quan cảnh sát.",
+      "Cán bộ hậu cần Cán bộ an ninh.",
+      "Cán bộ an ninh.",
+      "Cán bộ y tế."
+     ],
+     "ans": 0,
+     "id": "1v99f50"
+    },
+    {
+     "num": 19,
+     "q": "<p>Ngành nào trong các ngành sau được đào tạo ở Học viện An ninh nhân dân?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "An ninh mạng và phòng chống tội phạm sử dụng công nghệ cao.",
+      "Nghiệp vụ phòng cháy chữa cháy.",
+      "Nghiệp vụ cảnh sát.",
+      "Kĩ thuật Công an nhân dân."
+     ],
+     "ans": 0,
+     "id": "15co396"
+    },
+    {
+     "num": 20,
+     "q": "<p>Cho thông tin sau: “Một trong những nét chính nghệ thuật quân sự cuộc chiến tranh bảo vệ biên giới Tây Nam của Tổ quốc là: kết hợp phòng ngự, phản công, tiến công; kết hợp đánh nhỏ, đánh vừa, đánh lớn tiêu diệt, tiêu hao sinh lực địch; kết hợp đấu tranh (.......)”. Em hãy điền từ ngữ cần điền vào chỗ (.......) trong câu trên?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Quân sự và chính trị.",
+      "Chính trị và ngoại giao.",
+      "Quân sự và binh vận.",
+      "Quân sự, chính trị, ngoại giao và địch vận."
+     ],
+     "ans": 3,
+     "id": "rjlpzh"
+    },
+    {
+     "num": 21,
+     "q": "<p>Cho thông tin sau: “Thắng lợi của cuộc chiến tranh bảo vệ biên giới Tây Nam của Tổ quốc tiếp tục (.....) của đường lối tiến hành chiến tranh nhân dân bảo vệ Tổ quốc của Đảng Cộng sản Việt Nam; sự lãnh đạo, chỉ đạo sáng suốt của Bộ Chính trị và Quân uỷ Trung ương”. Em hãy điền vào chỗ (....) trong câu trên?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Khẳng định tính đúng đắn.",
+      "Khẳng định tính sáng suốt.",
+      "Khẳng định tính đúng đắn, kịp thời.",
+      "Khẳng định tính đúng đắn, sáng tạo."
+     ],
+     "ans": 3,
+     "id": "1d43gvc"
+    },
+    {
+     "num": 22,
+     "q": "<p>Chiến thắng trong cuộc chiến tranh bảo vệ biên giới phía Bắc đã khẳng định điều gì về truyền thống dân tộc của Việt Nam?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Trung lập.",
+      "Đầu hàng.",
+      "Đấu tranh bảo vệ Tổ quốc.",
+      "Phản đối."
+     ],
+     "ans": 2,
+     "id": "j3xfs1"
+    },
+    {
+     "num": 23,
+     "q": "<p>Tại sao cuộc chiến đấu bảo vệ biên giới phía Bắc lại có ý nghĩa quan trọng đối với việc củng cố lòng yêu nước và tinh thần đoàn kết của dân tộc?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Giúp tăng cường sức mạnh quân sự của đất nước.",
+      "Tạo ra cơ hội hợp tác với các nước láng giềng.",
+      "Là một cuộc xung đột mang tính chất quân sự.",
+      "Thể hiện quyết tâm bảo vệ độc lập, chủ quyền và toàn vẹn lãnh thổ."
+     ],
+     "ans": 3,
+     "id": "1ejf2mg"
+    },
+    {
+     "num": 24,
+     "q": "<p>Trách nhiệm của công dân trong việc bảo vệ Tổ quốc bao gồm hoạt động nào sau đây?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Chỉ tham gia các hoạt động quân sự khi được triệu tập.",
+      "Tích cực học tập, lao động và tham gia xây dựng xã hội.",
+      "Để lại việc bảo vệ Tổ quốc cho các lực lượng chức năng.",
+      "Chỉ tham gia bảo vệ Tổ quốc trong thời gian chiến tranh."
+     ],
+     "ans": 1,
+     "id": "10jzufx"
+    },
+    {
+     "num": 25,
+     "q": "<p>Học sinh có thể thực hiện trách nhiệm của mình trong việc củng cố quốc phòng an ninh bằng cách nào?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Tham gia các phong trào Đoàn, Hội, và các hoạt động ngoại khóa.",
+      "Chỉ cần học tập tốt và không quan tâm đến hoạt động xã hội.",
+      "Tham gia vào các hoạt động biểu tình chính trị.",
+      "Không cần phải tham gia vào các hoạt động liên quan đến quốc phòng."
+     ],
+     "ans": 0,
+     "id": "1g0vb4x"
+    },
+    {
+     "num": 26,
+     "q": "<p>Trong các câu sau, câu nào nói về chức năng, nhiệm vụ của Bộ Quốc phòng?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Tham mưu với Đảng và Nhà nước về đường lối, nhiệm vụ quân sự, quốc phòng bảo vệ Tổ quốc; quản lí nhà nước về lĩnh vực quân sự, quốc phòng trong phạm vi cả nước; tổ chức thực hiện việc xây dựng, quản lí, chỉ huy Quân đội nhân dân, Dân quân tự vệ.",
+      "Tham mưu chiến lược về các chủ trương, chính sách, biện pháp xây dựng nền quốc phòng toàn dân.",
+      "Tham mưu, chỉ đạo huấn luyện, xây dựng, phát triển lực lượng, sẵn sàng chiến đấu.",
+      "Tham mưu chiến lược về chỉ huy, điều hành và tổ chức, chỉ đạo phát triển Quân đội nhân dân, Dân quân tự vệ."
+     ],
+     "ans": 0,
+     "id": "1avvdjw"
+    },
+    {
+     "num": 28,
+     "q": "<p>Trong các câu sau, câu nào nói về chức năng, nhiệm vụ của Tổng cục Chính trị Quân đội nhân dân Việt Nam?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Tham mưu, chỉ đạo xây dựng nền quốc phòng toàn dân.",
+      "Đảm nhiệm công tác Đảng, công tác chính trị trong toàn quân; giúp Quân uỷ Trung ương quyết định những chủ trương, biện pháp lớn về công tác Đảng, công tác chính trị trong Quân đội.",
+      "Tham mưu, chỉ đạo huấn luyện, xây dựng, phát triển lực lượng, sẵn sàng chiến đấu.",
+      "Tham mưu, chỉ đạo huấn luyện, xây dựng, phát triển lực lượng chuyên ngành cho toàn quân."
+     ],
+     "ans": 1,
+     "id": "13yssga"
+    },
+    {
+     "num": 29,
+     "q": "<p>Trong các câu sau, những câu nào nói về chức năng, nhiệm vụ của Bộ Công an?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Tham mưu với Đảng, Nhà nước về bảo vệ an ninh quốc gia, bảo đảm trật tự, an toàn xã hội; thực hiện quản lí nhà nước về bảo vệ an ninh quốc gia, bảo đảm trật tự, an toàn xã hội; đấu tranh phòng, chống tội phạm và vi phạm pháp luật về an ninh quốc gia, trật tự, an toàn xã hội.",
+      "Tham mưu chiến lược về các chủ trương, chính sách, biện pháp xây dựng nền quốc phòng toàn dân, thế trận quốc phòng toàn dân gắn với nền an ninh nhân dân, thế trận an ninh nhân dân.",
+      "Thực hiện biện pháp bảo vệ an ninh quốc gia bảo đảm trật tự an toàn xã hội.",
+      "Tham mưu hướng dẫn thực hiện các biện pháp nghiệp vụ trong phòng ngừa, phát hiện điều tra xử lý tội phạm về trật tự xã hội."
+     ],
+     "ans": 0,
+     "id": "13s9cff"
+    },
+    {
+     "num": 30,
+     "q": "<p>Trong các câu sau, câu nào nói về chức năng của cảnh sát giao thông?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Tham mưu, hướng dẫn và tổ chức quản lí nhà nước về phòng cháy chữa cháy, cứu nạn cứu hộ.",
+      "Tham mưu, hướng dẫn và tổ chức đảm bảo trật tự, an toàn giao thông; chủ động phòng ngừa, đấu tranh với các hành vi vi phạm luật lệ về giao thông.",
+      "Tham mưu, hướng dẫn, thực hiện các biện pháp nghiệp vụ trong phòng ngừa, phát hiện, điều tra xử lý tội phạm về trật tự xã hội.",
+      "Thực hiện biện pháp vũ trang bảo vệ an ninh quốc gia, đảm bảo trật tự, an toàn xã hội."
+     ],
+     "ans": 1,
+     "id": "1qu1te7"
+    },
+    {
+     "num": 31,
+     "q": "<p>Trong các phương thức sau, phương thức nào không áp dụng đối với tuyển sinh đào tạo cán bộ cấp phân đội trình độ đại học, cao đẳng hệ chính quy trong các trường Quân đội?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Xét tuyển thẳng, ưu tiên xét tuyển.",
+      "Xét tuyển từ kết quả kì thi đánh giá năng lực do các trường đại học trong nước tổ chức. Xét tuyển dựa vào kì thi tốt nghiệp trung học phổ thông quốc gia do Bộ Giáo dục và Đào tạo tổ chức.",
+      "Xét tuyển từ kết quả kì thi đánh giá năng lực do các trường đại học nước ngoài tổ chức.",
+      "Xét tuyển từ kì thi đánh giá năng lực do Bộ Quốc phòng tổ chức."
+     ],
+     "ans": 2,
+     "id": "gjs8k8"
+    },
+    {
+     "num": 32,
+     "q": "<p>Đánh giá tầm quan trọng của việc thực hiện các yêu cầu tuyển sinh trong trường Quân đội là gì?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Đảm bảo chất lượng đầu vào cho lực lượng vũ trang.",
+      "Tăng cường nguồn ngân sách cho đào tạo.",
+      "Đảm bảo sự công bằng trong tuyển sinh.",
+      "Giảm bớt áp lực cho thí sinh."
+     ],
+     "ans": 0,
+     "id": "1f0b893"
+    },
+    {
+     "num": 33,
+     "q": "<p>Trong các tiêu chuẩn sau, tiêu chuẩn nào không thuộc tiêu chuẩn chung đối với thí sinh dự tuyển đào tạo trình độ đại học chính quy tuyển mới trong trường Quân đội?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Có đủ tiêu chuẩn về chính trị, đạo đức.",
+      "Đã tốt nghiệp THPT theo quy định của Bộ Giáo dục và Đào tạo.",
+      "Kết quả học tập cấp trung học phổ thông đạt loại giỏi.",
+      "Đủ tiêu chuẩn về độ tuổi và tiêu chuẩn về sức khoẻ."
+     ],
+     "ans": 2,
+     "id": "gos8jg"
+    },
+    {
+     "num": 34,
+     "q": "<p>Trong các câu sau, câu nào nói về quyền lợi của học viên khi theo học tại trường Công an?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Được bảo đảm cơ sở vật chất, trang thiết bị, đồ dùng phục vụ học tập. Học viên được hưởng chế độ ăn, ở, trang phục, sinh hoạt phí và không phải đóng học phí. Học viên được nghỉ hè, nghỉ ngày cuối tuần, ngày lễ, ngày Tết. Thân nhân (cha đẻ, mẹ đẻ, người nuôi dưỡng hợp pháp) của học viên được Nhà nước bảo đảm bảo hiểm y tế.",
+      "Được cấp tiền tàu xe khi đi nhập học.",
+      "Được nghỉ về nhà thăm gia đình vào các ngày nghỉ cuối tuần.",
+      "Được chọn nơi làm việc khi ra trường."
+     ],
+     "ans": 0,
+     "id": "9t7nul"
+    },
+    {
+     "num": 35,
+     "q": "<p>Những công việc nào trong các công việc sau không có trong nội dung sơ tuyển thí sinh dự tuyển đào tạo trình độ đại học chính quy tuyển mới trong trường Công an?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Kiểm tra bằng tốt nghiệp và học bạ trung học phổ thông.",
+      "Kiểm tra học bạ tiểu học, học bạ trung học cơ sở. Chụp ảnh bố đẻ và mẹ đẻ của thí sinh.",
+      "Kiểm tra sức khoẻ, năng khiếu.",
+      "Chụp ảnh thí sinh. Thẩm tra, xác minh, kết luận tiêu chuẩn chính trị."
+     ],
+     "ans": 1,
+     "id": "122pzqa"
+    },
+    {
+     "num": 36,
+     "q": "<p>Cho thông tin sau: “Chiến tranh bảo vệ biên giới Tây Nam của Tổ quốc là (........) của dân tộc Việt Nam chống chiến tranh xâm lược của tập đoàn Pôn Pốt, góp phần bảo vệ hoà bình trong khu vực và trên thế giới”. Em hãy điền từ ngữ cần điền vào chỗ (.....) trong câu trên?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Cuộc chiến tranh chính nghĩa.",
+      "Cuộc tự vệ chính đáng.",
+      "Cuộc chiến tranh chính nghĩa, tự vệ chính đáng.",
+      "Cuộc chiến tranh chính nghĩa, chính đáng."
+     ],
+     "ans": 2,
+     "id": "dsv1gv"
+    },
+    {
+     "num": 38,
+     "q": "<p>Theo nội dung bài học về tổ chức quân đội nhân dân Việt Nam, quân đội không chỉ có nhiệm vụ bảo vệ Tổ quốc mà còn tham gia vào nhiều lĩnh vực khác. Bạn hãy cho biết vai trò nào sau đây của quân đội là quan trọng nhất trong thời bình?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Chỉ tập trung vào việc huấn luyện và sẵn sàng chiến đấu khi có tình huống xảy ra.",
+      "Tham gia cứu hộ, cứu nạn và hỗ trợ nhân dân trong các hoạt động phòng chống thiên tai.",
+      "Thực hiện các nhiệm vụ ngoại giao và hợp tác quốc tế để tăng cường quan hệ với các nước.",
+      "Chỉ tham gia vào các hoạt động diễn tập quân sự và bảo vệ biên giới."
+     ],
+     "ans": 1,
+     "id": "17rlpmi"
+    },
+    {
+     "num": 39,
+     "q": "<p>Trong quá trình tuyển sinh vào các trường công an nhân dân, việc đánh giá phẩm chất đạo đức và lý lịch của thí sinh là rất quan trọng. Nội dung nào dưới đây thể hiện rõ nhất tầm quan trọng của phẩm chất đạo đức trong công tác công an?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Phẩm chất đạo đức không cần thiết, chỉ cần có kỹ năng chuyên môn vững vàng.",
+      "Phẩm chất đạo đức giúp xây dựng mối quan hệ tốt đẹp giữa công an và nhân dân, từ đó nâng cao hiệu quả thực thi công vụ.",
+      "Phẩm chất đạo đức chỉ quan trọng trong các tình huống đặc biệt, không ảnh hưởng đến công việc hàng ngày của công an.",
+      "Phẩm chất đạo đức chỉ là yếu tố phụ, không quyết định đến sự thành công trong công tác."
+     ],
+     "ans": 1,
+     "id": "1de9fid"
+    },
+    {
+     "num": 40,
+     "q": "<p>Tập đoàn ........ đã thực hiện cải tạo xã hội theo mô hình cực đoan, đẩy dân tộc Campuchia vào họa diệt chủng.</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Pol Pot – Ieng Sary.",
+      "Campuchia.",
+      "Hitler.",
+      "Donal."
+     ],
+     "ans": 0,
+     "id": "40w995"
+    },
+    {
+     "num": 41,
+     "q": "<p>Mặt trận Đoàn kết dân tộc cứu nước Campuchia ra đời vào</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "30/4/1977.",
+      "2/12/1978.",
+      "6/5/1954.",
+      "3/11/1956."
+     ],
+     "ans": 1,
+     "id": "hfh1m1"
+    },
+    {
+     "num": 42,
+     "q": "<p>Ngày 17/2/1979, chính quyền Trung Quốc phát động chiến tranh xâm lược quy mô lớn sang lãnh thổ Việt Nam, gây nhiều tổn thất dọc biên giới từ ........ đến ........</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Lai Châu – Hải Dương.",
+      "Bắc Ninh – Thái Bình.",
+      "Thái Bình – Quảng Ninh.",
+      "Quảng Ninh – Lai Châu."
+     ],
+     "ans": 3,
+     "id": "1rtscpk"
+    },
+    {
+     "num": 43,
+     "q": "<p>Về cơ bản, Trung Quốc đã rút quân khỏi nước ta vào</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "5/3/1979.",
+      "18/3/1979.",
+      "6/4/1979.",
+      "1/6/1979."
+     ],
+     "ans": 1,
+     "id": "1jblzw1"
+    },
+    {
+     "num": 44,
+     "q": "<p>Trong chiến tranh bảo vệ biên giới phía Bắc, Lệnh Tổng động viên được kí vào thời gian</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "5/3/1979.",
+      "3/5/1979.",
+      "17/2/1979.",
+      "19/1/1979."
+     ],
+     "ans": 0,
+     "id": "1m9uecq"
+    },
+    {
+     "num": 45,
+     "q": "<p>Trong cuộc đấu tranh bảo vệ chủ quyền biển, đảo, Việt Nam nhất quán giải quyết các tranh chấp bằng biện pháp</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "nhất quán với các chủ trương của Đảng và Nhà nước.",
+      "quyết tử cho Tổ quốc quyết sinh.",
+      "hòa bình, phù hợp với luật pháp quốc tế.",
+      "tuyên bố chủ quyền biển đảo."
+     ],
+     "ans": 2,
+     "id": "1mzxd5r"
+    },
+    {
+     "num": 46,
+     "q": "<p>Đối với quần đảo Trường Sa, có ........ nước, ........ bên tuyên bố chủ quyền toàn bộ hay một phần đảo này.</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "6;7.",
+      "4;5.",
+      "3;4.",
+      "5; 6."
+     ],
+     "ans": 3,
+     "id": "1rt55zx"
+    },
+    {
+     "num": 47,
+     "q": "<p>Nước nào sau đây không tuyên bố chủ quyền toàn bộ hay một phần đối với quần đảo Trường Sa?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Việt Nam.",
+      "Trung Quốc.",
+      "Hàn Quốc.",
+      "Philippines."
+     ],
+     "ans": 2,
+     "id": "1lu49ik"
+    },
+    {
+     "num": 48,
+     "q": "<p>Đấu tranh bảo vệ chủ quyền biển, đảo còn khẳng định</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "sức mạnh về đấu tranh quân sự, chính trị, kinh tế, ngoại giao của Việt Nam.",
+      "truyền thống yêu chuộng hòa bình, tôn trọng luật pháp quốc tế của dân tộc Việt Nam.",
+      "mối quan hệ của Việt Nam với các nước trên trường quốc tế.",
+      "sự phát triển về kinh tế - chính trị của Việt Nam so với các nước lân cận."
+     ],
+     "ans": 1,
+     "id": "e2utz7"
+    },
+    {
+     "num": 49,
+     "q": "<p>Ý không đúng về trách nhiệm của công dân đối với sự nghiệp củng cố quốc phòng, an ninh là</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "nhận thức đầy đủ, sâu sắc quan điểm của Đảng, chính sách, pháp luật của Nhà nước.",
+      "tập trung học tập, hạn chế rèn luyện sức khỏe.",
+      "tham gia các hoạt động chăm sóc Bà mẹ Việt Nam anh hùng.",
+      "tham gia tuyên truyền về giá trị lịch sử, nghệ thuật quân sự Việt Nam trong sự nghiệp xây dựng và bảo vệ Tổ quốc."
+     ],
+     "ans": 1,
+     "id": "gzics6"
+    },
+    {
+     "num": 50,
+     "q": "<p>Tội ác mà tập đoàn Pol Pot – Ieng Sary gây cho nhân dân ta là</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "phá đồi, núi, săn bắn động vật hoang dã.",
+      "rải chất độc hóa học phá hoại mùa màng.",
+      "thả bom bắn phá nhiều cứ điểm của bộ đội ta.",
+      "đốt nhà, phá hoại hoa màu, tàn sát dã man đồng bào ta."
+     ],
+     "ans": 3,
+     "id": "golhox"
+    },
+    {
+     "num": 51,
+     "q": "<p>Mục đích thành lập của Mặt trận Đoàn kết dân tộc cứu nước Campuchia là</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "liên hợp với các nước khác để giành lại độc lập.",
+      "khôi phục lại chế độ chiếm hữu nô lệ.",
+      "giải phóng dân tộc Campuchia khỏi họa diệt chủng.",
+      "thúc đẩy phát triển kinh tế."
+     ],
+     "ans": 2,
+     "id": "72xypn"
+    },
+    {
+     "num": 52,
+     "q": "<p>Nghệ thuật quân sự trong chiến tranh bảo vệ biên giới Tây Nam là</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "kết hợp kịp thời với các lực lượng của các nước yêu chuộng hòa bình.",
+      "làm sụp đổ lực lượng Pol Pot – Ieng Sary.",
+      "kết hợp đánh nhỏ, đánh vừa, đánh lớn tiêu diệt, tiêu hao sinh lực địch.",
+      "chế độ Pol Pot có nhiều lỗ hổng, thiếu sót trong khâu quản lí."
+     ],
+     "ans": 2,
+     "id": "1d62y2a"
+    },
+    {
+     "num": 53,
+     "q": "<p>Yếu tố góp phần vào thắng lợi của cuộc chiến tranh bảo vệ biên giới phía Bắc là</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "nhân dân thúc đẩy sản xuất nông nghiệp.",
+      "đường lối chính trị, quân sự đúng đắn của Đảng Cộng sản Việt Nam; sự lãnh đạo, chỉ đạo sáng suốt của Bộ Chính trị và Quân ủy Trung ương.",
+      "nhân dân tập trung phát triển kinh tế.",
+      "sự lên án các hành vi của chính quyền Trung Quốc."
+     ],
+     "ans": 1,
+     "id": "1liox4w"
+    },
+    {
+     "num": 54,
+     "q": "<p>Mục đích của cuộc chiến tranh bảo vệ biên giới Tây Nam là</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "góp phần bảo vệ chủ quyền biển đảo của Tổ quốc.",
+      "góp phần bảo vệ biên giới phía Bắc khỏi sự nhòm ngó của các thế lực thù địch.",
+      "góp phần bảo vệ hòa bình trong khu vực và trên thế giới.",
+      "bảo vệ độc lập đồng thời thúc đẩy phát triển kinh tế."
+     ],
+     "ans": 2,
+     "id": "i2itzc"
+    },
+    {
+     "num": 55,
+     "q": "<p>Chính quyền Trung Quốc tuyên bố rút quân khỏi lãnh thổ Việt Nam do</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "bị tổn thất nặng nề và chịu sự lên án mạnh mẽ của dư luận tiến bộ trên thế giới cũng như trong nước.",
+      "sự phản đối của nhân dân trong nước dẫn đến sự thay đổi bộ máy nhà nước.",
+      "do cạn kiệt nguồn lương thực, vũ khí.",
+      "do hoàn cảnh tự nhiên khắc nghiệt, dịch bệnh lây lan nhanh chóng."
+     ],
+     "ans": 0,
+     "id": "1t71xie"
+    },
+    {
+     "num": 56,
+     "q": "<p>Trong cuộc chiến nào ta đã kết hợp tạo sức mạnh tổng hợp giữa lực lượng vũ trang địa phương, bộ đội chủ lực Việt Nam cùng với nhân dân yêu nước Campuchia?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Đấu tranh chống quân Nguyên Mông.",
+      "Đấu tranh bảo vệ chủ quyền biển, đảo.",
+      "Chiến tranh bảo vệ biên giới phía Bắc.",
+      "Chiến tranh bảo vệ biên giới Tây Nam."
+     ],
+     "ans": 3,
+     "id": "15vt6zx"
+    },
+    {
+     "num": 57,
+     "q": "<p>Ý không đúng khi nói về giá trị lịch sử của cuộc chiến tranh bảo vệ biên giới phía Bắc là</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "thể hiện truyền thống nhân đạo, vì hòa bình, vì sự ổn định của khu vực và trên thế giới.",
+      "khẳng định chủ quyền, quyền chủ quyền, quyền tài phán của quốc gia Việt Nam trên các vùng biển, đảo của Tổ quốc theo Công ước Liên hợp quốc về Luật Biển năm 1982.",
+      "là cuộc chiến tranh tự vệ chính nghĩa bảo vệ chủ quyền, lãnh thổ thiêng liêng của Tổ quốc.",
+      "viết tiếp trang sử vẻ hào hùng chống giặc ngoại xâm của dân tộc."
+     ],
+     "ans": 1,
+     "id": "w0ulfm"
+    },
+    {
+     "num": 58,
+     "q": "<p>Trong cuộc chiến tranh bảo vệ biên giới Tây Nam, chúng ta đã thực hiện quyền tự vệ chính đáng bằng cách nào?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Quân và dân các tỉnh biên giới trực tiếp chiến đấu bảo vệ Tổ quốc, đồng thời nhờ sự lên án mạnh mẽ của dư luận tiến bộ trên thế giới.",
+      "Kết hợp với lực lượng quân đội ở các nước khác trên thế giới để bảo vệ chủ quyền lãnh thổ.",
+      "Kiên quyết, chủ động đánh địch ngay khi địch xâm phạm chủ quyền lãnh thổ Việt Nam.",
+      "Xây nhiều thành lũy, pháo đài ngăn chặn sự tấn công của địch."
+     ],
+     "ans": 2,
+     "id": "1dy4ul3"
+    },
+    {
+     "num": 59,
+     "q": "<p>&quot;Lấy nhỏ đánh lớn, lấy ít địch nhiều&quot; là nghệ thuật quân sự trong</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "chiến tranh bảo vệ biên giới Tây Nam.",
+      "đấu tranh bảo vệ chủ quyền biển, đảo.",
+      "chiến tranh bảo vệ biên giới phía Bắc.",
+      "đấu tranh bảo vệ chủ quyền biên giới Đông Nam."
+     ],
+     "ans": 2,
+     "id": "tpzn80"
+    },
+    {
+     "num": 60,
+     "q": "<p>Giá trị lịch sử cuộc đấu tranh bảo vệ chủ quyền biển, đảo của Việt Nam sau năm 1975 là</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "khẳng định chủ quyền của Việt Nam đối với hai quần đảo Hoàng Sa và Trường Sa và chủ quyền, quyền chủ quyền, quyền tài phán quốc gia đối với vùng biển của Việt Nam.",
+      "khẳng định sức mạnh quân sự, lòng đoàn kết của nhân dân Việt Nam.",
+      "khẳng định tài ngoại giao của lãnh đạo Việt Nam và các quốc gia yêu chuộng hòa bình trên thế giới.",
+      "khẳng định Việt Nam tôn trọng luật pháp quốc tế, đồng thời cho thế giới biết sức mạnh đoàn kết của nhân dân ta."
+     ],
+     "ans": 0,
+     "id": "17mxt28"
+    },
+    {
+     "num": 61,
+     "q": "<p>Nhân ngày Thương binh – Liệt sĩ 27/7, người dân thường dâng hương, dâng hoa cho các anh hùng liệt sĩ tại nghĩa trang liệt sĩ ở địa phương. Đây là hành động</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "tri ân với người có công với đất nước.",
+      "sẵn sàng tham gia bảo vệ vững chắc độc lập, chủ quyền của Tổ quốc.",
+      "học tập, tìm hiểu đường lối, chủ trương của Đảng.",
+      "phụng dưỡng bà mẹ Việt Nam anh hùng."
+     ],
+     "ans": 0,
+     "id": "1vdyk85"
+    },
+    {
+     "num": 62,
+     "q": "<p>Học sinh trường H thường xuyên chủ động tìm hiểu, học tập nắm chắc đường lối, chủ trương của Đảng, chính sách, pháp luật của Nhà nước nói chung. Hành động này thể hiện</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "lòng hiếu học của các học sinh trong trường.",
+      "khả năng nhận thức, lòng hiếu học của học sinh trường H.",
+      "sự tò mò, ham học hỏi của các học sinh trong trường.",
+      "trách nhiệm của học sinh trường H đối với sự nghiệp củng cố quốc phòng, an ninh."
+     ],
+     "ans": 3,
+     "id": "13eowi0"
+    },
+    {
+     "num": 63,
+     "q": "<p>Tại sao nói cuộc chiến tranh bảo vệ biên giới Tây Nam thể hiện tinh thần quốc tế trong sáng, thủy chung của nhân dân Việt Nam và nhân dân Campuchia?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Vì nhân dân Việt Nam đã giúp dân tộc Campuchia thoát khỏi họa diệt chủng, mở ra thời kì mới trong quan hệ hữu nghị Việt Nam - Campuchia.",
+      "Vì nhân dân Việt Nam đã giúp nhân dân Campuchia bảo vệ biên giới phía Tây Nam.",
+      "Vì nhân dân Việt Nam đã góp phần giúp nhân dân Campuchia khôi phục nền kinh tế sau chiến tranh.",
+      "Vì nhân dân Việt Nam chia sẻ cho nhân dân Campuchia những kinh nghiệm chống giặc."
+     ],
+     "ans": 0,
+     "id": "1w3io5w"
+    },
+    {
+     "num": 64,
+     "q": "<p>Cho các phát biểu sau</p><p>(1) Trong cuộc đấu tranh bảo vệ chủ quyền biển đảo sau năm 1975, ta đã kết hợp chặt chẽ các mặt đấu tranh quân sự (khi cần thiết), chính trị, ngoại giao, pháp lí.</p><p>(2) Trong cuộc đấu tranh bảo vệ chủ quyền biển đảo sau năm 1975, ta đã áp dụng có hiệu quả Công ước của Liên hợp quốc về Luật Biển năm 1982.</p><p>(3) Chiến tranh bảo vệ biên giới phía Bắc là cuộc chiến tranh tự vệ chính nghĩa bảo vệ chủ quyền, lãnh thổ thiêng liêng của Tổ quốc.</p><p>(4) Trong chiến tranh bảo vệ biên giới Tây Nam, quân và dân ta đã tổ chức phản công trên các khu vực miền núi có địa hình trắc trở.</p><p>Số phát biểu đúng là</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "2.",
+      "4.",
+      "1.",
+      "3."
+     ],
+     "ans": 3,
+     "id": "49vrv6"
+    },
+    {
+     "num": 65,
+     "q": "<p>Cho các phát biểu sau</p><p>(1) Ngày 7/1/1979, thủ đô Phnom Penh được giải phóng.</p><p>(2) Chiến tranh bảo vệ biên giới Tây Nam nhằm chống lại cuộc chiến tranh do tập đoàn Pol Pot – Ieng Sary gây ra.</p><p>(3) Từ năm 1979, chính quyền Trung Quốc tăng cường các hoạt động quân sự, khiêu khích vũ trang, xâm lấn đất đai vùng biên giới phía Bắc Việt Nam.</p><p>(4) Trong quá trình đấu tranh bảo vệ chủ quyền biển, đảo, Việt Nam nhất quán giải quyết các tranh chấp, bất đồng bằng biện pháp hòa bình, phù hợp với luật pháp quốc tế.</p><p>Số phát biểu không đúng là</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "4.",
+      "1.",
+      "3.",
+      "2."
+     ],
+     "ans": 1,
+     "id": "1a8lhhd"
+    },
+    {
+     "num": 66,
+     "q": "<p>Tổ chức cao nhất trong hệ thống tổ chức quân đội là cơ quan nào?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Bộ Quốc phòng",
+      "Bộ Tổng Tham mưu",
+      "Tổng cục Chính trị",
+      "Quân khu, Quân đoàn"
+     ],
+     "ans": 0,
+     "id": "1folbh7"
+    },
+    {
+     "num": 67,
+     "q": "<p>Quân đội nhân dân Việt Nam gồm lực lượng nào?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Bộ đội chủ lực; Bộ đội địa phương; Bộ đội Biên phòng",
+      "Bộ đội chủ lực và bộ đội địa phương",
+      "Bộ đội chủ lực, bộ đội địa phương và dân quân tự vệ",
+      "Bộ đội chủ lực, bộ đội địa phương, bộ đội quân khu"
+     ],
+     "ans": 0,
+     "id": "b0j447"
+    },
+    {
+     "num": 68,
+     "q": "<p>Quân đội nhân dân Việt Nam có hệ thống chặt chẽ như thế nào?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Từ Trung ương đến cơ sở",
+      "Từ Bộ Quốc phòng đến các đơn vị trực thuộc",
+      "Từ Bộ đội chủ lực đến bộ đội địa phương ở các địa phương",
+      "Từ đơn vị chủ lực đến các đơn vị bộ đội địa phương"
+     ],
+     "ans": 0,
+     "id": "zad58h"
+    },
+    {
+     "num": 69,
+     "q": "<p>Quân đội nhân dân Việt Nam được đặt dưới sự lãnh đạo của tổ chức nào?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Đặt dưới sự lãnh đạo tuyệt đối, toàn diện về mọi mặt của Đảng Cộng sản Việt Nam",
+      "Đặt dưới sự lãnh đạo tuyệt đối, toàn diện của dân tộc Việt Nam",
+      "Đặt dưới sự lãnh đạo tuyệt đối của nhân dân Việt Nam",
+      "Đặt dưới sự lãnh đạo tuyệt đối về mọi mặt của giai cấp công nhân"
+     ],
+     "ans": 0,
+     "id": "198hxz1"
+    },
+    {
+     "num": 72,
+     "q": "<p>Sĩ quan trong quân đội nhân dân Việt nam có mấy cấp, bậc và mỗi cấp có mấy bậc?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "3 cấp 12 bậc: Cấp tướng có 4 bậc, cấp tá có 4 bậc, cấp úy có 4 bậc",
+      "3 cấp 12 bậc: Cấp tướng có 4 bậc, cấp tá có 4 bậc, chiến sĩ có 4 bậc",
+      "3 cấp 12 bậc: Cấp tướng có 4 bậc, sĩ quan có 4 bậc, cấp úy có 4 bậc",
+      "3 cấp 12 bậc: Cấp tướng có 4 bậc, cấp tá có 3 bậc, chiến sĩ có 5 bậc"
+     ],
+     "ans": 0,
+     "id": "3nvhr1"
+    },
+    {
+     "num": 74,
+     "q": "<p>Cơ quan nào sau đây không nằm trong tổ chức các đơn vị thuộc Bộ Quốc phòng?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Viện kiểm sát nhân dân các cấp",
+      "Các xí nghiệp quốc phòng",
+      "Các nhà máy quốc phòng",
+      "Các đơn vị làm nhiệm vụ kinh tế"
+     ],
+     "ans": 0,
+     "id": "1rsneji"
+    },
+    {
+     "num": 75,
+     "q": "<p>Có bao nhiêu học viện, trường đại học Công an nhân dân?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "05 Học viện, 03 trường Đại học",
+      "07 Học viện, 03 trường Đại học",
+      "04 Học viện, 04 trường Đại học",
+      "06 Học viện, 02 trường Đại học"
+     ],
+     "ans": 0,
+     "id": "6qnne4"
+    },
+    {
+     "num": 77,
+     "q": "<p>Nội dung nào sau đây không phải là nguyên tắc tuyển sinh đào tạo đại học trong các trường Công an nhân dân?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Không tuyển sinh từ nguồn thanh niên, học sinh",
+      "Hàng năm, căn cứ vào tổng biên chế đã được phê duyệt",
+      "Bộ trưởng Bộ Công an phân bổ chỉ tiêu",
+      "Có hướng dẫn cụ thể trình tự, thủ tục tuyển chọn"
+     ],
+     "ans": 0,
+     "id": "3xeot8"
+    },
+    {
+     "num": 78,
+     "q": "<p>Khi dự thi vào các nhà trường Công an, thí sinh phải qua sơ tuyển ở đâu?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Tại công an tỉnh, thành phố trực thuộc trung ương, nơi đăng kí hộ khẩu thường trú",
+      "Tại công an tỉnh, thành phố trực thuộc trung ương, nơi đăng kí hộ khẩu tạm trú",
+      "Tại công an tỉnh, nơi đang học tập, công tác",
+      "Tại công an xã, nơi đăng kí hộ khẩu thường trú"
+     ],
+     "ans": 3,
+     "id": "1gsny3a"
+    },
+    {
+     "num": 79,
+     "q": "<p>Học viên Cảnh sát nhân dân thuộc lực lượng nào của Công an nhân dân?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Lực lượng Cảnh sát",
+      "Lực lượng cơ động",
+      "Lực lượng đặc biệt",
+      "Lực lượng An ninh"
+     ],
+     "ans": 0,
+     "id": "311z1f"
+    },
+    {
+     "num": 81,
+     "q": "<p>&quot;Ngày Hội toàn dân bảo vệ an ninh Tổ quốc&quot; là ngày nào trong năm?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "19/8",
+      "30/4",
+      "22/12",
+      "19/12"
+     ],
+     "ans": 0,
+     "id": "4zoi4t"
+    },
+    {
+     "num": 83,
+     "q": "<p>Trong lực lượng Công an nhân dân có Công nhân, viên chức không?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Có",
+      "Có khi cần thiết",
+      "Có trong thời bình",
+      "Có trong thời chiến"
+     ],
+     "ans": 0,
+     "id": "1bryw3q"
+    },
+    {
+     "num": 84,
+     "q": "<p>Lực lượng Công an nhân dân Việt Nam gồm có:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Lực lượng An ninh nhân dân và Cảnh sát nhân dân",
+      "Lực lượng An ninh kinh tế và An ninh nhân dân địa phương",
+      "Lực lượng dân phòng và Cảnh sát nhân dân",
+      "Lực lượng An ninh nhân dân và Cảnh sát cơ động"
+     ],
+     "ans": 0,
+     "id": "151pzy7"
+    },
+    {
+     "num": 85,
+     "q": "<p>Nội dung nào sau đây không phải là nguyên tắc tổ chức và hoạt động của Công an nhân dân?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Dưới sự thống nhất quản lí của Chính phủ",
+      "Dưới sự chỉ huy trực tiếp của Thủ tướng",
+      "Dưới sự thống lĩnh của Chủ tịch nước",
+      "Đảng lãnh đạo tuyệt đối, trực tiệp về mọi mặt"
+     ],
+     "ans": 1,
+     "id": "1j4p0zn"
+    },
+    {
+     "num": 86,
+     "q": "<p>Trong hệ thống tổ chức của Công an nhân dân có:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Công an tỉnh, thành phố trực thuộc Trung ương",
+      "Công an xóm, tổ dân phố, xã, phường",
+      "Công an trung ương, tỉnh, xã và thôn",
+      "Công an trung ương, thành phố trực thuộc Trung ương"
+     ],
+     "ans": 0,
+     "id": "sjk9ms"
+    },
+    {
+     "num": 87,
+     "q": "<p>Cấp bậc nào đưới đây không có trong hệ thống cấp bậc của Công an nhân dân?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Chuẩn tướng, Chuẩn tá",
+      "Thượng tướng, Thượng tá",
+      "Đại tướng, Đại tá",
+      "Đại uý, Thượng úy"
+     ],
+     "ans": 0,
+     "id": "gf02yj"
+    },
+    {
+     "num": 88,
+     "q": "<p>Người chỉ huy trong Công an nhân dân là:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Bộ trưởng Bộ Công an",
+      "Tổng Cục trưởng Công an",
+      "Thứ trưởng Bộ Công an",
+      "Thượng tướng Công an"
+     ],
+     "ans": 0,
+     "id": "p6nyuo"
+    }
+   ]
+  },
+  {
+   "id": "smvkx14cxwe1",
+   "name": "Lịch sử",
+   "qs": [
+    {
+     "num": 1,
+     "q": "<p>Bối cảnh lịch sử nào sau đây dẫn đến sự hình thành Liên hợp quốc?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Liên Xô và Mỹ thực hiện Chiến tranh lạnh.",
+      "Chiến tranh thế giới thứ hai bắt đầu diễn ra ác liệt.",
+      "Nhu cầu xác lập một tổ chức quốc tế nhằm duy trì hòa bình và trật tự thế giới sau chiến tranh.",
+      "Các nước thắng trận trong Chiến tranh thế giới thứ nhất phân chia phạm vi ảnh hưởng trên toàn cầu."
+     ],
+     "ans": 2,
+     "id": "d4mkp3"
+    },
+    {
+     "num": 2,
+     "q": "<p>Quá trình hình thành Liên hợp quốc diễn ra trong khoảng thời gian nào sau đây?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Từ năm 1941 đến năm 1943.",
+      "Từ năm 1941 đến năm 1944.",
+      "Từ năm 1941 đến năm 1945.",
+      "Từ năm 1941 đến năm 1946."
+     ],
+     "ans": 2,
+     "id": "7ya8dp"
+    },
+    {
+     "num": 3,
+     "q": "<p>Sự kiện nào sau đây năm 1941 là cơ sở cho việc hướng tới thành lập Liên hợp quốc?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Tại Luân Đôn (Anh), các nước Đồng minh ra bản tuyên bố cam kết cùng hợp tác cả trong chiến tranh và hòa bình.",
+      "Tại Hội nghị I-an-ta, Liên Xô, Mỹ, Anh thống nhất thành lập tổ chức Liên hợp quốc.",
+      "Tại Hội nghị Tê-hê-ran (I-ran), nguyên thủ các nước khẳng định quyết tâm thành lập một tổ chức quốc tế để duy trì hòa bình và an ninh.",
+      "Tại Mát-xcơ-va (Liên Xô), chính phủ Liên Xô, Mỹ, Anh, Trung Hoa Dân quốc kêu gọi sớm thành lập một tổ chức quốc tế để duy trì hòa bình và an ninh."
+     ],
+     "ans": 0,
+     "id": "1blbp1k"
+    },
+    {
+     "num": 4,
+     "q": "<p>Sự kiện nào sau đây đánh dấu việc Liên hợp quốc chính thức được thành lập?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Tháng 1/1942, đại diện các nước: Mỹ, Anh, Liên Xô, Trung Quốc và 22 nước khác kí bản Tuyên bố Liên hợp quốc.",
+      "Từ tháng 4 đến tháng 6 năm 1945, đại diện 50 nước thông qua Hiến chương Liên hợp quốc.",
+      "Ngày 24/10/1945, các nước thành viên phê chuẩn Hiến chương Liên hợp quốc.",
+      "Tháng 2 năm 1945, Liên Xô, Mỹ, Anh thống nhất thành lập Liên hợp quốc."
+     ],
+     "ans": 2,
+     "id": "xr3nan"
+    },
+    {
+     "num": 5,
+     "q": "<p>Nội dung nào sau đây là mục tiêu hoạt động của Liên hợp quốc?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Xây dựng một tổ chức Liên hợp quốc vững mạnh về quân sự và thịnh vượng về kinh tế.",
+      "Hợp tác quốc tế trong việc giải quyết các vấn đề quốc tế về kinh tế, xã hội, văn hoá...",
+      "Giải quyết thành công vấn đề an sinh, xã hội của từng quốc gia.",
+      "Liên kết các quốc gia thành các trung tâm kinh tế - văn hoá."
+     ],
+     "ans": 1,
+     "id": "k6qitr"
+    },
+    {
+     "num": 6,
+     "q": "<p>Liên hợp quốc có vai trò thúc đẩy phát triển hợp tác quốc tế về:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Liên minh quân sự.",
+      "Xây dựng bản sắc văn hoá chung.",
+      "Thương mại, dịch vụ, du lịch, tình báo.",
+      "Kinh tế, tài chính, thương mại, khoa học, kĩ thuật."
+     ],
+     "ans": 3,
+     "id": "1a6muy2"
+    },
+    {
+     "num": 7,
+     "q": "<p>Nội dung nào sau đây là vai trò của Liên hợp quốc về bảo đảm quyền con người, phát triển văn hoá, xã hội?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Giảm lãi suất cho vay ở hầu hết các nước phát triển.",
+      "Tăng cường bình đẳng giới và vị thế, năng lực của phụ nữ.",
+      "Cải thiện năng lực công nghệ thông tin.",
+      "Hoàn thành phổ cập giáo dục đại học."
+     ],
+     "ans": 1,
+     "id": "lng44p"
+    },
+    {
+     "num": 8,
+     "q": "<p>Trật tự thế giới hai cực I-an-ta được hình thành trong bối cảnh nào sau đây?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Các nước Đồng minh muốn nhanh chóng đánh bại hoàn toàn chủ nghĩa phát xít.",
+      "Chiến tranh thế giới thứ hai đã kết thúc ở châu Á và châu Phi.",
+      "Sau Chiến tranh thế giới thứ hai, các nước Đồng minh tổ chức lại thế giới.",
+      "Sau Chiến tranh thế giới thứ hai, các nước Đồng minh phân chia quyền lợi."
+     ],
+     "ans": 0,
+     "id": "8zcl8x"
+    },
+    {
+     "num": 9,
+     "q": "<p>Tháng 2-1945, tại thành phố I-an-ta (Liên Xô), ba cường quốc Liên Xô, Mỹ, Anh đã:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Thành lập Tổ chức Hiệp ước Bắc Đại Tây Dương (NATO).",
+      "Thành lập Hội Quốc liên để duy trì hoà bình và an ninh quốc tế.",
+      "Thoả thuận về việc phân chia phạm vi ảnh hưởng giữa các nước lớn.",
+      "Phân chia phạm vi ảnh hưởng của Mỹ và Liên Xô ở châu Phi."
+     ],
+     "ans": 2,
+     "id": "tygb4c"
+    },
+    {
+     "num": 10,
+     "q": "<p>Tại Hội nghị I-an-ta, theo thoả thuận của Liên Xô, Mỹ và các nước phương Tây, quân đội Liên Xô đóng quân ở khu vực nào sau đây?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Miền Tây nước Đức, Đông Béc-lin và các nước Đông Âu.",
+      "Miền Đông nước Đức, Đông Béc-lin và các nước Đông Âu.",
+      "Tây Béc-lin, Đông Béc-lin và các nước Đông Âu.",
+      "Vùng Tây Âu, Tây Béc-lin và các nước Đông Âu."
+     ],
+     "ans": 1,
+     "id": "quofck"
+    },
+    {
+     "num": 11,
+     "q": "<p>Sau Chiến tranh thế giới thứ hai, vùng Tây Âu thuộc phạm vi ảnh hưởng của:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Mỹ.",
+      "Liên Xô.",
+      "Pháp.",
+      "Các nước phương Tây."
+     ],
+     "ans": 3,
+     "id": "s1mf0k"
+    },
+    {
+     "num": 12,
+     "q": "<p>Sau Chiến tranh thế giới thứ hai, một trật tự thế giới mới được thiết lập, thường được gọi là:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Trật tự thế giới đa cực.",
+      "Trật tự thế giới đơn cực.",
+      "Trật tự thế giới đơn cực I-an-ta.",
+      "Trật tự thế giới hai cực I-an-ta."
+     ],
+     "ans": 3,
+     "id": "166iipu"
+    },
+    {
+     "num": 13,
+     "q": "<p>Nội dung nào sau đây là mục tiêu của Mỹ khi phát động Chiến tranh lạnh (1947)?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Đàn áp phong trào giải phóng dân tộc ở các nước thuộc địa.",
+      "Chống lại các lực lượng khủng bố ở châu Âu.",
+      "Chống lại Liên Xô và các nước Đông Âu.",
+      "Thiết lập khối kinh tế ở các nước Đông Âu."
+     ],
+     "ans": 2,
+     "id": "x7hfc7"
+    },
+    {
+     "num": 14,
+     "q": "<p>Nội dung nào sau đây là biểu hiện của Chiến tranh lạnh?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Các cuộc chiến tranh cục bộ diễn ra ở nhiều nơi.",
+      "Trung Quốc và Liên Xô chạy đua vũ trang.",
+      "Trung Quốc và Mỹ trở thành hai cực lớn nhất.",
+      "Mỹ phát triển trở thành một cực duy nhất."
+     ],
+     "ans": 0,
+     "id": "arp90h"
+    },
+    {
+     "num": 15,
+     "q": "<p>Những năm 70 của thế kỉ XX, thế giới xuất hiện xu thế nào sau đây ảnh hưởng đến cục diện của Chiến tranh lạnh?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Đa quốc gia.",
+      "Hoà hoãn Đông - Tây.",
+      "Công nghiệp hoá.",
+      "Đơn cực."
+     ],
+     "ans": 1,
+     "id": "kkrt4p"
+    },
+    {
+     "num": 16,
+     "q": "<p>Sự kiện nào sau đây chính thức chấm dứt sự tồn tại của Trật tự thế giới hai cực I-an-ta?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Cuộc gặp giữa hai nhà lãnh đạo Liên Xô và Mỹ ở đảo Man-ta (1989).",
+      "Liên Xô và Mỹ kí Hiệp ước hạn chế vũ khí chiến lược (SALT I).",
+      "Sự tan rã của Liên Xô năm 1991.",
+      "Liên Xô và Mỹ suy yếu."
+     ],
+     "ans": 2,
+     "id": "zjprnq"
+    },
+    {
+     "num": 17,
+     "q": "<p>Nội dung nào sau đây là tác động của sự sụp đổ Trật tự thế giới hai cực I-an-ta?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Một trật tự thế giới mới dần hình thành theo xu thế đơn cực.",
+      "Mở ra chiều hướng và điều kiện thuận lợi để giải quyết hoà bình các cuộc tranh chấp, xung đột.",
+      "Sự phát triển vượt trội của các nước xã hội chủ nghĩa, đặc biệt là về kinh tế, khoa học, quân sự.",
+      "Các vấn đề về dân tộc, bản sắc cộng đồng, tôn giáo trên thế giới đã được giải quyết một cách căn bản."
+     ],
+     "ans": 1,
+     "id": "ooxwl1"
+    },
+    {
+     "num": 18,
+     "q": "<p>Khái niệm “đa cực” được hiểu là:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Trạng thái địa - văn hoá toàn cầu với nhiều trung tâm quyền lực chi phối.",
+      "Một trật tự mới với vai trò vượt trội của Mỹ, chi phối các nước khác.",
+      "Một trật tự thế giới mà các nước vừa và nhỏ có vai trò quyết định.",
+      "Trạng thái địa - chính trị toàn cầu với nhiều trung tâm quyền lực chi phối."
+     ],
+     "ans": 3,
+     "id": "1d65xqm"
+    },
+    {
+     "num": 19,
+     "q": "<p>Nội dung nào sau đây là biểu hiện của xu thế đa cực?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Các trung tâm quyền lực vươn lên, khẳng định sức mạnh về kinh tế, quân sự, chính trị đối với thế giới.",
+      "Các nước tăng cường chạy đua về kinh tế và quân sự, hình thành các liên minh xuyên lục địa.",
+      "Sự lớn mạnh của Trung Quốc trước cải cách, mở cửa, đe doạ đến vị trí số 1 của Mỹ.",
+      "Các nước trong khối NATO liên kết với nhau tạo ra sức mạnh quân sự vượt trội."
+     ],
+     "ans": 0,
+     "id": "1bsq87j"
+    },
+    {
+     "num": 20,
+     "q": "<p>Nội dung nào sau đây không phải là biểu hiện của xu thế đa cực?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Mỹ bị suy giảm sức mạnh tương đối trong tương quan so sánh với các cường quốc khác.",
+      "Cách mạng công nghiệp lần thứ ba ngày càng đạt được nhiều thành tựu, đặc biệt là về kinh tế.",
+      "Các trung tâm quyền lực ngày càng vươn lên, khẳng định sức mạnh về kinh tế, quân sự, chính trị đối với thế giới.",
+      "Vai trò của các trung tâm, tổ chức kinh tế, tài chính quốc tế và khu vực ngày càng lớn."
+     ],
+     "ans": 1,
+     "id": "1onchhf"
+    },
+    {
+     "num": 21,
+     "q": "<p>Liên hợp quốc ra đời trong bối cảnh lịch sử nào sau đây?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Chiến tranh lạnh bùng nổ và lan rộng ra toàn thế giới.",
+      "Liên Xô xây dựng chủ nghĩa xã hội và đạt được nhiều thành tựu to lớn.",
+      "Phe phát xít Đức – I-ta-li-a – Nhật Bản phát triển và mở rộng bành trướng.",
+      "Chiến tranh thế giới thứ hai đi đến giai đoạn cuối."
+     ],
+     "ans": 3,
+     "id": "zz9qys"
+    },
+    {
+     "num": 22,
+     "q": "<p>Tại Hội nghị I-an-ta (2-1945), nguyên thủ 3 nước nào sau đây thống nhất thành lập tổ chức Liên hợp quốc?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Mỹ – Anh – Pháp.",
+      "Liên Xô – Anh – Pháp.",
+      "Đức – Pháp – Mỹ.",
+      "Liên Xô – Anh – Mỹ."
+     ],
+     "ans": 3,
+     "id": "1hm0pef"
+    },
+    {
+     "num": 23,
+     "q": "<p>“Duy trì hoà bình và an ninh quốc tế” là mục tiêu hoạt động của tổ chức nào sau đây?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Hiệp hội các quốc gia Đông Nam Á (ASEAN).",
+      "Liên minh châu Âu (EU).",
+      "Hiệp ước Bắc Đại Tây Dương (NATO).",
+      "Liên hợp quốc (UN)."
+     ],
+     "ans": 3,
+     "id": "2h6ej2"
+    },
+    {
+     "num": 24,
+     "q": "<p>Liên hợp quốc được thành lập là thực hiện theo quyết định của:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Hội nghị Giơ-ne-vơ.",
+      "Hội nghị Xan Phran-xi-xcô.",
+      "Hội nghị I-an-ta.",
+      "Hội nghị Pốt-xđam."
+     ],
+     "ans": 2,
+     "id": "uozgdv"
+    },
+    {
+     "num": 25,
+     "q": "<p>Sự kiện nào dưới đây gắn liền với ngày 24/10/1945?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Bản Hiến chương Liên hợp quốc chính thức có hiệu lực.",
+      "Mỹ và Liên Xô phê chuẩn bản Hiến chương Liên hợp quốc.",
+      "Hội nghị Xan Phran-xi-xcô (Mỹ) thông qua bản Hiến chương Liên hợp quốc.",
+      "Năm nước Ủy viên thường trực Hội đồng Bảo an thông qua bản Hiến chương."
+     ],
+     "ans": 0,
+     "id": "1w56yeo"
+    },
+    {
+     "num": 26,
+     "q": "<p>Mục tiêu và nguyên tắc hoạt động của tổ chức Liên hợp quốc đều được quy định rõ trong văn kiện nào sau đây?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Công ước Liên hợp quốc về Luật biển.",
+      "Tuyên ngôn về thủ tiêu hoàn toàn chủ nghĩa thực dân.",
+      "Hiến chương Liên hợp quốc.",
+      "Tuyên ngôn Quốc tế về Nhân quyền."
+     ],
+     "ans": 2,
+     "id": "1xuwzhf"
+    },
+    {
+     "num": 27,
+     "q": "<p>Một trong những nguyên tắc hoạt động của tổ chức Liên hợp quốc là:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Không can thiệp vào công việc nội bộ của các quốc gia.",
+      "Thúc đẩy quan hệ hữu nghị hợp tác giữa tất cả các nước.",
+      "Giải quyết các vụ tranh chấp và xung đột khu vực bằng biện pháp hoà giải.",
+      "Giúp đỡ các dân tộc về kinh tế, văn hoá, giáo dục, y tế, nhân đạo."
+     ],
+     "ans": 0,
+     "id": "x7ffqt"
+    },
+    {
+     "num": 28,
+     "q": "<p>Ngay từ khi thành lập, Hiến chương Liên hợp quốc đã xác định mục tiêu hàng đầu của tổ chức này là phải:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Thúc đẩy quan hệ hữu nghị hợp tác giữa các nước.",
+      "Duy trì nền hòa bình và an ninh trên thế giới.",
+      "Giúp đỡ các dân tộc trên thế giới cùng nhau phát triển.",
+      "Giải quyết các tranh chấp và xung đột trên thế giới."
+     ],
+     "ans": 1,
+     "id": "1oodv38"
+    },
+    {
+     "num": 29,
+     "q": "<p>Việt Nam vận dụng nguyên tắc “Giải quyết tranh chấp quốc tế bằng biện pháp hoà bình” của Liên hợp quốc để giải quyết vấn đề nào hiện nay?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Thực hiện công nghiệp hoá và hiện đại hoá đất nước.",
+      "Phát triển nền kinh tế thị trường theo định hướng xã hội chủ nghĩa.",
+      "Bảo vệ chủ quyền biên giới, biển, đảo và toàn vẹn lãnh thổ.",
+      "Nâng cao vị thế của Việt Nam trên trường quốc tế."
+     ],
+     "ans": 2,
+     "id": "1lz4n4f"
+    },
+    {
+     "num": 30,
+     "q": "<p>Nhận định nào dưới đây phản ánh đúng vai trò của tổ chức Liên hợp quốc?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Là một tổ chức quốc tế phát triển năng động vì sự ổn định hợp tác của toàn thế giới.",
+      "Là diễn đàn quốc tế lớn nhất, vừa hợp tác vừa đấu tranh vì hòa bình, an ninh thế giới.",
+      "Là một tổ chức quốc tế tạo dựng quan hệ thân thiện với tất cả các nước trên thế giới.",
+      "Là một liên kết chính trị - kinh tế lớn nhất hành tinh vì sự ổn định của toàn nhân loại."
+     ],
+     "ans": 1,
+     "id": "wsgd9n"
+    },
+    {
+     "num": 31,
+     "q": "<p>Nội dung nào sau đây là một trong những quyết định của Hội nghị I-an-ta (2-1945)?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Tiêu diệt tận gốc chủ nghĩa phát xít Đức và chủ nghĩa quân phiệt Nhật Bản.",
+      "Xây dựng một trật tự thế giới mới nhằm giải quyết dứt điểm các vấn đề hậu chiến tranh.",
+      "Đồng ý thành lập tổ chức Hội Quốc liên để duy trì hòa bình và an ninh thế giới.",
+      "Thoả thuận việc phân chia phạm vi ảnh hưởng của Mỹ và Liên Xô ở châu Phi."
+     ],
+     "ans": 0,
+     "id": "9ch8k"
+    },
+    {
+     "num": 32,
+     "q": "<p>Theo thoả thuận của các cường quốc tại Hội nghị I-an-ta (2-1945), địa bàn nào sau đây ở châu Âu sẽ thuộc phạm vi ảnh hưởng của Mỹ?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Béc-lin.",
+      "Đông Đức.",
+      "Đông Âu.",
+      "Tây Âu."
+     ],
+     "ans": 3,
+     "id": "1rzqamd"
+    },
+    {
+     "num": 33,
+     "q": "<p>Theo quyết định của các cường quốc tại Hội nghị I-an-ta (2-1945), vùng ảnh hưởng của Liên Xô ở châu Á sẽ là:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Phía bắc vĩ tuyến 38 trên bán đảo Triều Tiên.",
+      "Phía nam vĩ tuyến 38 trên bán đảo Triều Tiên.",
+      "Khu vực Tây Á, Nam Á và Đông Nam Á.",
+      "Khu vực Trung Đông và bán đảo Triều Tiên."
+     ],
+     "ans": 0,
+     "id": "rvlo8p"
+    },
+    {
+     "num": 34,
+     "q": "<p>Quyết định nào sau đây của Hội nghị I-an-ta (2-1945) tạo nên những bất lợi cho cách mạng Việt Nam trong những năm 1945 - 1946?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Quân Anh cùng với quân Pháp làm nhiệm vụ giải giáp quân đội Nhật.",
+      "Quân Anh và quân Trung Hoa Dân quốc vào kiểm soát Đông Dương.",
+      "Liên Xô có phạm vi ảnh hưởng và kiểm soát ở các nước Đông Dương.",
+      "Đông Nam Á vẫn thuộc phạm vi ảnh hưởng của các nước phương Tây."
+     ],
+     "ans": 3,
+     "id": "1hsd1m3"
+    },
+    {
+     "num": 35,
+     "q": "<p>Nhận xét nào sau đây là tác động của Hội nghị I-an-ta và Hội nghị Pốt-xđam (1945) đối với tình hình quốc tế?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Tạo nên một trật tự thế giới mới giữa các nước thắng trận và bại trận.",
+      "Giải quyết được mâu thuẫn về vấn đề thị trường cho các cường quốc.",
+      "Tạo nên khuôn khổ của trật tự thế giới - trật tự nhất siêu, nhiều cực.",
+      "Làm thay đổi sâu sắc quan hệ quốc tế, đặc biệt là quan hệ Xô - Mỹ."
+     ],
+     "ans": 3,
+     "id": "1r9j30k"
+    },
+    {
+     "num": 36,
+     "q": "<p>Nội dung nào sau đây là đặc điểm nổi bật của trật tự thế giới mới được hình thành sau Chiến tranh thế giới thứ hai?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Một trật tự thế giới được thiết lập trên cơ sở nước thắng trận thống trị nước bại trận.",
+      "Xác lập trật tự thế giới mới của các nước tư bản chủ nghĩa do Mỹ đứng đầu, chi phối.",
+      "Hình thành trật tự thế giới hai cực đối lập: cực Liên Xô và cực Mỹ đứng đầu mỗi bên.",
+      "Trật tự thế giới được thiết lập trên cơ sở các nước thắng trận đoàn kết, đồng thuận."
+     ],
+     "ans": 2,
+     "id": "5nascf"
+    },
+    {
+     "num": 37,
+     "q": "<p>Từ đầu những năm 70 của thế kỉ XX, quan hệ Mỹ - Liên Xô chuyển dần sang hòa dịu, sau đó kết thúc Chiến tranh lạnh (1989) là do:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Chịu nhiều tốn kém và bị suy giảm thế mạnh về nhiều mặt.",
+      "Xu thế liên kết khu vực và toàn cầu hóa diễn ra mạnh mẽ.",
+      "Quá trình mở rộng không ngừng của Liên minh châu Âu (EU).",
+      "Trật tự nhất siêu, nhiều cường đang trong quá trình mở rộng."
+     ],
+     "ans": 0,
+     "id": "1yvnxlq"
+    },
+    {
+     "num": 38,
+     "q": "<p>Trật tự thế giới hai cực I-an-ta sụp đổ (1991) có tác động nào sau đây đến quốc tế?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Mở rộng quan hệ quốc tế, thúc đẩy xu thế toàn cầu hóa.",
+      "Mỹ chuyển sang ủng hộ xu thế đa cực, nhiều trung tâm.",
+      "Đưa tới sự ra đời của Hiệp hội các quốc gia Đông Nam Á.",
+      "Trung Quốc đã vươn lên trở thành nền kinh tế số 1 thế giới."
+     ],
+     "ans": 0,
+     "id": "topi40"
+    },
+    {
+     "num": 39,
+     "q": "<p>Theo quyết định của Hội nghị I-an-ta (2-1945), nước nào cần trở thành một quốc gia thống nhất và dân chủ?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Trung Quốc.",
+      "Nhật Bản.",
+      "Pháp.",
+      "Ấn Độ."
+     ],
+     "ans": 0,
+     "id": "l2qlz9"
+    },
+    {
+     "num": 40,
+     "q": "<p>Trật tự hai cực I-an-ta được xác lập sau Chiến tranh thế giới thứ hai khẳng định vị thế hàng đầu của hai cường quốc nào?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Liên Xô và Mỹ.",
+      "Mỹ và Anh.",
+      "Liên Xô và Anh.",
+      "Liên Xô và Pháp."
+     ],
+     "ans": 0,
+     "id": "1l1llsj"
+    },
+    {
+     "num": 41,
+     "q": "<p>Sự kiện nào sau đây diễn ra trong thời kì Chiến tranh lạnh (1947-1989)?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Chiến tranh thế giới thứ nhất kết thúc.",
+      "Chiến tranh thế giới thứ hai bùng nổ.",
+      "Hệ thống Véc-xai - Oa-sinh-tơn thiết lập.",
+      "Tổ chức Hiệp ước Bắc Đại Tây Dương (NATO) ra đời."
+     ],
+     "ans": 3,
+     "id": "1tws76g"
+    },
+    {
+     "num": 42,
+     "q": "<p>Từ sau Chiến tranh thế giới thứ hai đến nửa đầu những năm 70 của thế kỉ XX, quan hệ giữa Mỹ và Liên Xô là:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Đối đầu.",
+      "Hợp tác.",
+      "Đối tác.",
+      "Đồng minh."
+     ],
+     "ans": 0,
+     "id": "1s2p1c4"
+    },
+    {
+     "num": 43,
+     "q": "<p>Nhân tố chủ yếu chi phối quan hệ quốc tế trong phần lớn nửa sau thế kỉ XX là:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Cục diện “Chiến tranh lạnh”.",
+      "Xu thế toàn cầu hóa.",
+      "Sự hình thành các liên minh kinh tế.",
+      "Sự ra đời các khối quân sự đối lập."
+     ],
+     "ans": 0,
+     "id": "dlxbzg"
+    },
+    {
+     "num": 44,
+     "q": "<p>Một trong những mục đích của Mỹ khi thành lập khối quân sự Bắc Đại Tây Dương (NATO) năm 1949 là:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Chống lại Liên Xô và các nước Đông Âu.",
+      "Muốn bán vũ khí cho các nước đồng minh.",
+      "Chuẩn bị phát động chiến tranh chống Đức.",
+      "Tấn công tiêu diệt các nước tư bản chủ nghĩa."
+     ],
+     "ans": 0,
+     "id": "1d0q81q"
+    },
+    {
+     "num": 45,
+     "q": "<p>Sự kiện đánh dấu Chiến tranh lạnh bao trùm thế giới là:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Thắng lợi của cách mạng Cuba (1959).",
+      "Liên Xô đã thành lập khối SEV (1949).",
+      "Thông điệp của Tổng thống Mỹ (1947).",
+      "Sự ra đời của NATO và Vác-sa-va (1955)."
+     ],
+     "ans": 3,
+     "id": "54o1l6"
+    },
+    {
+     "num": 46,
+     "q": "<p>Vì sao từ sau Chiến tranh thế giới thứ hai (1945), Mỹ và Liên Xô đối đầu gay gắt?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Khác nhau về mục tiêu và đường lối chiến lược.",
+      "Do những mâu thuẫn trong Hội nghị I-an-ta (1945).",
+      "Mâu thuẫn gay gắt về vấn đề thị trường, thuộc địa.",
+      "Sự cạnh tranh gay gắt về ngành công nghiệp vũ trụ."
+     ],
+     "ans": 0,
+     "id": "12rajpr"
+    },
+    {
+     "num": 47,
+     "q": "<p>Nội dung nào sau đây phản ánh đúng xu thế phát triển của thế giới từ sau khi Chiến tranh lạnh chấm dứt?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Các quốc gia đều tập trung lấy phát triển quân sự làm trọng điểm.",
+      "Trật tự thế giới đơn cực được xác lập trong quan hệ quốc tế.",
+      "Mỹ nắm vai trò là siêu cường duy nhất chi phối quan hệ quốc tế.",
+      "Các nước điều chỉnh quan hệ theo hướng hòa hoãn, đối thoại, hợp tác."
+     ],
+     "ans": 3,
+     "id": "19ir3k"
+    },
+    {
+     "num": 48,
+     "q": "<p>Chiến tranh lạnh kết thúc đã làm cho:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Kinh tế trở thành nội dung căn bản trong quan hệ quốc tế.",
+      "Chạy đua vũ trang trở thành hình thức cạnh tranh chủ yếu giữa các nước.",
+      "Sức mạnh của các quốc gia không phụ thuộc vào lực lượng quốc phòng.",
+      "Quan hệ giữa các nước lớn diễn ra theo chiều hướng đối đầu."
+     ],
+     "ans": 0,
+     "id": "1knpq10"
+    },
+    {
+     "num": 49,
+     "q": "<p>Sau Chiến tranh lạnh, các nước điều chỉnh quan hệ với nhau theo chiều hướng hòa hoãn, đối thoại, hợp tác chủ yếu là do:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Trật tự hai cực I-an-ta đã được xác lập.",
+      "Nhu cầu ổn định để phát triển kinh tế.",
+      "Kinh tế Liên Xô đang lâm vào khủng hoảng.",
+      "Mỹ và Liên Xô hạn chế chạy đua vũ trang."
+     ],
+     "ans": 1,
+     "id": "fncxv"
+    },
+    {
+     "num": 50,
+     "q": "<p>Nội dung nào sau đây phản ánh đúng sự điều chỉnh quan hệ giữa các nước có chế độ chính trị khác nhau sau khi Chiến tranh lạnh chấm dứt?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Giảm dần sự cạnh tranh về kinh tế.",
+      "Thiết lập quan hệ đối tác chiến lược.",
+      "Hòa hoãn, đối thoại, cùng phát triển.",
+      "Giảm dần cuộc chạy đua vũ trang."
+     ],
+     "ans": 2,
+     "id": "1ykfwx"
+    },
+    {
+     "num": 51,
+     "q": "<p>Sau Chiến tranh lạnh, một trong những mục tiêu của các quốc gia là:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Triệt tiêu cạnh tranh trong phát triển kinh tế.",
+      "Xây dựng nền kinh tế vững mạnh.",
+      "Xóa bỏ hoàn toàn hệ thống thuộc địa.",
+      "Khôi phục lại trật tự thế giới hai cực."
+     ],
+     "ans": 1,
+     "id": "iftfir"
+    },
+    {
+     "num": 52,
+     "q": "<p>Sau Chiến tranh lạnh, hầu hết các quốc gia đều điều chỉnh chiến lược, tập trung vào phát triển:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Kinh tế.",
+      "Quân sự.",
+      "Thể thao.",
+      "Vũ khí hạt nhân."
+     ],
+     "ans": 0,
+     "id": "1evs65x"
+    },
+    {
+     "num": 53,
+     "q": "<p>Sau khi Chiến tranh lạnh chấm dứt, một trong những xu thế của thế giới là:</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Hòa hoãn, ổn định, hợp tác và phát triển.",
+      "Hình thành trật tự thế giới mới đơn cực.",
+      "Ráo riết chuẩn bị chiến tranh toàn cầu.",
+      "Hạn chế tình trạng cạnh tranh giữa các nước."
+     ],
+     "ans": 0,
+     "id": "1v03pvb"
+    },
+    {
+     "num": 54,
+     "q": "<p>Sau khi Chiến tranh lạnh chấm dứt, quốc gia nào sau đây ở châu Á đã vươn lên trở thành một cực trong trật tự thế giới đa cực?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Mỹ.",
+      "Anh.",
+      "Pháp.",
+      "Nhật Bản."
+     ],
+     "ans": 3,
+     "id": "1jghlgu"
+    },
+    {
+     "num": 55,
+     "q": "<p>Sau khi Chiến tranh lạnh chấm dứt, tổ chức nào sau đây đã vươn lên trở thành một cực trong trật tự thế giới đa cực?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Liên minh châu Âu.",
+      "Hiệp hội các quốc gia Đông Nam Á.",
+      "Tổ chức Hiệp ước Bắc Đại Tây Dương.",
+      "Diễn đàn hợp tác Á – Âu."
+     ],
+     "ans": 0,
+     "id": "1a575rr"
+    },
+    {
+     "num": 56,
+     "q": "<p>Trong trật tự thế giới đa cực, quốc gia nào sau đây có ảnh hưởng lớn nhất đến quan hệ quốc tế?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Ấn Độ.",
+      "Nhật Bản.",
+      "Mỹ.",
+      "Anh."
+     ],
+     "ans": 2,
+     "id": "10qsmur"
+    },
+    {
+     "num": 57,
+     "q": "<p>Nội dung nào sau đây phản ánh đúng đặc điểm của trật tự thế giới đa cực?</p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Lợi ích của dân tộc được đặt lên vị trí hàng đầu.",
+      "Sức mạnh của Mỹ được tăng cường tuyệt đối.",
+      "Có sự cân bằng giữa hai hệ thống xã hội đối lập.",
+      "Được thành lập ngay sau khi Chiến tranh lạnh kết thúc."
+     ],
+     "ans": 0,
+     "id": "177z83a"
+    },
+    {
+     "num": 1,
+     "q": "<p>Đọc đoạn tư liệu sau đây, trong mỗi ý A, B, C, D, học sinh chọn đúng hoặc sai.</p><p><em>“Duy trì hoà bình và an ninh quốc tế, và để đạt được mục đích đó, thi hành những biện pháp tập thể có hiệu quả để phòng ngừa và loại trừ các mối đe doạ hoà bình, cấm mọi hành vi xâm lược và phá hoại hoà bình khác, điều chỉnh hoặc giải quyết các vụ tranh chấp hoặc những tình thế có tính chất quốc tế có thể đưa đến sự phá hoại hoà bình, bằng biện pháp hoà bình theo đúng nguyên tắc của công lí và pháp luật quốc tế.”</em></p><p>(Trích: Điều 1, Hiến chương Liên hợp quốc, ngày 24-10-1945)</p>",
+     "exp": "",
+     "type": "tf",
+     "items": [
+      {
+       "t": "Đoạn tư liệu thể hiện mục tiêu của Liên hợp quốc là duy trì hoà bình và an ninh quốc phòng cho tất cả các quốc gia.",
+       "v": false
+      },
+      {
+       "t": "Một trong những mục tiêu của Liên hợp quốc là giải quyết các vụ tranh chấp quốc tế bằng pháp luật của các quốc gia.",
+       "v": false
+      },
+      {
+       "t": "Trong số các mục tiêu của Liên hợp quốc, duy trì hoà bình và an ninh quốc tế là mục tiêu được đặt lên hàng đầu.",
+       "v": true
+      },
+      {
+       "t": "Ngày nay, Liên hợp quốc vẫn tiếp tục thực hiện mục tiêu giải quyết các vụ tranh chấp, xung đột quốc tế bằng biện pháp hoà bình.",
+       "v": true
+      }
+     ],
+     "id": "t0v0xi"
+    },
+    {
+     "num": 2,
+     "q": "<p>Đọc đoạn tư liệu sau đây, trong mỗi ý A, B, C, D, học sinh chọn đúng hoặc sai.</p><p><em>“Tất cả các quốc gia thành viên Liên hợp quốc đều phải làm tròn những nghĩa vụ mà họ phải đảm nhận theo Hiến chương này để được bảo đảm hưởng toàn bộ các quyền và ưu đãi do tư cách thành viên mà có: Tất cả các thành viên của Liên hợp quốc giải quyết các tranh chấp quốc tế của họ bằng biện pháp hoà bình, sao cho không tổn hại đến hoà bình, an ninh quốc tế và công lí.”</em></p><p>(Trích: Điều 2, Hiến chương Liên hợp quốc, ngày 24-10-1945)</p>",
+     "exp": "",
+     "type": "tf",
+     "items": [
+      {
+       "t": "Đoạn tư liệu thể hiện mục tiêu hoạt động cơ bản của Liên hợp quốc là các quốc gia làm tròn nghĩa vụ đối với tổ chức này.",
+       "v": false
+      },
+      {
+       "t": "Đoạn tư liệu cho thấy một trong những nguyên tắc hoạt động của Liên hợp quốc là các quốc gia thành viên thực hiện những nghĩa vụ đảm nhận theo Hiến chương Liên hợp quốc.",
+       "v": true
+      },
+      {
+       "t": "Đoạn tư liệu là văn bản pháp lí giúp Liên hợp quốc ngăn chặn mọi xung đột giữa các thành viên từ khi tổ chức này thành lập.",
+       "v": false
+      },
+      {
+       "t": "Mặc dù Liên hợp quốc có những nguyên tắc hoạt động chặt chẽ, nhưng hiện nay giữa một số quốc gia thành viên vẫn diễn ra chiến tranh, xung đột.",
+       "v": true
+      }
+     ],
+     "id": "13cqwqk"
+    },
+    {
+     "num": 3,
+     "q": "<p>Đọc đoạn tư liệu sau đây, trong mỗi ý A, B, C, D, học sinh chọn đúng hoặc sai.</p><p><em>[Năm 1960] “Đại hội đồng Liên hợp quốc đã thông qua bản Tuyên ngôn về thủ tiêu hoàn toàn chủ nghĩa thực dân, trao trả độc lập cho các quốc gia và dân tộc thuộc địa. Đó là một sự kiện chính trị quan trọng. Như thế, Tuyên ngôn đã khẳng định các nước thực dân đã vi phạm nguyên tắc quan trọng nhất của luật pháp quốc tế; khẳng định rõ ràng cơ sở pháp lí quốc tế của cuộc đấu tranh giành độc lập của các dân tộc bị áp bức.”</em></p><p>(Nguyễn Quốc Hùng, Nguyễn Hồng Quân, Liên hợp quốc và Lực lượng gìn giữ hoà bình Liên hợp quốc, NXB Chính trị Quốc gia, Hà Nội, 2008, tr.46)</p>",
+     "exp": "",
+     "type": "tf",
+     "items": [
+      {
+       "t": "Liên hợp quốc đã đưa ra văn bản quan trọng nhằm thủ tiêu hệ thống thuộc địa của chủ nghĩa thực dân trên thế giới.",
+       "v": true
+      },
+      {
+       "t": "Bản Tuyên ngôn của Liên hợp quốc đã có tác động tiêu cực đến phong trào đấu tranh giải phóng ở các nước thuộc địa và phụ thuộc trên thế giới.",
+       "v": false
+      },
+      {
+       "t": "Lực lượng gìn giữ hoà bình của Liên hợp quốc giúp tổ chức này thực thi nhiệm vụ bảo vệ nền hoà bình của các nước thuộc địa.",
+       "v": false
+      },
+      {
+       "t": "Đây là một trong những văn bản quan trọng thể hiện vai trò và đóng góp của Liên hợp quốc vì sự tiến bộ của nhân loại.",
+       "v": true
+      }
+     ],
+     "id": "hrqe28"
+    },
+    {
+     "num": 4,
+     "q": "<p>Cho bảng dữ kiện sau đây về nguyên nhân sự sụp đổ Trật tự thế giới hai cực I-an-ta, trong mỗi ý A, B, C, D, học sinh chọn đúng hoặc sai.</p><table><tbody><tr><td rowspan=\"6\"><p><strong>Nguyên nhân sụp đổ Trật tự thế giới hai cực I-an-ta</strong></p></td><td><p>Chạy đua vũ trang khiến cả Liên Xô và Mỹ bị tốn kém, suy giảm thế mạnh kinh tế, buộc hai bên phải tự điều chỉnh, từng bước hạn chế căng thẳng.</p></td></tr><tr><td><p>Sự vươn lên của các nước trên thế giới nhằm thoát khỏi ảnh hưởng của hai cực.</p></td></tr><tr><td><p>Thắng lợi của phong trào giải phóng dân tộc và sự ra đời của hàng loạt các quốc gia độc lập.</p></td></tr><tr><td><p>Sự thay đổi trong cán cân kinh tế thế giới, đặc biệt là sự nổi lên của Nhật Bản và các nước Tây Âu.</p></td></tr><tr><td><p>Xu thế hoà hoãn, toàn cầu hoá và ảnh hưởng của cuộc Cách mạng công nghiệp lần thứ ba.</p></td></tr><tr><td><p>Sự khủng hoảng, suy yếu rồi tan rã của Liên Xô – quốc gia đứng đầu hệ thống xã hội chủ nghĩa.</p></td></tr></tbody></table>",
+     "exp": "",
+     "type": "tf",
+     "items": [
+      {
+       "t": "Trật tự hai cực I-an-ta sụp đổ là do sự phát triển mạnh mẽ của nền kinh tế Mỹ và Tây Âu từ sau Chiến tranh thế giới thứ hai.",
+       "v": false
+      },
+      {
+       "t": "Xu thế toàn cầu hoá khiến cho tình trạng chạy đua vũ trang của Mỹ và Liên Xô không còn phù hợp.",
+       "v": true
+      },
+      {
+       "t": "Trật tự thế giới hai cực I-an-ta sụp đổ gắn liền với sự khủng hoảng và suy yếu của Liên Xô.",
+       "v": true
+      },
+      {
+       "t": "Sự vươn lên của các nước đang phát triển khiến cho Mỹ suy yếu, không còn đủ sức chạy đua kinh tế.",
+       "v": false
+      }
+     ],
+     "id": "1devtwr"
+    },
+    {
+     "num": 5,
+     "q": "<p>Đọc đoạn tư liệu sau đây, trong mỗi ý A, B, C, D, học sinh chọn đúng hoặc sai.</p><p><em>“Bài học của thời kì Chiến tranh lạnh đã chứng tỏ phương thức quan hệ quốc tế lấy đối đầu chính trị – quân sự là chủ yếu không còn phù hợp, phải chịu nhiều tổn thất hoặc thất bại như hai nước Xô – Mỹ và một bị thương, một bị mất. Trong khi đó, phương thức lấy hợp tác và cạnh tranh về kinh tế - chính trị là chính lại thu được nhiều tiến bộ, kết quả như các nước Đức, Nhật và NICs. Sự hưng thịnh hay suy vong của một quốc gia quyết định bởi sức mạnh tổng hợp của quốc gia đó, mà chủ yếu là thực lực kinh tế và khoa học – kĩ thuật.”</em></p><p>(Vũ Dương Ninh (Chủ biên), Một số chuyên đề lịch sử thế giới, NXB Đại học Quốc gia Hà Nội, Hà Nội, 2001, tr.401)</p>",
+     "exp": "",
+     "type": "tf",
+     "items": [
+      {
+       "t": "Hợp tác về kinh tế - chính trị làm suy yếu tiềm lực phát triển của từng nước.",
+       "v": false
+      },
+      {
+       "t": "Tình trạng đối đầu về chính trị - quân sự của Mỹ và Liên Xô trong Chiến tranh lạnh khiến cho hai nước chịu nhiều tổn thất.",
+       "v": true
+      },
+      {
+       "t": "Thực lực kinh tế và khoa học – kĩ thuật có vai trò quan trọng đối với sự phát triển của một quốc gia.",
+       "v": true
+      },
+      {
+       "t": "Đoạn tư liệu thể hiện xu thế phát triển chính của thế giới sau Chiến tranh lạnh.",
+       "v": true
+      }
+     ],
+     "id": "qyryn4"
+    },
+    {
+     "num": 6,
+     "q": "<p>Cho bảng dữ kiện sau đây về một số trung tâm quyền lực thế giới, trong mỗi ý A, B, C, D, học sinh chọn đúng hoặc sai.</p><table><tbody><tr><td><p><strong>Mỹ</strong></p></td><td><p>Vẫn là cường quốc số một thế giới. Với sức mạnh về kinh tế, quân sự, khoa học, kĩ thuật,... Mỹ có ảnh hưởng lớn nhất đến quan hệ quốc tế.</p></td></tr><tr><td><p><strong>Trung Quốc</strong></p></td><td><p>Vươn lên mạnh mẽ, vượt Nhật Bản (năm 2010) để trở thành nền kinh tế lớn thứ hai thế giới (sau Mỹ), sức mạnh quân sự không ngừng được tăng cường.</p></td></tr><tr><td><p><strong>Liên minh châu Âu (EU)</strong></p></td><td><p>Tiếp tục là tổ chức liên kết khu vực chặt chẽ trên nhiều lĩnh vực, có ảnh hưởng trên phạm vi toàn cầu về kinh tế, thương mại.</p></td></tr><tr><td><p><strong>Nhật Bản</strong></p></td><td><p>Tiếp tục duy trì địa vị cường quốc kinh tế, từng bước tăng cường sức mạnh về chính trị, ngày càng có ảnh hưởng trên trường quốc tế.</p></td></tr><tr><td><p><strong>Liên bang Nga</strong></p></td><td><p>Phục hồi mạnh mẽ, là một trong những cường quốc hàng đầu về quân sự, khoa học, kĩ thuật.</p></td></tr><tr><td><p><strong>Ấn Độ</strong></p></td><td><p>Trở thành cường quốc kinh tế, quân sự, khoa học, kĩ thuật,... có ảnh hưởng lớn trong quan hệ quốc tế.</p></td></tr></tbody></table>",
+     "exp": "",
+     "type": "tf",
+     "items": [
+      {
+       "t": "Sau Chiến tranh lạnh, Mỹ vẫn là cường quốc số một thế giới và quyết định toàn bộ quan hệ quốc tế.",
+       "v": false
+      },
+      {
+       "t": "Liên minh châu Âu, Nhật Bản đều vươn lên và trở thành các trung tâm kinh tế lớn của thế giới.",
+       "v": true
+      },
+      {
+       "t": "Trung Quốc trỗi dậy mạnh mẽ và trở thành một cực quan trọng trong xu thế đa cực của quan hệ quốc tế.",
+       "v": true
+      },
+      {
+       "t": "Nhật Bản, Trung Quốc, Liên bang Nga trở thành các cường quốc, dẫn đến tình trạng đối đầu căng thẳng giữa các nước này.",
+       "v": false
+      }
+     ],
+     "id": "u3ikhc"
+    },
+    {
+     "num": 7,
+     "q": "<p>Đọc đoạn tư liệu sau đây, trong mỗi ý A, B, C, D, học sinh chọn đúng hoặc sai.</p><p><em>“Trật tự thế giới mới này được hình thành như thế nào, còn tuỳ thuộc ở nhiều nhân tố: Sự phát triển về thực lực kinh tế, chính trị, quân sự của các cường quốc Mỹ, Nga, Trung Quốc, Anh, Pháp, Nhật Bản, Đức trong cuộc chạy đua về sức mạnh quốc gia tổng hợp... Sự lớn mạnh của lực lượng cách mạng thế giới (sự thành bại của công cuộc cải cách, đổi mới ở các nước xã hội chủ nghĩa...); Sự phát triển của cách mạng khoa học – kĩ thuật sẽ còn tiếp tục tạo ra những “đột phá” và biến chuyển trên cục diện thế giới.”</em></p><p>(Nguyễn Anh Thái (Chủ biên), Lịch sử thế giới hiện đại, NXB Giáo dục Việt Nam, Hà Nội, 2021, tr.424)</p>",
+     "exp": "",
+     "type": "tf",
+     "items": [
+      {
+       "t": "Đoạn tư liệu trên đề cập đến nội dung chính là Trật tự thế giới hai cực I-an-ta.",
+       "v": false
+      },
+      {
+       "t": "Anh, Pháp ngày càng trở thành những cực lớn nhất trong trật tự thế giới đa cực từ sau Chiến tranh thế giới thứ hai.",
+       "v": false
+      },
+      {
+       "t": "Sự phát triển của cách mạng khoa học - kĩ thuật là nhân tố tác động đến sự hình thành trật tự thế giới mới.",
+       "v": true
+      },
+      {
+       "t": "Sức mạnh tổng hợp của các cường quốc Mỹ, Nga, Trung Quốc, Anh, Pháp, Nhật Bản, Đức sẽ góp phần định hình trật tự thế giới mới.",
+       "v": true
+      }
+     ],
+     "id": "1f2pgj0"
+    }
+   ]
+  },
+  {
+   "id": "smvkx158w1lz",
+   "name": "Tin học",
+   "qs": [
+    {
+     "num": 1,
+     "q": "<p><strong>Trợ lí ảo của Samsung là</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Siri.",
+      "Cortana.",
+      "Alexa.",
+      "Bixby."
+     ],
+     "ans": 3,
+     "id": "944zj2"
+    },
+    {
+     "num": 2,
+     "q": "<p><strong>Robot hình người đầu tiên trên thế giới được tích hợp một loạt ứng dụng AI là</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Apollo.",
+      "Valkyrie.",
+      "Asimo.",
+      "Sophia."
+     ],
+     "ans": 2,
+     "id": "1cl8kto"
+    },
+    {
+     "num": 3,
+     "q": "<p><strong>Robot hình người đầu tiên trên thế giới được tích hợp một loạt ứng dụng AI do hãng nào sản xuất?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Tesla.",
+      "Honda.",
+      "NASA.",
+      "Toshiba."
+     ],
+     "ans": 1,
+     "id": "1d4wfr2"
+    },
+    {
+     "num": 4,
+     "q": "<p><strong>Hội thảo nào được coi là điểm mốc ghi nhận sự ra đời của thuật ngữ AI, đánh dấu sự khởi đầu của lĩnh vực AI, thúc đẩy sự phát triển của lĩnh vực này trong các năm tiếp theo?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Hội thảo Hampshire.",
+      "Hội thảo Bletchley.",
+      "Hội thảo Dartmouth.",
+      "Hội thảo Jenesys."
+     ],
+     "ans": 2,
+     "id": "o6ez9x"
+    },
+    {
+     "num": 5,
+     "q": "<p><strong>Hệ thống nào dưới đây không được coi là hệ thống có ứng dụng AI?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Google Translate.",
+      "ChatGPT.",
+      "Dây chuyền lắp ráp tự động.",
+      "Dự báo thời tiết."
+     ],
+     "ans": 2,
+     "id": "10x8pst"
+    },
+    {
+     "num": 6,
+     "q": "<p><strong>Có thể chia AI thành mấy loại chính theo chức năng?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "2.",
+      "3.",
+      "4.",
+      "5."
+     ],
+     "ans": 0,
+     "id": "1hsb6h7"
+    },
+    {
+     "num": 7,
+     "q": "<p><strong>Phát biểu nào sau đây sai?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Mục tiêu của việc phát triển ứng dụng AI là nhằm xây dựng các phần mềm giúp máy tính có được những năng lực trí tuệ như con người.",
+      "Chương trình máy tính chơi cờ là một ví dụ của trí tuệ nhân tạo mạnh.",
+      "Giữa AI và tự động hoá có sự khác biệt.",
+      "Mọi ứng dụng AI trong thực tế đều cần có sự kết hợp ở các mức độ khác nhau của những đặc trưng trí tuệ."
+     ],
+     "ans": 1,
+     "id": "rfbuif"
+    },
+    {
+     "num": 8,
+     "q": "<p><strong>Trợ lí ảo có chức năng nào sau đây?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Tìm kiếm thông tin bằng tiếng nói của người dùng.",
+      "Nhận dạng khuôn mặt.",
+      "Nhận dạng chữ viết tay.",
+      "Kiểm tra lỗi chính tả."
+     ],
+     "ans": 0,
+     "id": "gvn2fv"
+    },
+    {
+     "num": 9,
+     "q": "<p><strong>Hệ thống phân tích tài chính thuộc loại trí tuệ nhân tạo nào?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Siêu trí tuệ nhân tạo.",
+      "Trí tuệ nhân tạo tổng quát.",
+      "Trí tuệ nhân tạo hẹp.",
+      "Trí tuệ nhân tạo mạnh."
+     ],
+     "ans": 2,
+     "id": "xcor2t"
+    },
+    {
+     "num": 10,
+     "q": "<p><strong>Siri không có tính năng nào sau đây?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Đặt báo thức.",
+      "Thanh toán hoá đơn.",
+      "Gọi điện thoại.",
+      "Tìm kiếm."
+     ],
+     "ans": 1,
+     "id": "dtuk6c"
+    },
+    {
+     "num": 11,
+     "q": "<p><strong>IoT là gì?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Công nghệ thông tin.",
+      "Học sâu.",
+      "Internet vạn vật.",
+      "Thị giác máy tính."
+     ],
+     "ans": 2,
+     "id": "6h235j"
+    },
+    {
+     "num": 12,
+     "q": "<p><strong>Một thành tựu của xử lí ngôn ngữ tự nhiên và thị giác máy tính là</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "hệ thống tưới tiêu tự động.",
+      "hệ thống phân tích dữ liệu.",
+      "hệ thống lắp ráp tự động.",
+      "hệ thống nhận dạng hình ảnh và video."
+     ],
+     "ans": 3,
+     "id": "16o8i3j"
+    },
+    {
+     "num": 13,
+     "q": "<p><strong>ChatGPT được phát triển bởi</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Apple.",
+      "OpenAI.",
+      "Microsoft.",
+      "Meta."
+     ],
+     "ans": 1,
+     "id": "1243j9d"
+    },
+    {
+     "num": 14,
+     "q": "<p><strong>AI có ảnh hưởng như thế nào tới lĩnh vực khoa học xã hội và nhân văn?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Với sự phát triển của AI, đặc biệt là Học máy, nhiều hệ chuyên gia đã có khả năng tự học từ dữ liệu để tự hình thành các luật tri thức dựa trên dữ liệu.",
+      "AI được sử dụng để mô phỏng và mô hình hoá nhiều hiện tượng xã hội vân nhân học.",
+      "AI được sử dụng để cải thiện chất lượng hình ảnh y tế.",
+      "AI giúp tự động hoá nhiều quá trình, từ chế tạo, lắp ráp, kiểm tra chất lượng đến quản lí chuỗi cung ứng."
+     ],
+     "ans": 1,
+     "id": "1deatef"
+    },
+    {
+     "num": 15,
+     "q": "<p><strong>Sự kết hợp IoT và AI (AIoT) giúp ích cho các nhà khoa học như thế nào?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Hỗ trợ quyết định đầu tư, phát hiện và ngăn chặn gian lận, nâng cao trải nghiệm khách hàng trong lĩnh vực tài chính, ngân hàng.",
+      "Cải thiện hiệu suất, hiệu quả của các lĩnh vực sản xuất.",
+      "Giúp giám sát môi trường tự nhiên và theo dõi tình hình biến đổi khí hậu.",
+      "Phát triển các nền tảng học trực tuyến thông minh."
+     ],
+     "ans": 2,
+     "id": "1fq4jrb"
+    },
+    {
+     "num": 16,
+     "q": "<p><strong>Phát biểu nào sau đây đúng?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Các thành tựu hiện tại của AI đều là Trí tuệ nhân tạo tổng quát.",
+      "Phiên bản GPT-2 được huấn luyện trên hàng vạn văn bản thuộc nhiều lĩnh vực khác nhau trên Internet, bao gồm sách, bài báo, trang web và nhiều nguồn khác.",
+      "Nhiều chuyên gia coi ChatGPT là bước đột phá trong lĩnh vực AI của năm 2022.",
+      "ChatGPT có thể làm thơ, soạn nhạc, viết thư, thiết kế nhưng không thể sửa lỗi trong lập trình."
+     ],
+     "ans": 2,
+     "id": "bgr1at"
+    },
+    {
+     "num": 17,
+     "q": "<p><strong>Vì sao lại nói sự phát triển của AI kéo theo rủi ro về an ninh, an toàn?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Nhiều ứng dụng AI hoạt động dựa vào việc thu thập một lượng lớn dữ liệu cá nhân, điều này làm tăng mối lo ngại về quyền riêng tư có khả năng bị lạm dụng.",
+      "Phần lớn các ứng dụng AI hiện nay đều là các “hộp đen”, gây khó khăn cho việc hiểu các quyết định được đưa ra như thế nào, dẫn đến việc thiếu trách nhiệm giải trình để đảm bảo tính minh bạch.",
+      "AI có khả năng tự động hoá nhiều công việc, dẫn đến tình trạng thất nghiệp và tạo nên nhiều nguy cơ cho sự phát triển xã hội.",
+      "Nhiều ứng dụng AI được xây dựng và triển khai trực tuyến nên có thể bị xâm nhập hoặc tấn công thay đổi dữ liệu và mô hình dẫn đến những quyết định không chính xác do AI đưa ra."
+     ],
+     "ans": 3,
+     "id": "1cw15er"
+    },
+    {
+     "num": 18,
+     "q": "<p><strong>Em hãy tìm hiểu trên Internet và cho biết phương án nào sau đây là tên của một ứng dụng AI có khả năng sáng tạo các tác phẩm âm nhạc?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Beatoven.",
+      "DALL-E.",
+      "Playment.",
+      "PaleBlue."
+     ],
+     "ans": 0,
+     "id": "q8xhi3"
+    },
+    {
+     "num": 19,
+     "q": "<p><strong>Em hãy tìm hiểu trên Internet và cho biết phương án nào sau đây là tên của một ứng dụng AI giúp xây dựng trải nghiệm giao tiếp tự nhiên?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "TensorFlow.",
+      "Dialogflow.",
+      "Rainbird.",
+      "Origami."
+     ],
+     "ans": 1,
+     "id": "1uqyeco"
+    },
+    {
+     "num": 20,
+     "q": "<p><strong>Em hãy tìm hiểu trên Internet và cho biết phương án nào sau đây là tên của một phần mềm AI giúp tạo hình ảnh dựa trên các miêu tả văn bản hoặc lời nói? Sách Khoa học</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Codex.",
+      "Midjourney.",
+      "Whisper.",
+      "Rytr."
+     ],
+     "ans": 1,
+     "id": "1x2165s"
+    },
+    {
+     "num": 21,
+     "q": "<p><strong>Mạng cục bộ còn được gọi là</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "mạng WAN.",
+      "mạng PAN.",
+      "mạng MAN.",
+      "mạng LAN."
+     ],
+     "ans": 3,
+     "id": "1e4c8wh"
+    },
+    {
+     "num": 22,
+     "q": "<p><strong>Router là gì?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Bộ chuyển mạch.",
+      "Bộ thu phát không dây.",
+      "Bộ định tuyến.",
+      "Bộ chia tín hiệu."
+     ],
+     "ans": 2,
+     "id": "7i2yau"
+    },
+    {
+     "num": 23,
+     "q": "<p><strong>Wi-Fi sử dụng loại sóng nào để truyền dữ liệu?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Sóng điện từ.",
+      "Sóng vô tuyến điện.",
+      "Sóng ánh sáng.",
+      "Sóng mang."
+     ],
+     "ans": 1,
+     "id": "38wg8z"
+    },
+    {
+     "num": 24,
+     "q": "<p><strong>Trên mỗi router, cổng để kết nối với các router khác gọi là gì?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Cổng WAP.",
+      "Cổng WAN.",
+      "Cổng LAN.",
+      "Cổng AP."
+     ],
+     "ans": 1,
+     "id": "wu8wpa"
+    },
+    {
+     "num": 25,
+     "q": "<p><strong>Loại modem nào cho phép nối hai máy tính qua hệ thống chuyển mạch của mạng điện thoại công cộng?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Modem quay số.",
+      "Modem GSM 3G, 4G, 5G,…",
+      "Modem ADSL.",
+      "Modem quang."
+     ],
+     "ans": 0,
+     "id": "1pysib1"
+    },
+    {
+     "num": 26,
+     "q": "<p><strong>Phát biểu nào sau đây đúng?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Mạng viễn thông sử dụng các modem để chuyển tiếp dữ liệu.",
+      "Thông thường LAN kết nối có dây các máy tính qua các thiết bị như switch hay hub trong một phạm vi địa lí nhất định.",
+      "Khi dùng hub thì tín hiệu đi từ máy gửi đến máy nhận sẽ không gây xung đột với tín hiệu của các cuộc truyền ở cổng khác.",
+      "Switch có chi phí rẻ hơn rất nhiều so với một hub có cùng số cổng."
+     ],
+     "ans": 1,
+     "id": "10ht0wt"
+    },
+    {
+     "num": 27,
+     "q": "<p><strong>Khi kết nối hai máy tính (có thể cách xa hàng nghìn kilômét) qua Internet, người ta sử dụng thiết bị nào để kết nối các LAN với nhau?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Hub.",
+      "Wireless Access Point.",
+      "Switch.",
+      "Router."
+     ],
+     "ans": 3,
+     "id": "1jqvc7s"
+    },
+    {
+     "num": 28,
+     "q": "<p><strong>Wireless Access Point (WAP) có chức năng gì?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Chuyển đổi tín hiệu từ tín hiệu số sang tín hiệu tương tự và ngược lại, thường dùng khi kết nối LAN với Internet.",
+      "Dùng để kết nối các máy tính trong cùng LAN trực tiếp qua cáp mạng.",
+      "Dùng để kết nối các thiết bị đầu cuối qua sóng Wi-Fi giúp giảm chi phí thiết lập LAN hoặc kết nối với một LAN để mở rộng phạm vi làm việc.",
+      "Dùng để dẫn đường cho dữ liệu khi kết nối trên mạng diện rộng như Internet."
+     ],
+     "ans": 2,
+     "id": "10vtvvo"
+    },
+    {
+     "num": 29,
+     "q": "<p><strong>Khi kết nối máy tính với các thiết bị mạng, cần cắm một đầu giắc của cáp vào cổng nào của máy tính?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "RJ45.",
+      "VJ45.",
+      "CJ45.",
+      "PJ45."
+     ],
+     "ans": 0,
+     "id": "139nhlr"
+    },
+    {
+     "num": 30,
+     "q": "<p><strong>Phát biểu nào sau đây sai?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Switch dùng để kết nối các đoạn mạng với nhau theo mô hình hình sao.",
+      "Hiện nay có hai loại Hub phổ biến là Active Hub và Smart Hub.",
+      "Router là một thiết bị mạng thuộc lớp 2 của mô hình OSI (Network Layer).",
+      "Modem có chức năng chuyển hoá các gói dữ liệu từ nhà cung cấp dịch vụ mạng (ISP) thành các kết nối Internet cho các router hoặc các thiết bị liên kết mạng khác qua địa chỉ IP."
+     ],
+     "ans": 2,
+     "id": "18tq2dt"
+    },
+    {
+     "num": 41,
+     "q": "<p><strong>Các quy định liên quan đến gửi thư có tên là gì?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Giao thức IMAP.",
+      "Giao thức MQTT.",
+      "Giao thức SMTP.",
+      "Giao thức POP3."
+     ],
+     "ans": 2,
+     "id": "1yo03y9"
+    },
+    {
+     "num": 42,
+     "q": "<p><strong>Nhóm địa chỉ IP 172.18.*.* có cổng</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "1.",
+      "2.",
+      "3.",
+      "4."
+     ],
+     "ans": 1,
+     "id": "1fw1lbv"
+    },
+    {
+     "num": 43,
+     "q": "<p><strong>Hiện nay có những loại địa chỉ IP nào?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "IPv4 và IPv6.",
+      "IPv2 và IPv4.",
+      "IPv4 và IPv5.",
+      "IPv1 và IPv3."
+     ],
+     "ans": 0,
+     "id": "1y3emzn"
+    },
+    {
+     "num": 44,
+     "q": "<p><strong>Địa chỉ máy chủ của Bộ Giáo dục và Đào tạo có thể thay thế bằng</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "moet.edu.com.",
+      "edu.com.vn.",
+      "moet.edu.vn.",
+      "edu.moet.vn"
+     ],
+     "ans": 2,
+     "id": "2ilwc2"
+    },
+    {
+     "num": 45,
+     "q": "<p><strong>Việc truyền dữ liệu trong mạng cục bộ sẽ căn cứ vào địa chỉ gì?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Địa chỉ IP.",
+      "Địa chỉ MAC.",
+      "Địa chỉ LAN.",
+      "Địa chỉ Server."
+     ],
+     "ans": 1,
+     "id": "y0anus"
+    },
+    {
+     "num": 46,
+     "q": "<p><strong>Phát biểu nào sau đây sai?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Theo phương pháp định tuyến tĩnh, mỗi router có một bảng định tuyến.",
+      "Giao thức TCP đảm bảo việc truyền dữ liệu theo từng ứng dụng một cách chính xác, tin cậy và hiệu quả.",
+      "MAC là địa chỉ vật lí của máy tính.",
+      "Giao thức IP đảm bảo chuyển dữ liệu từ mạng này đến mạng kia và chuyển dữ liệu đến một ứng dụng cụ thể trên một máy cụ thể."
+     ],
+     "ans": 3,
+     "id": "1tu0k71"
+    },
+    {
+     "num": 47,
+     "q": "<p><strong>Giao thức quy định cách biểu diễn (mã hoá) các trang web là</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "SNMP.",
+      "DNS.",
+      "HTTP.",
+      "DHCP."
+     ],
+     "ans": 2,
+     "id": "194ldls"
+    },
+    {
+     "num": 48,
+     "q": "<p><strong>Địa chỉ IP 11001011 10100010 00101001 11111110 dưới dạng thập phân là</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "203.162.41.254.",
+      "230.178.52.166.",
+      "203.126.71.235.",
+      "235.197.80.255."
+     ],
+     "ans": 0,
+     "id": "rf3ll1"
+    },
+    {
+     "num": 49,
+     "q": "<p><strong>Lệnh dùng để kiểm tra cấu hình IP của máy tính đang sử dụng là</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "systeminfo.",
+      "taskkill.",
+      "driverquery.",
+      "ipconfig."
+     ],
+     "ans": 3,
+     "id": "15z9cn6"
+    },
+    {
+     "num": 50,
+     "q": "<p><strong>Giao thức mạng nào hỗ trợ lấy địa chỉ MAC theo địa chỉ IP?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "DDS.",
+      "ICMP.",
+      "ARP.",
+      "BGP."
+     ],
+     "ans": 1,
+     "id": "1hffnb6"
+    },
+    {
+     "num": 51,
+     "q": "<p><strong>Trong môi trường mạng, chế độ nào sau đây cần được thiết lập để chia sẻ tệp và máy in?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Chế độ công khai.",
+      "Chế độ riêng tư.",
+      "Chế độ bảo mật cao.",
+      "Chế độ chia sẻ mở rộng."
+     ],
+     "ans": 1,
+     "id": "1slu4r2"
+    },
+    {
+     "num": 52,
+     "q": "<p><strong>Để các máy khác nhìn thấy nhau và chia sẻ tài nguyên, tính năng nào sau đây cần được bật?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Chế độ máy chủ.",
+      "Tường lửa.",
+      "Chia sẻ tệp và máy in.",
+      "Chế độ bảo mật."
+     ],
+     "ans": 2,
+     "id": "1qz4b99"
+    },
+    {
+     "num": 53,
+     "q": "<p><strong>Thiết lập nào sau đây cần tắt để tạm thời chia sẻ tệp trong mạng một cách dễ dàng?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Tường lửa.",
+      "Chế độ bảo mật.",
+      "Máy in.",
+      "Chế độ riêng tư."
+     ],
+     "ans": 0,
+     "id": "1b9v9r6"
+    },
+    {
+     "num": 54,
+     "q": "<p><strong>Chức năng nào sau đây dùng để chia sẻ máy in trên mạng?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Chia sẻ tệp và máy in.",
+      "Chế độ chia sẻ.",
+      "Thiết lập máy in.",
+      "Cài đặt quyền truy cập."
+     ],
+     "ans": 0,
+     "id": "ve8op1"
+    },
+    {
+     "num": 55,
+     "q": "<p><strong>Thiết lập nào sau đây cần thực hiện để huỷ bỏ chia sẻ thư mục?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Chọn chế độ công khai.",
+      "Chuyển chế độ chia sẻ sang riêng tư.",
+      "Tắt tính năng chia sẻ.",
+      "Đặt lại quyền truy cập."
+     ],
+     "ans": 2,
+     "id": "1oct1hb"
+    },
+    {
+     "num": 56,
+     "q": "<p><strong>Để chia sẻ máy in, máy tính cung cấp dịch vụ in cần thiết lập chế độ nào sau đây?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Chế độ bảo mật.",
+      "Chế độ chia sẻ.",
+      "Chế độ in mặc định.",
+      "Chế độ in riêng tư."
+     ],
+     "ans": 1,
+     "id": "20grec"
+    },
+    {
+     "num": 57,
+     "q": "<p><strong>Thư mục nào sau đây là thư mục mặc định không chia sẻ trong hệ thống?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Documents.",
+      "Public.",
+      "Downloads.",
+      "Pictures."
+     ],
+     "ans": 1,
+     "id": "1vxnylm"
+    },
+    {
+     "num": 58,
+     "q": "<p><strong>Bước cuối cùng để hoàn tất chia sẻ một thư mục là bước nào sau đây?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Đặt quyền cho người dùng.",
+      "Thêm người dùng được chia sẻ.",
+      "Nháy chuột vào nút Apply.",
+      "Tắt tường lửa."
+     ],
+     "ans": 2,
+     "id": "11zyhh2"
+    },
+    {
+     "num": 59,
+     "q": "<p><strong>Chức năng chia sẻ thư mục công cộng (Public Folder Sharing) có tác dụng gì trong các tác dụng sau đây?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Cho phép chia sẻ tệp với tất cả người dùng trên mạng.",
+      "Bảo mật tệp trong thư mục công cộng.",
+      "Giới hạn quyền truy cập tệp chỉ trong một nhóm người dùng.",
+      "Ngăn không cho người khác thấy nội dung tệp."
+     ],
+     "ans": 0,
+     "id": "3rvgey"
+    },
+    {
+     "num": 60,
+     "q": "<p><strong>Khi một thư mục không còn cần được chia sẻ, bước nào sau đây là hợp lý nhất để thực hiện?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Xóa thư mục.",
+      "Thay đổi quyền truy cập.",
+      "Tắt chia sẻ thư mục.",
+      "Thiết lập chế độ riêng tư."
+     ],
+     "ans": 2,
+     "id": "z0w725"
+    },
+    {
+     "num": 61,
+     "q": "<p><strong>Ví dụ nào sau đây thuộc loại giao tiếp qua mạng xã hội?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Gmail.",
+      "Sendo.",
+      "Zalo.",
+      "Ladaza."
+     ],
+     "ans": 2,
+     "id": "1lbcv1"
+    },
+    {
+     "num": 62,
+     "q": "<p><strong>Ứng dụng nào sau đây thuộc hình thức giao tiếp trong không gian mạng?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Shopee.",
+      "Messenger.",
+      "Tivi.",
+      "Điện thoại bàn."
+     ],
+     "ans": 1,
+     "id": "12e3mh4"
+    },
+    {
+     "num": 63,
+     "q": "<p><strong>Giao tiếp qua mạng có ưu điểm nào sau đây?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Tiết kiệm thời gian và chi phí.",
+      "Đảm bảo an toàn thông tin tuyệt đối.",
+      "Phải thực hiện tại một địa điểm cụ thể.",
+      "Không cần kết nối mạng."
+     ],
+     "ans": 0,
+     "id": "dko1je"
+    },
+    {
+     "num": 64,
+     "q": "<p><strong>Yếu tố nào sau đây thể hiện sự nhân văn trong giao tiếp qua mạng?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Lăng mạ người khác.",
+      "Gửi tin nhắn không liên quan.",
+      "Sử dụng ngôn từ lịch sự và tôn trọng.",
+      "Đưa ra ý kiến trái chiều một cách thô lỗ."
+     ],
+     "ans": 2,
+     "id": "1y45mcp"
+    },
+    {
+     "num": 65,
+     "q": "<p><strong>Một trong những nhược điểm của giao tiếp trong không gian mạng là nhược điểm nào sau đây?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Tiết kiệm thời gian.",
+      "Thiếu tín hiệu phi ngôn ngữ.",
+      "Mở rộng mạng lưới quan hệ.",
+      "Kết nối nhiều người khác nhau."
+     ],
+     "ans": 1,
+     "id": "1nnh189"
+    },
+    {
+     "num": 66,
+     "q": "<p><strong>Ứng dụng nào sau đây dùng để gửi thư điện tử?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Facebook.",
+      "Gmail.",
+      "Instagram.",
+      "Zalo."
+     ],
+     "ans": 1,
+     "id": "1b93g2g"
+    },
+    {
+     "num": 67,
+     "q": "<p><strong>Lý do nào sau đây khiến giao tiếp trong không gian mạng có thể dẫn đến hiểu lầm?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Có quá nhiều hình thức giao tiếp.",
+      "Các bên luôn hiểu rõ ý định của nhau.",
+      "Thiếu tín hiệu phi ngôn ngữ và cảm xúc.",
+      "Do sử dụng công cụ bảo mật cao."
+     ],
+     "ans": 2,
+     "id": "9swmtf"
+    },
+    {
+     "num": 68,
+     "q": "<p><strong>Để tránh lan truyền thông tin sai lệch trên không gian mạng, ta thực hiện thao tác nào sau đây?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Chia sẻ thông tin không kiểm chứng.",
+      "Chỉ chia sẻ thông tin chính xác và đáng tin cậy.",
+      "Phát tán thông tin mà không kiểm tra.",
+      "Chia sẻ tin đồn và tin không rõ nguồn gốc."
+     ],
+     "ans": 1,
+     "id": "w9p3oq"
+    },
+    {
+     "num": 69,
+     "q": "<p><strong>Yếu tố nào sau đây thể hiện sự thấu hiểu trong giao tiếp trực tuyến?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Không quan tâm đến hoàn cảnh của người khác.",
+      "Cảm thông với khó khăn của người đối diện.",
+      "Chỉ đưa ra ý kiến cá nhân mà không lắng nghe.",
+      "Không cần đặt mình vào hoàn cảnh của người khác."
+     ],
+     "ans": 1,
+     "id": "ihm1pw"
+    },
+    {
+     "num": 70,
+     "q": "<p><strong>Trong trường hợp không đồng ý với ý kiến của người khác trên diễn đàn, bạn nên làm gì trong các ý kiến sau?</strong></p>",
+     "exp": "",
+     "type": "mc",
+     "opts": [
+      "Phản bác một cách quyết liệt.",
+      "Trao đổi lịch sự và tôn trọng quan điểm của họ.",
+      "Không đưa ra bất kỳ ý kiến nào.",
+      "Sử dụng ngôn từ thô tục để phê phán."
+     ],
+     "ans": 1,
+     "id": "vvqjy"
+    },
+    {
+     "num": 1,
+     "q": "<p><strong>Trí tuệ nhân tạo (AI) là khả năng của máy tính thực hiện các công việc trí tuệ giống con người, như đọc hiểu văn bản, xử lý ngôn ngữ tự nhiên và ra quyết định dựa trên dữ liệu. Khả năng học từ dữ liệu và điều chỉnh hàh vi giúp AI thích nghi và phát triển thông minh hơn. Các hệ thống khuyến nghị trên YouTube là một ví dụ cho AI trong cuộc sống hàng ngày. Hãy xác định tính đúng hay sai cho các nhận định sau:</strong></p>",
+     "exp": "",
+     "type": "tf",
+     "items": [
+      {
+       "t": "AI có khả năng thực hiện một số công việc trí tuệ của con người.",
+       "v": true
+      },
+      {
+       "t": "Khả năng học của AI giúp nó đề xuất nội dung phù hợp với sở thích của người dùng.",
+       "v": true
+      },
+      {
+       "t": "Khả năng học của AI đảm bảo các hệ thống khuyến nghị luôn đưa ra các đề xuất chính xác.",
+       "v": false
+      },
+      {
+       "t": "AI trong hệ thống khuyến nghị có thể học từ những thay đổi liên tục trong sở thích của người dùng và điều chỉnh gợi ý.",
+       "v": true
+      }
+     ],
+     "id": "1bxfhn5"
+    },
+    {
+     "num": 2,
+     "q": "<p><strong>AI có thể phân loại thành trí tuệ nhân tạo hẹp và trí tuệ nhân tạo tổng quát. Trí tuệ nhân tạo hẹp chỉ có thể thực hiện một nhiệm vụ cụ thể, trong khi trí tuệ nhân tạo tổng quát có khả năng tự học, thích nghi và làm được nhiều nhiệm vụ giống con người. Ví dụ, trí tuệ nhân tạo tổng quát có thể giúp hỗ trợ trong cả y tế và giáo dục, đáp ứng nhiều nhu cầu khác nhau. Hãy xác định tính đúng hay sai cho các nhận định sau:</strong></p>",
+     "exp": "",
+     "type": "tf",
+     "items": [
+      {
+       "t": "Trí tuệ nhân tạo hẹp chỉ có thể thực hiện một nhiệm vụ nhất định.",
+       "v": true
+      },
+      {
+       "t": "Trí tuệ nhân tạo tổng quát có khả năng tự học và thích nghi với các công việc khác nhau.",
+       "v": true
+      },
+      {
+       "t": "Trí tuệ nhân tạo hẹp có thể nâng cấp để trở thành trí tuệ nhân tạo tổng quát bằng cách cải tiến phần cứng.",
+       "v": false
+      },
+      {
+       "t": "Trí tuệ nhân tạo tổng quát là mục tiêu cuối cùng trong quá trình phát triển công nghệ AI.",
+       "v": true
+      }
+     ],
+     "id": "4l0uor"
+    },
+    {
+     "num": 3,
+     "q": "<p><strong>Trí tuệ nhân tạo (AI) đang tạo ra những thay đổi lớn trong nhiều lĩnh vực như y tế, giao thông, tài chính và sản xuất. Trong y tế, AI giúp cải thiện chất lượng hình ảnh y tế và hỗ trợ chẩn đoán chính xác. Trong giao thông, AI phát triển hệ thống giao thông thông minh nhằm tăng hiệu suất và giảm thiểu ùn tắc. Ứng dụng AI cũng hỗ trợ tự động hoá các quy trình trong tài chính và sản xuất. Hãy xác định tính đúng hay sai cho các nhận định sau:</strong></p>",
+     "exp": "",
+     "type": "tf",
+     "items": [
+      {
+       "t": "AI được sử dụng để cải thiện chất lượng hình ảnh y tế.",
+       "v": true
+      },
+      {
+       "t": "Hệ thống giao thông thông minh giúp giảm thiểu sự tắc nghẽn giao thông.",
+       "v": true
+      },
+      {
+       "t": "Trong tài chính, AI chỉ được sử dụng để ngăn chặn gian lận.",
+       "v": false
+      },
+      {
+       "t": "AI hỗ trợ sản xuất bằng cách tự động hoá các quá trình chế tạo và lắp ráp.",
+       "v": true
+      }
+     ],
+     "id": "c7j3iq"
+    },
+    {
+     "num": 4,
+     "q": "<p><strong>Hub và switch là thiết bị dùng để kết nối các máy tính trong cùng một mạng LAN qua cáp mạng. Hub phát tín hiệu đến tất cả các cổng, còn switch thiết lập một kênh truyền riêng giữa hai thiết bị gửi và nhận để truyền dữ liệu và giải phóng kênh sau khi truyền xong. Hãy xác định tính đúng hay sai cho các nhận định sau:</strong></p>",
+     "exp": "",
+     "type": "tf",
+     "items": [
+      {
+       "t": "Hub và switch đều KHÔNG là thiết bị kết nối trong mạng LAN.",
+       "v": false
+      },
+      {
+       "t": "Switch có khả năng thiết lập kênh truyền riêng giữa hai thiết bị để truyền dữ liệu.",
+       "v": true
+      },
+      {
+       "t": "Hub có thể gây ra xung đột tín hiệu khi kết nối nhiều thiết bị.",
+       "v": true
+      },
+      {
+       "t": "Switch KHÔNG phù hợp với mạng LAN lớn vì nó gây xung đột tín hiệu hơn hub.",
+       "v": false
+      }
+     ],
+     "id": "gzm6e9"
+    },
+    {
+     "num": 5,
+     "q": "<p><strong>Wi-Fi là tên gọi tắt của Wireless Fidelity, một bộ tiêu chuẩn kỹ thuật truyền dữ liệu qua sóng vô tuyến điện trong mạng cục bộ (LAN). Bộ thu phát Wi-Fi (WAP) giúp kết nối không dây các thiết bị đầu cuối trong một khu vực mà không cần lắp đặt cáp mạng. Hãy xác định tính đúng hay sai cho các nhận định sau:</strong></p>",
+     "exp": "",
+     "type": "tf",
+     "items": [
+      {
+       "t": "Wi-Fi là một tiêu chuẩn kỹ thuật truyền dữ liệu có dây.",
+       "v": false
+      },
+      {
+       "t": "WAP là thiết bị thu phát Wi-Fi trong mạng LAN.",
+       "v": true
+      },
+      {
+       "t": "WAP yêu cầu sử dụng cáp mạng để kết nối các thiết bị trong cùng một khu vực.",
+       "v": false
+      },
+      {
+       "t": "WAP giúp mở rộng phạm vi kết nối không dây của mạng LAN bằng cách kết nối thêm các thiết bị di động.",
+       "v": true
+      }
+     ],
+     "id": "18ag5a"
+    },
+    {
+     "num": 6,
+     "q": "<p><strong>Giao thức mạng (network protocol) là tập hợp các quy định về cách thức giao tiếp giữa các thiết bị trong quá trình truyền nhận dữ liệu qua mạng. Các giao thức phổ biến bao gồm SMTP, POP3, và IMAP, sử dụng để gửi và nhận thư điện tử. Hãy xác định tính đúng hay sai cho các nhận định sau:</strong></p>",
+     "exp": "",
+     "type": "tf",
+     "items": [
+      {
+       "t": "Giao thức mạng là tập hợp các quy định để truyền nhận dữ liệu qua mạng.",
+       "v": true
+      },
+      {
+       "t": "Giao thức SMTP được sử dụng để lưu trữ dữ liệu.",
+       "v": false
+      },
+      {
+       "t": "POP3 và IMAP đều là các giao thức nhận thư điện tử.",
+       "v": true
+      },
+      {
+       "t": "Giao thức mạng quy định cách thức trao đổi dữ liệu, bao gồm gửi và nhận thư qua Internet.",
+       "v": true
+      }
+     ],
+     "id": "120cnp2"
+    },
+    {
+     "num": 7,
+     "q": "<p><strong>Để thiết lập môi trường chia sẻ tệp và máy in, cần thực hiện một số cài đặt trên máy tính trong mạng. Môi trường thuận lợi để chia sẻ tệp và máy in yêu cầu thiết lập chế độ mạng riêng và cho phép các máy khác nhìn thấy và chia sẻ tài nguyên. Hãy xác định tính đúng hay sai cho các nhận định sau:</strong></p>",
+     "exp": "",
+     "type": "tf",
+     "items": [
+      {
+       "t": "Tường lửa phải được bật khi chia sẻ tệp và máy in.",
+       "v": false
+      },
+      {
+       "t": "Chế độ &quot;discoverable&quot; giúp các máy tính nhìn thấy nhau trong mạng.",
+       "v": true
+      },
+      {
+       "t": "Thiết lập mạng riêng là yêu cầu cần thiết để chia sẻ tệp và máy in.",
+       "v": true
+      },
+      {
+       "t": "Để chia sẻ tài nguyên, cần cho phép chế độ chia sẻ tệp và máy in trên mạng riêng.",
+       "v": true
+      }
+     ],
+     "id": "x31md9"
+    },
+    {
+     "num": 8,
+     "q": "<p><strong>Không gian mạng là môi trường ảo được tạo ra bởi mạng máy tính, nơi mà các hình thức giao tiếp như mạng xã hội, thư điện tử, và diễn đàn trực tuyến có thể được thực hiện. Hãy xác định tính đúng hay sai cho các nhận định sau:</strong></p>",
+     "exp": "",
+     "type": "tf",
+     "items": [
+      {
+       "t": "Không gian mạng là môi trường ảo tạo ra nhờ mạng máy tính.",
+       "v": true
+      },
+      {
+       "t": "Internet được xem là không gian mạng lớn nhất hiện nay.",
+       "v": true
+      },
+      {
+       "t": "Không gian mạng chỉ bao gồm mạng xã hội và thư điện tử.",
+       "v": false
+      },
+      {
+       "t": "Các trang thương mại điện tử như Shopee và Lazada là một phần của không gian mạng.",
+       "v": true
+      }
+     ],
+     "id": "c8bu9e"
+    }
+   ]
+  }
+ ]
+}
