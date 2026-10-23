@@ -725,7 +725,6 @@ const saveCfg = () => saveJSON('tn_cfg', cfg);
 const baseQs = () => { let qs = []; for (const s of sets) if (cfg.set === 'all' || cfg.set === s.id) qs = qs.concat(s.qs); return qs; };
 function pool() {
   let qs = baseQs().filter(q => !isBad(q));
-  if (cfg.type !== 'all') qs = qs.filter(q => q.type === cfg.type);
   if (cfg.src === 'wrong') qs = qs.filter(q => stats[q.id] && stats[q.id].w > 0);
   if (cfg.src === 'new') qs = qs.filter(q => !stats[q.id]);
   if (cfg.src === 'mark') qs = qs.filter(q => marks[q.id]);
@@ -740,6 +739,15 @@ function weight(q) {
 const smartPick = (qs, n) => qs.map(q => [q, weight(q) + Math.random() * .5]).sort((a, b) => b[1] - a[1]).slice(0, n).map(x => x[0]);
 
 /* =====================  Làm bài  ===================== */
+/* Tab (Tất cả / ABCD / Đúng-Sai / Trả lời ngắn) chỉ LỌC phần hiển thị, không dựng lại bài. */
+const inTab = q => cfg.type === 'all' || q.type === cfg.type;
+const vis = () => { const r = []; quiz.forEach((q, i) => { if (inTab(q)) r.push(i); }); return r; };
+function fixTab() { if (cfg.type !== 'all' && !quiz.some(q => q.type === cfg.type)) cfg.type = 'all'; }
+function stepIdx(d) {
+  const v = vis(); if (!v.length) return;
+  let p = v.indexOf(idx); if (p < 0) p = 0;
+  idx = v[Math.max(0, Math.min(v.length - 1, p + d))];
+}
 function mkItem(q, st) {
   const so = cfg.so, fl = !!marks[q.id] || !!(st && st.f);
   if (q.type === 'mc') {
@@ -825,7 +833,8 @@ function qHtml(i) {
   return h + '</div>';
 }
 function navHtml() {
-  return quiz.map((q, i) => {
+  return vis().map(i => {
+    const q = quiz[i];
     let c = 'nv';
     if (submitted) c += isOk(q) ? ' ok' : ' bad'; else if (isDone(q)) c += ' a';
     if (q.flag) c += ' fg';
@@ -834,14 +843,25 @@ function navHtml() {
   }).join('');
 }
 const navUpdate = () => { $('#nav').innerHTML = quiz.length ? navHtml() : ''; };
-function count() { saveSession(); const c = $('#cnt'); if (c) c.textContent = submitted ? 'Đã nộp bài' : `Đã làm ${quiz.filter(isDone).length}/${quiz.length}`; }
+function count() {
+  saveSession(); const c = $('#cnt'); if (!c) return;
+  const all = quiz.filter(isDone).length;
+  if (submitted) { c.textContent = 'Đã nộp bài'; return; }
+  if (cfg.type === 'all') { c.textContent = `Đã làm ${all}/${quiz.length}`; return; }
+  const v = vis(); c.textContent = `Mục này ${v.filter(i => isDone(quiz[i])).length}/${v.length} · Tổng ${all}/${quiz.length}`;
+}
 function renderList() {
-  if (!quiz.length) { $('#list').innerHTML = '<div class="card">Chưa có câu hỏi phù hợp với lựa chọn hiện tại. Mở “Nhập đề” để thêm đề, hoặc đổi bộ đề / loại câu hỏi.</div>'; $('#pager').innerHTML = ''; return; }
+  if (!quiz.length) { $('#list').innerHTML = '<div class="card">Chưa có câu hỏi phù hợp với lựa chọn hiện tại. Mở “Nhập đề” để thêm đề, hoặc đổi bộ đề / nguồn câu hỏi rồi bấm “Bắt đầu / làm lại”.</div>'; $('#pager').innerHTML = ''; return; }
+  const all = vis();
   if (cfg.view === 'one') {
+    if (!all.length) { $('#list').innerHTML = '<div class="card">Không có câu nào trong mục này.</div>'; $('#pager').innerHTML = ''; return; }
+    if (!all.includes(idx)) idx = all.find(i => i >= idx) ?? all[all.length - 1];
+    const p = all.indexOf(idx);
+    const lbl = cfg.type === 'all' ? `Câu ${idx + 1}/${quiz.length}` : `Câu ${idx + 1} · ${p + 1}/${all.length} trong mục này`;
     $('#list').innerHTML = qHtml(idx);
-    $('#pager').innerHTML = `<div class="row pg2"><button data-go="-1" ${idx === 0 ? 'disabled' : ''}>◀ Câu trước</button><span class="msg" style="margin:0">Câu ${idx + 1}/${quiz.length}</span><button class="pri" data-go="1" ${idx === quiz.length - 1 ? 'disabled' : ''}>Câu sau ▶</button></div>`;
+    $('#pager').innerHTML = `<div class="row pg2"><button data-go="-1" ${p === 0 ? 'disabled' : ''}>◀ Câu trước</button><span class="msg" style="margin:0">${lbl}</span><button class="pri" data-go="1" ${p === all.length - 1 ? 'disabled' : ''}>Câu sau ▶</button></div>`;
   } else {
-    const v = quiz.map((_, i) => i).filter(passRv);
+    const v = all.filter(passRv);
     $('#list').innerHTML = v.length ? v.map(i => qHtml(i)).join('') : '<div class="card">Không có câu nào trong mục này.</div>';
     $('#pager').innerHTML = '';
   }
@@ -849,8 +869,9 @@ function renderList() {
 function draw() {
   const nb = baseQs().filter(isBad).length;
   $('#warnBar').innerHTML = nb ? `<div class="iss"><b>${nb} câu bị lỗi</b> (thiếu đáp án hoặc thiếu phương án) nên chưa được đưa vào bài. <button class="sm" id="goFix">Xem và sửa</button></div>` : '';
-  const base = baseQs().filter(q => !isBad(q)), n = t => base.filter(q => q.type === t).length;
-  const T = [['all', 'Tất cả', base.length], ['mc', 'ABCD', n('mc')], ['tf', 'Đúng/Sai', n('tf')], ['sa', 'Trả lời ngắn', n('sa')]].filter(t => t[0] === 'all' || t[2] > 0 || cfg.type === t[0]);
+  fixTab();
+  const n = t => quiz.filter(q => q.type === t).length;
+  const T = [['all', 'Tất cả', quiz.length], ['mc', 'ABCD', n('mc')], ['tf', 'Đúng/Sai', n('tf')], ['sa', 'Trả lời ngắn', n('sa')]].filter(t => t[0] === 'all' || t[2] > 0);
   $('#tabs').innerHTML = T.map(t => `<button data-f="${t[0]}" class="${cfg.type === t[0] ? 'on' : ''}">${t[1]} (${t[2]})</button>`).join('') + '<span class="sp"><span id="cnt"></span><span id="tm"></span></span>';
   $('#rv').innerHTML = submitted && cfg.view === 'list' ? [['all', 'Xem tất cả'], ['wrong', 'Chỉ câu sai / chưa làm'], ['flag', 'Chỉ câu đã đánh dấu']].map(t => `<button class="sm ${rv === t[0] ? 'on' : ''}" data-rv="${t[0]}">${t[1]}</button>`).join('') : '';
   navUpdate(); renderList(); count(); tick();
@@ -900,14 +921,14 @@ $('#list').addEventListener('keydown', e => {
   const el = e.target;
   if (e.key === 'Enter' && el.dataset && el.dataset.sa !== undefined && cfg.mode === 'practice' && !submitted) { const i = +el.dataset.sa; if (quiz[i].val.trim()) { quiz[i].checked = true; refresh(i); } }
 });
-$('#tabs').addEventListener('click', e => { const b = e.target.closest('button[data-f]'); if (b) { cfg.type = b.dataset.f; saveCfg(); build(); } });
+$('#tabs').addEventListener('click', e => { const b = e.target.closest('button[data-f]'); if (b) { cfg.type = b.dataset.f; saveCfg(); draw(); window.scrollTo({ top: 0 }); } });
 $('#rv').addEventListener('click', e => { const b = e.target.closest('button[data-rv]'); if (b) { rv = b.dataset.rv; draw(); } });
 $('#nav').addEventListener('click', e => {
   const b = e.target.closest('button[data-n]'); if (!b) return; const i = +b.dataset.n;
   if (cfg.view === 'one') { idx = i; renderList(); navUpdate(); window.scrollTo({ top: 0 }); }
   else { if (!passRv(i)) { rv = 'all'; draw(); } const el = document.getElementById('q' + i); if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
 });
-$('#pager').addEventListener('click', e => { const b = e.target.closest('button[data-go]'); if (!b) return; idx = Math.max(0, Math.min(quiz.length - 1, idx + +b.dataset.go)); renderList(); navUpdate(); window.scrollTo({ top: 0 }); });
+$('#pager').addEventListener('click', e => { const b = e.target.closest('button[data-go]'); if (!b) return; stepIdx(+b.dataset.go); renderList(); navUpdate(); window.scrollTo({ top: 0 }); });
 $('#result').addEventListener('click', e => {
   if (e.target.id === 'again') { build(); window.scrollTo({ top: 0 }); }
   if (e.target.id === 'again2') { build(quiz.filter(q => !isOk(q)).map(q => q.src)); window.scrollTo({ top: 0 }); }
@@ -915,12 +936,12 @@ $('#result').addEventListener('click', e => {
 document.addEventListener('keydown', e => {
   if (/INPUT|TEXTAREA|SELECT/.test(e.target.tagName) || e.ctrlKey || e.metaKey || e.altKey) return;
   if (cfg.view !== 'one' || !quiz.length) return;
-  if (e.key === 'ArrowRight') { idx = Math.min(quiz.length - 1, idx + 1); renderList(); navUpdate(); }
-  else if (e.key === 'ArrowLeft') { idx = Math.max(0, idx - 1); renderList(); navUpdate(); }
-  else if (e.key === 'Enter' && !/BUTTON/.test(e.target.tagName)) { idx = Math.min(quiz.length - 1, idx + 1); renderList(); navUpdate(); }
+  if (e.key === 'ArrowRight') { stepIdx(1); renderList(); navUpdate(); }
+  else if (e.key === 'ArrowLeft') { stepIdx(-1); renderList(); navUpdate(); }
+  else if (e.key === 'Enter' && !/BUTTON/.test(e.target.tagName)) { stepIdx(1); renderList(); navUpdate(); }
   else {
     const q = quiz[idx], j = Math.max('abcd'.indexOf(e.key.toLowerCase()), '1234'.indexOf(e.key));
-    if (q.type === 'mc' && !submitted && !revealQ(q) && j >= 0 && j < q.opts.length) { q.sel = j; refresh(idx); }
+    if (q && q.type === 'mc' && !submitted && !revealQ(q) && j >= 0 && j < q.opts.length) { q.sel = j; refresh(idx); }
   }
 });
 $('#btnShuffle').onclick = () => build();
@@ -949,7 +970,7 @@ function readCfg() {
   cfg.set = $('#cSet').value; cfg.src = $('#cSrc').value; cfg.count = Math.max(0, +$('#cCount').value || 0); cfg.minutes = Math.max(0, +$('#cMin').value || 0);
   cfg.mode = $('#cMode').value; cfg.view = $('#cView').value; cfg.sq = $('#cSQ').checked; cfg.so = $('#cSO').checked; cfg.fs = +$('#cFs').value || 16; applyFs(); saveCfg();
 }
-$('#set').addEventListener('change', e => { readCfg(); syncInfo(); if (e.target.id === 'cView' || e.target.id === 'cMode') { draw(); } if (e.target.id === 'cSet') build(); });
+$('#set').addEventListener('change', e => { readCfg(); syncInfo(); if (e.target.id === 'cView' || e.target.id === 'cMode') { draw(); } });
 $('#btnStart').onclick = () => { readCfg(); build(); showPanel('quiz'); };
 $('#btnExport').onclick = () => {
   const list = cfg.set === 'all' ? sets : sets.filter(s => s.id === cfg.set);
