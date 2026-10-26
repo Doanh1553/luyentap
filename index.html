@@ -113,6 +113,16 @@ pre{white-space:pre-wrap;background:var(--bg);border:1px solid var(--line);borde
 .qk{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
 .qk input{flex:1;min-width:200px}
 .opt span:empty{display:none}
+.sti{border-top:1px solid var(--line)}
+.sti .st{border-top:0}
+.ie{margin:0 0 8px;padding:8px 10px;border-left:3px solid var(--line);background:var(--bg);border-radius:6px;font-size:15px;overflow-wrap:anywhere}
+.ie.t{border-left-color:var(--ok)}.ie.f{border-left-color:var(--bad)}
+.ie b.v{margin-right:2px}.ie.t b.v{color:var(--ok)}.ie.f b.v{color:var(--bad)}
+.ie p{margin:0 0 4px}
+.ie.oe{margin:-2px 0 8px 38px}
+.erow .ec{flex:1;min-width:0;display:flex;flex-direction:column;gap:6px}
+.erow .ec .ce{flex:none;width:100%}
+.ce.r-exp{min-height:36px;font-size:14px;border-style:dashed}
 .pv.warnr{border-color:var(--warn)}.pv.warnr summary{color:var(--warn)}
 .bd.wn{color:var(--warn);border-color:var(--warn)}
 .iss{border:1px solid var(--line);border-radius:var(--r);padding:10px;margin:10px 0;background:var(--bg);font-size:15px}
@@ -205,7 +215,7 @@ Câu 3. Kết quả của 12 : 4 + 2 là?
     • Đáp án đánh dấu bằng định dạng trong Word: gạch chân hoặc in đậm cả dòng của đúng một phương án.<br>
     • Câu Đúng/Sai: ý a) b) c) d) hoặc A. B. C. D. (nhận diện theo tiêu đề “Phần … đúng/sai” hoặc cụm “chọn đúng hoặc sai”), ghi (Đ)/(S) cuối ý, hoặc dòng “Đáp án: a-Đ, b-S, c-Đ, d-S”.<br>
     • Câu trả lời ngắn: không có phương án, ghi “Đáp án: 12,5”.<br>
-    • Bảng, ảnh, chữ đậm/nghiêng trong câu hỏi Word được giữ nguyên. Ảnh chụp/ảnh dán được đọc chữ tự động (OCR): máy tách câu hỏi, các phương án A–D hoặc các ý a–d, đoán loại câu; nếu ảnh không ghi đáp án thì chọn đáp án ở bản xem trước hoặc dán chuỗi đáp án nhanh (vd: CCACB… hay 1A 2B 3C). Chữ đọc chưa chắc thì ảnh gốc được giữ kèm. Có thể đổi loại câu, sửa đầy đủ hoặc xóa từng câu ở bản xem trước. Dòng “Lời giải / Giải thích: …” sẽ hiện sau khi trả lời.<br>
+    • Bảng, ảnh, chữ đậm/nghiêng trong câu hỏi Word được giữ nguyên. Ảnh chụp/ảnh dán được đọc chữ tự động (OCR): máy tách câu hỏi, các phương án A–D hoặc các ý a–d, đoán loại câu; nếu ảnh không ghi đáp án thì chọn đáp án ở bản xem trước hoặc dán chuỗi đáp án nhanh (vd: CCACB… hay 1A 2B 3C). Chữ đọc chưa chắc thì ảnh gốc được giữ kèm. Có thể đổi loại câu, sửa đầy đủ hoặc xóa từng câu ở bản xem trước. Lời giải: dòng “Lời giải:” hoặc “Giải thích:” (hoặc một dòng riêng chỉ ghi “Giải thích”) đặt ngay sau câu, các dòng tiếp theo thuộc về lời giải đến hết câu. Với câu Đúng/Sai, viết mỗi ý một dòng bắt đầu bằng a) b) c) d), ví dụ “a) Đúng. Vì …” (nhận cả A. B. C. D., “Ý a:”, hoặc các ý viết liền trên một dòng): lời giải được gắn vào đúng từng ý nên khi các ý bị xáo trộn vẫn không lệch; chữ Đúng/Sai ở đầu mỗi ý còn được dùng để kiểm tra lại đáp án (và lấy làm đáp án nếu đề chưa có). Câu ABCD cũng làm được như vậy với các dòng “A. …”, “B. …”; các chữ như “đáp án C”, “A sai” trong lời giải sẽ tự đổi theo thứ tự đã xáo.<br>
     • Nhiều phương án trên cùng một dòng (A. … B. … C. … D. …) cũng được nhận.<br>
     Trước khi nhập, bạn sẽ thấy bản xem trước và có thể bấm chọn đáp án cho những câu chưa tìm thấy đáp án.</p>
   </details>
@@ -239,8 +249,9 @@ Câu 3. Kết quả của 12 : 4 + 2 là?
   <div class="ce" id="eQ" contenteditable="true" data-ph="Nhập nội dung câu hỏi…"></div>
   <div class="row"><button class="sm" id="eImg">Chèn ảnh vào ô đang chọn</button><input type="file" id="eFile" accept="image/*" multiple="" class="hide"></div>
   <div id="eBody"></div>
-  <p class="msg">Giải thích (không bắt buộc, hiện sau khi trả lời)</p>
+  <p class="msg">Giải thích chung (không bắt buộc, hiện sau khi trả lời). Với câu Đúng/Sai hoặc ABCD, bạn có thể dán nguyên lời giải gộp theo dạng “a) Đúng. Vì …” (mỗi ý một dòng): máy tự tách và gắn đúng vào từng ý khi lưu, nên dù các ý bị xáo trộn lời giải vẫn đi đúng ý.</p>
   <div class="ce" id="eExp" contenteditable="true" data-ph="Lời giải / giải thích…"></div>
+  <div class="row"><button class="sm" id="eSplit">Tách giải thích theo từng ý ngay</button></div>
   <div class="row"><button class="pri" id="eSave">Lưu</button><button id="eSaveNext">Lưu và thêm câu tiếp</button><button id="eCancel">Hủy</button></div>
 </section>
 
@@ -466,6 +477,7 @@ const RE = {
   ans: /^\s*(?:Đáp án(?:\s+đúng)?|Dap an|ĐA|Answer|Key)\s*(?:[:：\-–]|là)\s*([\s\S]+)$/i,
   exp: /^\s*(?:Lời giải|Giải thích|Hướng dẫn giải|Giải)\s*(?:chi tiết)?\s*[:：]\s*([\s\S]*)$/i,
   mark: /\s*[\(\[]\s*(Đúng|Sai|Đ|S|đúng|sai)\s*[\)\]]\s*\.?\s*$/u,
+  expHead: /^\s*(?:(?:phần|bảng)\s+)?(?:giải thích|lời giải|hướng dẫn giải)(?:\s+(?:chi tiết|đáp án|các câu(?:\s+hỏi)?|trắc nghiệm))?\s*[:：]?\s*$/i,
   keyLine: /^\s*Câu\s*(\d+)\s*[.:)\-–]?\s*([A-F])\s*\.?\s*$/i,
   keyLineTF: /^\s*Câu\s*(\d+)\s*[.:)\-–]?\s*(.+)$/i
 };
@@ -521,6 +533,7 @@ function addOpt(cur, h, star, fmt, lc) {
 function parseBlocks(blocks) {
   const drafts = [], keys = [], issues = [];
   let cur = null, last = null, sec = 0, secHint = null, lastNum = 0, inKey = false, usesCau = false;
+  const exps = []; let inExp = false, curE = null, lastEN = 0;
   const fin = () => {
     if (!cur) return;
     if (!cur.opts.length) {
@@ -538,7 +551,13 @@ function parseBlocks(blocks) {
   for (let bi = 0; bi < blocks.length; bi++) {
     const b = blocks[bi];
     if (b.k === 'key') { fin(); b.keys.forEach(k => keys.push({ ...k, pos: bi })); inKey = true; continue; }
-    if (b.k === 't') { if (cur && !cur.opts.length) cur.stem.push({ h: b.html, table: true }); continue; }
+    if (b.k === 't') {
+      if (inExp) {
+        (b.rows || []).forEach(r => { const c0 = (r[0] || '').replace(/^câu\s*/i, ''); if (isInt(c0) && r.length >= 2) { const h = r.slice(1).filter(Boolean).map(x => esc(x)).join(' '); if (h) { curE = { num: +c0, parts: [h] }; exps.push(curE); lastEN = +c0; } } });
+        continue;
+      }
+      if (cur && !cur.opts.length) cur.stem.push({ h: b.html, table: true }); continue;
+    }
     const raw = b.raw, tx = raw.trim();
     if (!tx && !/<img/.test(b.html)) continue;
     const kt = textKeys(blocks, bi);
@@ -546,8 +565,30 @@ function parseBlocks(blocks) {
     let m;
     if (inKey && (m = raw.match(RE.keyLine))) { keys.push({ type: 'mc', num: +m[1], v: m[2].toUpperCase(), pos: bi }); continue; }
     if (inKey && (m = raw.match(RE.keyLineTF))) { const tf = parseTF(m[2]); if (tf) { keys.push({ type: 'tf', num: +m[1], v: tf, pos: bi }); continue; } }
-    if (RE.dethead.test(raw)) { fin(); sec++; secHint = null; inKey = false; lastNum = 0; continue; }
+    if (RE.dethead.test(raw)) { fin(); sec++; secHint = null; inKey = false; inExp = false; curE = null; lastNum = 0; continue; }
+    if (RE.expHead.test(raw)) {
+      const nb = blocks[bi + 1], nm = nb && nb.raw && nb.raw.match(RE.q);
+      if (!cur || (nm && +nm[1] !== lastNum + 1)) { fin(); inExp = true; inKey = false; curE = null; lastEN = 0; continue; }
+    }
+    if (inExp) {
+      if (RE.head.test(raw) || RE.head2.test(raw)) { curE = null; continue; }
+      if (RE.keyHead.test(raw) && !RE.expHead.test(raw)) { inExp = false; inKey = true; curE = null; continue; }
+      let em = raw.match(RE.q), en = null, rest = null;
+      if (em) { en = +em[1]; rest = em[2]; }
+      else if (!usesCau && (em = raw.match(RE.qn)) && +em[1] === lastEN + 1) { en = +em[1]; rest = em[2]; }
+      if (en !== null) {
+        curE = { num: en, parts: [] }; exps.push(curE); lastEN = en;
+        let h = rest.trim() || /<img/.test(b.html) ? sub(b.html, raw.length - rest.length) : '';
+        h = h.replace(/^\s*(?:Lời giải|Giải thích|Hướng dẫn giải|Giải)\s*(?:chi tiết)?\s*[:：]\s*/i, '');
+        if (hasC(h)) curE.parts.push(h);
+      } else if (curE) {
+        const h = b.html.replace(/^\s*(?:Lời giải|Giải thích|Hướng dẫn giải|Giải)\s*(?:chi tiết)?\s*[:：]\s*/i, '');
+        if (hasC(h)) curE.parts.push(h);
+      }
+      continue;
+    }
     if (RE.head.test(raw) || RE.head2.test(raw)) { fin(); sec++; secHint = hintOf(tx); lastNum = 0; continue; }
+    if (cur && (cur.opts.length || cur.saAns != null) && /^\s*(?:lời giải chi tiết|hướng dẫn giải|lời giải|giải thích(?:\s+chi tiết)?)\s*[:：]?\s*$/i.test(raw) && !(blocks[bi + 1] && blocks[bi + 1].raw && RE.q.test(blocks[bi + 1].raw))) { cur.exp = []; last = { k: 'exp' }; continue; }
     if (RE.keyHead.test(raw)) { fin(); inKey = true; continue; }
     if (!cur) { const h = hintOf(tx); if (h && tx.length < 300) secHint = h; }
     if (cur && (m = raw.match(RE.ans))) { applyAns(cur, m[1].trim()); last = null; continue; }
@@ -565,7 +606,7 @@ function parseBlocks(blocks) {
       if (rest.trim() || /<img/.test(b.html)) cur.stem.push({ h: sub(b.html, raw.length - rest.length) });
       last = { k: 'stem' }; continue;
     }
-    if (cur && (m = raw.match(RE.opt))) {
+    if (cur && !(last && last.k === 'exp') && (m = raw.match(RE.opt))) {
       const idx = LET.indexOf(m[2].toUpperCase());
       if (idx === cur.opts.length) {
         if (idx === 0 && m[2] === 'A') {
@@ -593,12 +634,13 @@ function parseBlocks(blocks) {
     } else if (!inKey && (RE.opt.test(raw) || RE.ans.test(raw))) issues.push({ lvl: 'warn', msg: `Dòng “${shorten(tx)}” nằm ngoài mọi câu hỏi nên bị bỏ qua` });
   }
   fin();
-  return resolve(drafts, keys, issues);
+  return resolve(drafts, keys, issues, exps);
 }
 const stemHtml = st => st.map(x => x.table ? x.h : x.li ? '<p>• ' + x.h + '</p>' : '<p>' + x.h + '</p>').join('');
 const TFRE = /đúng\s*[\/\-]?\s*(hoặc\s*)?sai/i;
-function resolve(drafts, keys, issues) {
+function resolve(drafts, keys, issues, exps) {
   issues = issues || [];
+  exps = exps || []; const usedE = new Set(), seenN = {};
   const qs = [];
   const keyOf = (type, num, pos) => { const c = keys.filter(k => k.type === type && k.num === num); return c.find(k => k.pos > pos) || c[c.length - 1]; };
   const have = { mc: new Set(), tf: new Set(), sa: new Set() };
@@ -617,13 +659,18 @@ function resolve(drafts, keys, issues) {
     (d.warns || []).forEach(w => issues.push({ lvl: 'warn', qi, msg: w }));
     if (guess) issues.push({ lvl: 'warn', qi, msg: 'Không thấy phương án A–D, ý a–d hay đáp án: tạm xếp là Trả lời ngắn. Nếu đây không phải câu hỏi (ví dụ tiêu đề) hãy xóa, nếu đúng là câu hỏi hãy đổi loại hoặc thêm phương án' });
     have[type].add(d.num);
-    const base = { num: d.num, q, exp: d.exp.length ? d.exp.map(x => '<p>' + x + '</p>').join('') : '' };
+    let expH = d.exp.length ? d.exp.map(x => '<p>' + x + '</p>').join('') : '';
+    { const r = seenN[d.num] = (seenN[d.num] === undefined ? 0 : seenN[d.num] + 1), es = exps.filter(e => e.num === d.num && e.parts.length);
+      const e = es[r] || (es.length === 1 ? es[0] : null);
+      if (e) { usedE.add(e); if (!hasC(expH)) expH = e.parts.map(x => '<p>' + x + '</p>').join(''); } }
+    const base = { num: d.num, q, exp: expH };
     if (type === 'mc') {
       let ans = d.opts.findIndex(o => o.star);
       if (ans < 0 && d.ansMC >= 0 && d.ansMC < n) ans = d.ansMC;
       if (ans < 0) { const k = keyOf('mc', d.num, d.pos); if (k) { const i = LET.indexOf(k.v); if (i >= 0 && i < n) ans = i; } }
       if (ans < 0) for (const f of ['u', 'b']) { const c = d.opts.map((o, i) => o.fmt && o.fmt[f] ? i : -1).filter(i => i >= 0); if (c.length === 1) { ans = c[0]; break; } }
       qs.push({ ...base, type: 'mc', opts: d.opts.map(o => o.h), ans });
+      expPost(qs[qs.length - 1], qi, issues);
     } else if (type === 'tf') {
       const k = keyOf('tf', d.num, d.pos);
       const items = d.opts.map((o, i) => {
@@ -635,11 +682,14 @@ function resolve(drafts, keys, issues) {
       });
       if (d.opts.some(o => o.star)) items.forEach(i => { if (i.v === null) i.v = false; });
       qs.push({ ...base, type: 'tf', items });
+      expPost(qs[qs.length - 1], qi, issues);
     } else {
       const k = keyOf('sa', d.num, d.pos);
       qs.push({ ...base, type: 'sa', ans: d.saAns != null ? d.saAns : (k ? k.v : null) });
     }
   }
+  const orph = [...new Set(exps.filter(e => e.parts.length && !usedE.has(e)).map(e => e.num))];
+  if (orph.length) issues.push({ lvl: 'warn', msg: `Phần giải thích có câu ${orph.slice(0, 20).join(', ')}${orph.length > 20 ? '…' : ''} nhưng không thấy câu hỏi tương ứng (hoặc câu đó đã có lời giải ngay dưới câu hỏi)` });
   qs.forEach(q => { q.id = qid(q); });
   const bySec = new Map();
   drafts.forEach(d => { if (!bySec.has(d.sec)) bySec.set(d.sec, []); bySec.get(d.sec).push(d.num); });
@@ -663,14 +713,156 @@ function qid(q) {
   const im = String(q.q).match(/<img src="[^"]*"/g);
   return hash(plain(q.q) + (im ? '#' + im.map(hash).join('') : '') + '|' + (q.type === 'mc' ? q.opts : q.type === 'tf' ? q.items.map(i => i.t) : []).map(plain).join('|'));
 }
+/* =====================  Giải thích theo từng ý (a, b, c, d / A, B, C, D)  ===================== */
+const EXP_VERD = /^\s*(?:[-–—:]\s*)?[\(\[]?\s*(Đúng|Sai|Đ|S)(?![\p{L}\d])\s*[\)\]]?\s*(?:[.,:;\-–—]\s*)?/iu;
+const EXP_LS = /\u0001[ \t]*(?:[-•*–·][ \t]*)?(?:(?:[Ýý]|[Mm]ệnh đề|[Pp]hát biểu|[Nn]hận định|[Pp]hương án|[Đđ]áp án|[Cc]âu)[ \t]+)?[\(\[]?[ \t]*([a-fA-F])[ \t]*(?:[\)\]]|[.:：](?=\s|$)|[-–—](?=\s))[ \t]*/gu;
+const EXP_IN = /([ \t.;,!?])\(?([a-fA-F])\)[ \t]+(?=\S)/gu;
+const EXP_OUTRO = /\u0001[ \t]*(?:Kết luận|Tóm lại|Lưu ý|Chú ý|Ghi nhớ|Nhận xét chung)(?![\p{L}])/u;
+const expPlain = x => { x = String(x || ''); return (!/[<&]/.test(x) && /\n/.test(x)) ? x.split('\n').map(l => l.trim()).filter(Boolean).map(l => '<p>' + l + '</p>').join('') : x; };
+const tidyExp = h => String(h || '').replace(/\u0001/g, '').replace(/^(?:\s|<br>)+|(?:\s|<br>)+$/g, '').trim();
+function expLines(html) {
+  html = String(html || '');
+  if (/<table/i.test(html)) return null;
+  const s = html.replace(/<br\s*\/?>/gi, '\n').replace(/<\/?(?:p|div|li|ul|ol|h[1-6])(?:\s[^>]*)?>/gi, '\n');
+  return s.split('\n').map(x => x.trim()).filter(x => plain(x).trim() || /<img/.test(x));
+}
+function verdictOf(h) {
+  h = tidyExp(h);
+  const m = plain(h).match(EXP_VERD);
+  if (!m) return { v: null, e: h };
+  return { v: /^đ/i.test(m[1]), e: tidyExp(sub(h, m[0].length)) };
+}
+/* Tách một khối lời giải thành các đoạn theo ý. n = số ý / số phương án. Trả về null nếu không tách được chắc chắn. */
+function splitExp(html, n) {
+  if (!(n >= 2)) return null;
+  const L = expLines(html); if (!L || !L.length) return null;
+  const htmlAll = '\u0001' + L.join('<br>\u0001'), T = plain(htmlAll);
+  const cands = []; let m;
+  EXP_LS.lastIndex = 0;
+  while ((m = EXP_LS.exec(T))) cands.push({ kind: 'ls', bnd: m.index, cs: m.index + m[0].length, idx: 'abcdef'.indexOf(m[1].toLowerCase()) });
+  EXP_IN.lastIndex = 0;
+  while ((m = EXP_IN.exec(T))) cands.push({ kind: 'in', bnd: m.index + (/[ \t]/.test(m[1]) ? 0 : 1), cs: m.index + m[0].length, idx: 'abcdef'.indexOf(m[2].toLowerCase()) });
+  cands.sort((a, b) => a.bnd - b.bnd);
+  const seen = new Set(), acc = []; let last = -1;
+  for (const c of cands) {
+    if (seen.has(c.cs)) continue; seen.add(c.cs);
+    if (c.idx < 0 || c.idx >= n) continue;
+    if (c.kind === 'in') { if (acc.length && c.idx === last + 1) { acc.push(c); last = c.idx; } continue; }
+    if (c.idx <= last) return null;
+    acc.push(c); last = c.idx;
+  }
+  if (acc.length < 2) {
+    if (acc.length === 0 && L.length === n && L.every(x => EXP_VERD.test(plain(x)))) {
+      return { intro: '', outro: '', positional: true, seg: L.map((x, i) => { const r = verdictOf(x); return { i, v: r.v, e: r.e }; }) };
+    }
+    return null;
+  }
+  const segs = acc.map((c, k) => ({ i: c.idx, a: c.cs, b: k + 1 < acc.length ? acc[k + 1].bnd : T.length }));
+  let outro = '';
+  const ls = segs[segs.length - 1], om = T.slice(ls.a, ls.b).match(EXP_OUTRO);
+  if (om && om.index > 0) { const cut = ls.a + om.index; outro = tidyExp(sub(htmlAll, cut, T.length)); ls.b = cut; }
+  const intro = tidyExp(sub(htmlAll, 0, acc[0].bnd));
+  return { intro, outro, positional: false, seg: segs.map(s => { const r = verdictOf(sub(htmlAll, s.a, s.b)); return { i: s.i, v: r.v, e: r.e }; }) };
+}
+function applyExpSplit(q, sp, warn) {
+  const W = msg => { if (warn) warn(msg); };
+  if (q.type === 'tf') {
+    sp.seg.forEach(s => {
+      const it = q.items[s.i]; if (!it) return;
+      if (hasC(s.e)) it.e = s.e;
+      if (s.v !== null) {
+        if (it.v === null) it.v = s.v;
+        else if (it.v !== s.v) W(`Lời giải ý ${'abcdef'[s.i]} ghi “${s.v ? 'Đúng' : 'Sai'}” nhưng đáp án của ý này là “${it.v ? 'Đúng' : 'Sai'}”, hãy kiểm tra lại`);
+      }
+    });
+  } else if (q.type === 'mc') {
+    const oe = q.opts.map(() => ''); let any = false;
+    sp.seg.forEach(s => { if (s.i < oe.length && hasC(s.e)) { oe[s.i] = s.e; any = true; } });
+    if (any) q.oe = oe;
+    const ts = sp.seg.filter(s => s.v === true);
+    if (!(q.ans >= 0 && q.ans < q.opts.length)) { if (ts.length === 1) q.ans = ts[0].i; }
+    else sp.seg.forEach(s => {
+      if (s.v === true && s.i !== q.ans) W(`Lời giải phương án ${LET[s.i]} ghi “Đúng” nhưng đáp án đúng của câu là ${LET[q.ans]}, hãy kiểm tra lại`);
+      if (s.v === false && s.i === q.ans) W(`Lời giải phương án ${LET[s.i]} ghi “Sai” nhưng đây lại là đáp án đúng của câu, hãy kiểm tra lại`);
+    });
+  }
+  q.exp = [sp.intro, sp.outro].filter(hasC).map(h => '<p>' + h + '</p>').join('');
+}
+/* Tự tách lời giải gộp (a) … b) …) vào từng ý nếu câu chưa có lời giải riêng từng ý. Trả về true nếu có thay đổi. */
+function autoSplit(q, warn) {
+  if (!q || !hasC(q.exp)) return false;
+  let n;
+  if (q.type === 'tf') { if (!Array.isArray(q.items) || q.items.some(i => hasC(i.e))) return false; n = q.items.length; }
+  else if (q.type === 'mc') { if (!Array.isArray(q.opts) || (q.oe && q.oe.some(hasC))) return false; n = q.opts.length; }
+  else return false;
+  const sp = splitExp(q.exp, n); if (!sp) return false;
+  applyExpSplit(q, sp, warn); return true;
+}
+function normalizeExp() {
+  let n = 0;
+  sets.forEach(s => { s.qs = s.qs.map(q => {
+    if (!q || !hasC(q.exp) || (q.type !== 'tf' && q.type !== 'mc')) return q;
+    const c = JSON.parse(JSON.stringify(q)); if (!autoSplit(c)) return q;
+    n++; return cleanQ(c) || q;
+  }); });
+  if (n) saveSets();
+  return n;
+}
+/* Khi các ý / phương án bị xáo, đổi các chữ cái nhắc tới ý trong lời giải ("đáp án C", "ý b", "A sai"…) cho khớp thứ tự đang hiển thị */
+const RXM = {
+  mc: [
+    /((?:[Đđ]áp án|[Pp]hương án|[Cc]họn|[Ll]ựa chọn|[Ll]oại|[Vv]ậy|[Ýý])(?:\s+(?:đúng|sai))?(?:\s+là)?\s*:?\s*)([A-F](?:\s*(?:,|và|hoặc|&)\s*[A-F])*)(?![\p{L}\d])/gu,
+    /(^|[\s(;,.])([A-F](?:\s*(?:,|và|hoặc|&)\s*[A-F])*)(?=\s+(?:đều\s+)?(?:sai|đúng|loại|là đáp án|là phương án|không đúng|chưa đúng|chính xác|là sai|là đúng)(?![\p{L}]))/gu
+  ],
+  tf: [
+    /((?:[Ýý]|[Mm]ệnh đề|[Pp]hát biểu|[Nn]hận định)(?:\s+(?:số|thứ))?\s*)([a-fA-F](?:\s*(?:,|và|hoặc|&)\s*[a-fA-F])*)(?![\p{L}\d])/gu,
+    /(^|[\s(;,.])([a-f](?:\s*(?:,|và|hoặc|&)\s*[a-f])*)(?=\s+(?:đều\s+)?(?:sai|đúng)(?![\p{L}]))/gu
+  ]
+};
+const invMap = arr => { const m = []; arr.forEach((x, j) => { m[x.o] = j; }); return m; };
+function remapLetters(html, inv, kind) {
+  if (!hasC(html) || !inv || !inv.length || inv.every((p, o) => p === o)) return html;
+  const base = kind === 'mc' ? LET : 'abcdef', body = parseHtml(html);
+  const mapL = L => { const o = base.indexOf(kind === 'mc' ? L.toUpperCase() : L.toLowerCase()); return (o < 0 || inv[o] === undefined) ? L : '\u0002' + inv[o] + '\u0003'; };
+  (function w(n) {
+    for (const c of [...n.childNodes]) {
+      if (c.nodeType === 3) {
+        let v = c.nodeValue;
+        for (const rx of RXM[kind]) v = v.replace(rx, (_m, p1, p2) => p1 + p2.replace(/[A-Fa-f]/g, mapL));
+        c.nodeValue = v.replace(/\u0002(\d)\u0003/g, (_m, d) => base[+d]);
+      } else if (c.nodeType === 1 && c.tagName !== 'IMG') w(c);
+    }
+  })(body);
+  return body.innerHTML;
+}
+const ieHtml = (e, v, cls) => hasC(e) ? `<div class="ie ${v === true ? 't' : v === false ? 'f' : ''} ${cls || ''}">${(v === true || v === false) ? `<b class="v">${v ? 'Đúng' : 'Sai'}.</b> ` : ''}${e}</div>` : '';
+const pvExp = q => hasC(q.exp) ? `<div class="exp"><b>Giải thích${(q.type === 'tf' ? q.items.some(x => hasC(x.e)) : q.type === 'mc' && q.oe && q.oe.some(hasC)) ? ' chung' : ''}:</b>${q.exp}</div>` : '';
+const expTag = q => {
+  if (q.type === 'tf') { const n = q.items.filter(i => hasC(i.e)).length; if (n) return ` · giải thích ${n}/${q.items.length} ý`; }
+  else if (q.type === 'mc' && q.oe && q.oe.some(hasC)) return ` · giải thích ${q.oe.filter(hasC).length}/${q.opts.length} phương án`;
+  return hasC(q.exp) ? ' · có giải thích' : '';
+};
+
+/* Sau khi nhập từ văn bản/Word: tách lời giải gộp, kiểm tra Đúng/Sai ghi trong lời giải với đáp án */
+function expPost(q, qi, issues) {
+  if (!hasC(q.exp)) return;
+  const n = q.type === 'tf' ? q.items.length : q.opts.length;
+  const sp = splitExp(q.exp, n);
+  if (sp) applyExpSplit(q, sp, msg => issues.push({ lvl: 'warn', qi, msg }));
+  else if (q.type === 'tf') issues.push({ lvl: 'warn', qi, msg: 'Có lời giải nhưng không tách được theo từng ý a, b, c, d (không thấy các dòng bắt đầu bằng a) b) c) d)): lời giải sẽ hiện chung cho cả câu' });
+}
 const cl = h => san(parseHtml(String(h || '')));
 function cleanQ(q) {
   if (!q || typeof q !== 'object') return null;
-  const o = { type: q.type, num: q.num, q: cl(q.q), exp: cl(q.exp) };
-  if (q.type === 'mc' && Array.isArray(q.opts) && q.opts.length >= 2) { o.opts = q.opts.map(cl); o.ans = Number.isInteger(q.ans) ? q.ans : -1; }
-  else if (q.type === 'tf' && Array.isArray(q.items) && q.items.length >= 2) o.items = q.items.map(i => ({ t: cl(i.t), v: typeof i.v === 'boolean' ? i.v : null }));
+  const o = { type: q.type, num: q.num, q: cl(q.q), exp: cl(expPlain(q.exp)) };
+  if (q.type === 'mc' && Array.isArray(q.opts) && q.opts.length >= 2) {
+    o.opts = q.opts.map(cl); o.ans = Number.isInteger(q.ans) ? q.ans : -1;
+    if (Array.isArray(q.oe) && q.oe.some(hasC)) o.oe = o.opts.map((_, i) => cl(q.oe[i] || ''));
+  }
+  else if (q.type === 'tf' && Array.isArray(q.items) && q.items.length >= 2) o.items = q.items.map(i => { const it = { t: cl(i.t), v: typeof i.v === 'boolean' ? i.v : null }; const e = cl(i.e); if (hasC(e)) it.e = e; return it; });
   else if (q.type === 'sa') o.ans = q.ans == null ? null : String(q.ans);
   else return null;
+  autoSplit(o);
   o.id = qid(o); return o;
 }
 
@@ -923,13 +1115,13 @@ function stepIdx(d) {
 function mkItem(q, st) {
   const so = cfg.so, fl = !!marks[q.id] || !!(st && st.f);
   if (q.type === 'mc') {
-    let arr = q.opts.map((t, i) => ({ t, ok: i === q.ans, o: i }));
+    let arr = q.opts.map((t, i) => ({ t, ok: i === q.ans, o: i, e: (q.oe && q.oe[i]) || '' }));
     if (st && st.ord) arr = st.ord.map(i => arr[i]).filter(Boolean);
     else if (so && !q.opts.every(o => !plain(o).trim() && !/<img/.test(o)) && !q.opts.some(o => NOSHUF.test(plain(o)))) arr = shuffle(arr);
     return { type: 'mc', src: q, id: q.id, q: q.q, exp: q.exp, sel: st && st.sel >= 0 ? st.sel : -1, flag: fl, opts: arr };
   }
   if (q.type === 'tf') {
-    let arr = q.items.map((i, k) => ({ t: i.t, v: i.v, pick: null, o: k }));
+    let arr = q.items.map((i, k) => ({ t: i.t, v: i.v, e: i.e || '', pick: null, o: k }));
     if (st && st.ord) { arr = st.ord.map(i => arr[i]).filter(Boolean); if (st.p) arr.forEach((it, k) => { if (st.p[k] === true || st.p[k] === false) it.pick = st.p[k]; }); }
     else if (so) arr = shuffle(arr);
     return { type: 'tf', src: q, id: q.id, q: q.q, exp: q.exp, flag: fl, items: arr };
@@ -979,20 +1171,23 @@ function qHtml(i) {
   let allShown = false;
   if (q.type === 'mc') {
     const s = revealQ(q); allShown = s;
+    const invM = invMap(q.opts);
     q.opts.forEach((o, j) => {
       const c = s ? (o.ok ? 'ok' : q.sel === j ? 'bad' : '') : (q.sel === j ? 'on' : '');
       h += `<button class="opt ${c}" data-q="${i}" data-o="${j}" ${s ? 'disabled' : ''}><b>${LET[j] || j + 1}</b><span>${o.t}</span></button>`;
+      if (s) h += ieHtml(remapLetters(o.e, invM, 'mc'), o.ok, 'oe');
     });
   } else if (q.type === 'tf') {
     h += '<p class="msg" style="margin:0 0 6px">Chọn Đúng hoặc Sai cho từng ý.</p>';
     allShown = q.items.every(it => revealI(q, it));
+    const invT = invMap(q.items);
     q.items.forEach((it, k) => {
       const s = revealI(q, it);
       const btn = (b, label) => {
         const c = s ? (b === it.v ? 'ok' : it.pick === b ? 'bad' : '') : (it.pick === b ? 'on' : '');
         return `<button class="${c}" data-q="${i}" data-s="${k}" data-v="${b ? 1 : 0}" ${s ? 'disabled' : ''}>${label}</button>`;
       };
-      h += `<div class="st"><p>${'abcdef'[k]}) ${it.t}</p><div class="tf">${btn(true, 'Đúng')}${btn(false, 'Sai')}</div></div>`;
+      h += `<div class="sti"><div class="st"><p>${'abcdef'[k]}) ${it.t}</p><div class="tf">${btn(true, 'Đúng')}${btn(false, 'Sai')}</div></div>${s ? ieHtml(remapLetters(it.e, invT, 'tf'), it.v) : ''}</div>`;
     });
   } else {
     const s = revealQ(q); allShown = s; const ok = s && saOk(q);
@@ -1001,7 +1196,11 @@ function qHtml(i) {
     if (s && !ok) h += `<span class="msg" style="margin:0">Đáp án đúng: <b>${esc(q.ans || '')}</b></span>`;
     h += '</div>';
   }
-  if (allShown && q.exp) h += `<div class="exp"><b>Giải thích:</b>${q.exp}</div>`;
+  if (allShown && hasC(q.exp)) {
+    const per = q.type === 'tf' ? q.items.some(x => hasC(x.e)) : q.type === 'mc' ? q.opts.some(x => hasC(x.e)) : false;
+    const inv = q.type === 'tf' ? invMap(q.items) : q.type === 'mc' ? invMap(q.opts) : null;
+    h += `<div class="exp"><b>${per ? 'Giải thích chung' : 'Giải thích'}:</b>${inv ? remapLetters(q.exp, inv, q.type) : q.exp}</div>`;
+  }
   return h + '</div>';
 }
 function navHtml() {
@@ -1167,16 +1366,16 @@ const ansText = q => (q.type === 'mc' ? (q.ans >= 0 && q.ans < q.opts.length ? '
 const lbl = (q, i) => `Câu ${q.num || i + 1} (${TYPE_NAME[q.type]})`;
 const issOf = q => qIssues(q).concat((q._notes || []).map(m => ({ lvl: 'warn', msg: m })));
 function pvBody(q, g, i) {
-  if (q.type === 'mc') return q.opts.map((o, j) => `<button class="opt ${q.ans === j ? 'ok' : ''}" data-pg="${g}" data-pi="${i}" data-po="${j}"><b>${LET[j]}</b><span>${o}</span></button>`).join('') + '<p class="msg">Bấm vào phương án để chọn đáp án đúng.</p>';
-  if (q.type === 'tf') return q.items.map((it, k) => `<div class="st"><p>${'abcdef'[k]}) ${it.t}</p><div class="tf"><button class="${it.v === true ? 'ok' : ''}" data-pg="${g}" data-pi="${i}" data-ps="${k}" data-pv="1">Đúng</button><button class="${it.v === false ? 'ok' : ''}" data-pg="${g}" data-pi="${i}" data-ps="${k}" data-pv="0">Sai</button></div></div>`).join('');
-  return `<input type="text" data-pa="${g}:${i}" value="${esc(q.ans || '')}" placeholder="Nhập đáp án đúng">`;
+  if (q.type === 'mc') return q.opts.map((o, j) => `<button class="opt ${q.ans === j ? 'ok' : ''}" data-pg="${g}" data-pi="${i}" data-po="${j}"><b>${LET[j]}</b><span>${o}</span></button>${ieHtml(q.oe && q.oe[j], q.ans >= 0 ? q.ans === j : null, 'oe')}`).join('') + '<p class="msg">Bấm vào phương án để chọn đáp án đúng.</p>' + pvExp(q);
+  if (q.type === 'tf') return q.items.map((it, k) => `<div class="sti"><div class="st"><p>${'abcdef'[k]}) ${it.t}</p><div class="tf"><button class="${it.v === true ? 'ok' : ''}" data-pg="${g}" data-pi="${i}" data-ps="${k}" data-pv="1">Đúng</button><button class="${it.v === false ? 'ok' : ''}" data-pg="${g}" data-pi="${i}" data-ps="${k}" data-pv="0">Sai</button></div></div>${ieHtml(it.e, it.v)}</div>`).join('') + pvExp(q);
+  return `<input type="text" data-pa="${g}:${i}" value="${esc(q.ans || '')}" placeholder="Nhập đáp án đúng">` + pvExp(q);
 }
 function pvRow(g, i, open) {
   const q = pend[g].qs[i], is = issOf(q), err = is.some(x => x.lvl === 'err');
   const tools = `<div class="row" style="margin:0 0 8px"><select data-ptype="${g}:${i}" aria-label="Loại câu">${['mc', 'tf', 'sa'].map(t => `<option value="${t}" ${q.type === t ? 'selected' : ''}>${TYPE_NAME[t]}</option>`).join('')}</select>${q._base !== undefined ? `<label class="ck"><input type="checkbox" data-pkeep="${g}:${i}" ${q._keep ? 'checked' : ''}> Kèm ảnh gốc</label>` : ''}<button class="sm" data-pedit="${g}:${i}">Sửa đầy đủ</button><button class="sm" data-pdel="${g}:${i}">Xóa câu này</button></div>`;
   const msgs = is.length ? `<div class="msg" style="margin:0 0 8px;color:${err ? 'var(--bad)' : 'var(--warn)'}">${is.map(x => esc(x.msg)).join('<br>')}</div>` : '';
   const raw = q._raw ? `<details><summary>Chữ máy đọc được từ ảnh${q._src ? ' (' + esc(q._src) + ')' : ''}</summary><pre>${esc(q._raw)}</pre></details>` : '';
-  return `<details class="pv ${err ? 'bad' : is.length ? 'warnr' : ''}" id="pv${g}_${i}" ${open ? 'open' : ''}><summary>${lbl(q, i)} · ${ansText(q)}${is.length ? ` · ${is.length} vấn đề` : ''}</summary><div class="pvb">${tools}${msgs}<div class="q">${q.q}</div>${pvBody(q, g, i)}${raw}</div></details>`;
+  return `<details class="pv ${err ? 'bad' : is.length ? 'warnr' : ''}" id="pv${g}_${i}" ${open ? 'open' : ''}><summary>${lbl(q, i)} · ${ansText(q)}${expTag(q)}${is.length ? ` · ${is.length} vấn đề` : ''}</summary><div class="pvb">${tools}${msgs}<div class="q">${q.q}</div>${pvBody(q, g, i)}${raw}</div></details>`;
 }
 function gIssues(g) {
   const all = (g.issues || []).slice(), ex = new Map();
@@ -1378,7 +1577,8 @@ function edOpen(q, from, qi, setId) {
   ed = {
     q, from: from || 'manage', qi, type: q ? q.type : 'mc',
     setId: s ? s.id : (setId && sets.some(x => x.id === setId) ? setId : (cfg.set !== 'all' && sets.some(x => x.id === cfg.set) ? cfg.set : (sets[0] ? sets[0].id : '__new'))),
-    rows: q ? (q.type === 'mc' ? q.opts.map((h, i) => ({ h, ok: i === q.ans, v: null })) : q.type === 'tf' ? q.items.map(i => ({ h: i.t, ok: false, v: i.v })) : []) : [0, 1, 2, 3].map(() => ({ h: '', ok: false, v: null })),
+    rows: q ? (q.type === 'mc' ? q.opts.map((h, i) => ({ h, ok: i === q.ans, v: null, e: (q.oe && q.oe[i]) || '' })) : q.type === 'tf' ? q.items.map(i => ({ h: i.t, ok: false, v: i.v, e: i.e || '' })) : []) : [0, 1, 2, 3].map(() => ({ h: '', ok: false, v: null, e: '' })),
+    per: !!q && (q.type === 'tf' || !!(q.oe && q.oe.some(hasC))),
     ans: q && q.type === 'sa' ? (q.ans || '') : ''
   };
   showPanel('edit');
@@ -1393,9 +1593,11 @@ function edRender() {
   const t = ed.type, B = $('#eBody');
   if (t === 'sa') { B.innerHTML = `<p class="msg">Đáp án đúng (số hoặc chữ; dấu phẩy hay dấu chấm thập phân đều được).</p><input type="text" id="eAns" value="${esc(ed.ans)}" placeholder="Ví dụ: 12,5">`; return; }
   const mc = t === 'mc';
-  while (ed.rows.length < 4) ed.rows.push({ h: '', ok: false, v: null });
+  while (ed.rows.length < 4) ed.rows.push({ h: '', ok: false, v: null, e: '' });
+  const per = !!ed.per;
   B.innerHTML = `<p class="msg">${mc ? 'Các phương án: bấm nút tròn ở phương án đúng.' : 'Các ý: chọn Đúng hoặc Sai cho từng ý.'}</p>` +
-    ed.rows.map((r, i) => `<div class="erow"><b class="el">${(mc ? LET : 'abcdef')[i]}</b>${mc ? `<input type="radio" name="ecor" ${r.ok ? 'checked' : ''} aria-label="Đáp án đúng">` : `<select aria-label="Đúng hay sai"><option value="">?</option><option value="1" ${r.v === true ? 'selected' : ''}>Đúng</option><option value="0" ${r.v === false ? 'selected' : ''}>Sai</option></select>`}<div class="ce" contenteditable="true" data-ph="${mc ? 'Nội dung phương án' : 'Nội dung ý'}">${r.h}</div><button class="sm" data-rdel="${i}" aria-label="Xóa dòng">✕</button></div>`).join('') +
+    `<label class="ck" style="margin:4px 0"><input type="checkbox" id="ePer" ${per ? 'checked' : ''}> Giải thích riêng cho từng ${mc ? 'phương án' : 'ý'} (đi theo ${mc ? 'phương án' : 'ý'} khi bị xáo trộn)</label>` +
+    ed.rows.map((r, i) => `<div class="erow"><b class="el">${(mc ? LET : 'abcdef')[i]}</b>${mc ? `<input type="radio" name="ecor" ${r.ok ? 'checked' : ''} aria-label="Đáp án đúng">` : `<select aria-label="Đúng hay sai"><option value="">?</option><option value="1" ${r.v === true ? 'selected' : ''}>Đúng</option><option value="0" ${r.v === false ? 'selected' : ''}>Sai</option></select>`}<div class="ec"><div class="ce r-main" contenteditable="true" data-ph="${mc ? 'Nội dung phương án' : 'Nội dung ý'}">${r.h}</div><div class="ce r-exp ${per ? '' : 'hide'}" contenteditable="true" data-ph="Giải thích ${mc ? 'phương án' : 'ý'} ${(mc ? LET : 'abcdef')[i]} (không bắt buộc)">${r.e || ''}</div></div><button class="sm" data-rdel="${i}" aria-label="Xóa dòng">✕</button></div>`).join('') +
     `<div class="row"><button class="sm" id="eAdd" ${ed.rows.length >= 6 ? 'disabled' : ''}>+ Thêm ${mc ? 'phương án' : 'ý'}</button></div>` +
     (mc ? '<p class="msg">Nếu các phương án đã nằm sẵn trong ảnh của câu hỏi, để trống nội dung phương án (chỉ giữ A, B, C, D) và chọn đáp án đúng.</p>' : '');
 }
@@ -1403,7 +1605,8 @@ function edCapture() {
   if (ed.type === 'sa') { const a = $('#eAns'); if (a) ed.ans = a.value; return; }
   ed.rows = [...document.querySelectorAll('#eBody .erow')].map(r => {
     const rd = r.querySelector('input[type=radio]'), se = r.querySelector('select');
-    return { h: cl(r.querySelector('.ce').innerHTML).trim(), ok: !!(rd && rd.checked), v: se ? (se.value === '' ? null : se.value === '1') : null };
+    const ex = r.querySelector('.r-exp');
+    return { h: cl(r.querySelector('.r-main').innerHTML).trim(), ok: !!(rd && rd.checked), v: se ? (se.value === '' ? null : se.value === '1') : null, e: ex ? cl(ex.innerHTML).trim() : '' };
   });
 }
 async function insertImgs(ce, files) {
@@ -1412,8 +1615,37 @@ async function insertImgs(ce, files) {
   if (!sel.rangeCount || !ce.contains(sel.anchorNode)) { const r = document.createRange(); r.selectNodeContents(ce); r.collapse(false); sel.removeAllRanges(); sel.addRange(r); }
   if (!document.execCommand('insertHTML', false, h)) ce.insertAdjacentHTML('beforeend', h);
 }
+/* Tách lời giải gộp trong ô "Giải thích chung" vào từng ý / phương án */
+function edSplit(auto) {
+  if (ed.type === 'sa') return '';
+  edCapture();
+  const html = cl($('#eExp').innerHTML).trim(); if (!hasC(html)) { if (!auto) toast('Ô giải thích chung đang trống.'); return ''; }
+  const rows = auto && ed.rows.some(r => hasC(r.h)) ? ed.rows.filter(r => hasC(r.h)) : ed.rows;
+  const sp = splitExp(html, rows.length);
+  if (!sp) { if (!auto) toast('Chưa tách được: lời giải cần có các dòng bắt đầu bằng a) b) c) d) (hoặc A. B. C. D.), mỗi ý một dòng.'); return ''; }
+  const mc = ed.type === 'mc', warns = []; let k = 0;
+  const hasOk = rows.some(x => x.ok), okAt = rows.findIndex(x => x.ok);
+  sp.seg.forEach(s => {
+    const r = rows[s.i]; if (!r) return;
+    if (hasC(s.e)) { r.e = s.e; k++; }
+    if (mc) {
+      if (s.v === true && hasOk && !r.ok) warns.push(`phương án ${LET[s.i]} ghi Đúng nhưng đáp án đang chọn là ${LET[okAt]}`);
+      if (s.v === false && r.ok) warns.push(`phương án ${LET[s.i]} ghi Sai nhưng đang được chọn là đáp án đúng`);
+    } else if (s.v !== null) {
+      if (r.v === null) r.v = s.v;
+      else if (r.v !== s.v) warns.push(`ý ${'abcdef'[s.i]} ghi ${s.v ? 'Đúng' : 'Sai'} nhưng đang chọn ${r.v ? 'Đúng' : 'Sai'}`);
+    }
+  });
+  if (mc && !hasOk) { const ts = sp.seg.filter(s => s.v === true); if (ts.length === 1 && rows[ts[0].i]) rows[ts[0].i].ok = true; }
+  $('#eExp').innerHTML = [sp.intro, sp.outro].filter(hasC).map(h => '<p>' + h + '</p>').join('');
+  ed.per = true;
+  if (!auto) edRender();
+  return `Đã tách giải thích cho ${k} ${mc ? 'phương án' : 'ý'}` + (warns.length ? ` (chú ý: ${warns.join('; ')})` : '');
+}
 function edSave(next) {
   edCapture();
+  let splitMsg = '';
+  if (ed.type !== 'sa' && !ed.rows.some(r => hasC(r.e))) splitMsg = edSplit(true);
   const q = cl($('#eQ').innerHTML).trim(), exp = cl($('#eExp').innerHTML).trim();
   if (!hasC(q)) { toast('Hãy nhập nội dung câu hỏi (chữ hoặc ảnh).'); return; }
   const o = { type: ed.type, num: ed.q ? ed.q.num : undefined, q, exp };
@@ -1426,9 +1658,10 @@ function edSave(next) {
     if (ed.type === 'mc') {
       const a = rows.findIndex(r => r.ok); if (a < 0) { toast('Hãy chọn phương án đúng (nút tròn).'); return; }
       o.opts = rows.map(r => r.h); o.ans = a;
+      if (rows.some(r => hasC(r.e))) o.oe = rows.map(r => r.e || '');
     } else {
       if (rows.some(r => r.v === null)) { toast('Hãy chọn Đúng hoặc Sai cho tất cả các ý.'); return; }
-      o.items = rows.map(r => ({ t: r.h, v: r.v }));
+      o.items = rows.map(r => { const it = { t: r.h, v: r.v }; if (hasC(r.e)) it.e = r.e; return it; });
     }
   }
   o.id = qid(o);
@@ -1449,18 +1682,20 @@ function edSave(next) {
     else { s = sets.find(x => x.id === $('#eSet').value); s.qs.push(o); }
     finalSet = s.id;
   }
-  saveSets(); syncSetUI(); toast('Đã lưu câu hỏi.');
-  if (next) { const from = ed.from, type = ed.type; edOpen(null, from, 0, finalSet); ed.type = type; $('#eType').value = type; edRender(); }
+  saveSets(); syncSetUI(); toast('Đã lưu câu hỏi.' + (splitMsg ? ' ' + splitMsg + '.' : ''));
+  if (next) { const from = ed.from, type = ed.type; edOpen(null, from, 0, finalSet); ed.type = type; if (type === 'tf') ed.per = true; $('#eType').value = type; edRender(); }
   else if (ed.from === 'quiz') { showPanel('quiz'); draw(); }
   else showPanel('manage');
 }
-$('#eType').onchange = () => { edCapture(); ed.type = $('#eType').value; edRender(); };
+$('#eType').onchange = () => { edCapture(); ed.type = $('#eType').value; if (ed.type === 'tf') ed.per = true; edRender(); };
+$('#edt').addEventListener('change', e => { if (e.target.id === 'ePer') { edCapture(); ed.per = e.target.checked; edRender(); } });
 $('#eSet').onchange = () => $('#eNewL').classList.toggle('hide', $('#eSet').value !== '__new');
 $('#edt').addEventListener('focusin', e => { const c = e.target.closest && e.target.closest('.ce'); if (c) edFocus = c; });
 $('#edt').addEventListener('click', e => {
   const b = e.target.closest('button'); if (!b) return;
   if (b.dataset.rdel !== undefined) { edCapture(); ed.rows.splice(+b.dataset.rdel, 1); edRender(); }
-  else if (b.id === 'eAdd') { edCapture(); ed.rows.push({ h: '', ok: false, v: null }); edRender(); }
+  else if (b.id === 'eAdd') { edCapture(); ed.rows.push({ h: '', ok: false, v: null, e: '' }); edRender(); }
+  else if (b.id === 'eSplit') { const m = edSplit(false); if (m) toast(m); }
   else if (b.id === 'eImg') $('#eFile').click();
   else if (b.id === 'eSave') edSave(false);
   else if (b.id === 'eSaveNext') edSave(true);
@@ -1644,6 +1879,8 @@ function qIssues(q) {
     if (n >= 2 && n !== 4) add('warn', `Có ${n} ý (thường là 4)`);
     const b = q.items.map((x, i) => hasC(x.t) ? '' : 'abcdef'[i]).filter(Boolean);
     if (b.length) add('warn', `Ý ${b.join(', ')} đang trống`);
+    const en = q.items.filter(x => hasC(x.e)).length;
+    if (en && en < n) add('warn', `Chỉ có giải thích cho ${en}/${n} ý (thiếu ý ${q.items.map((x, i) => hasC(x.e) ? '' : 'abcdef'[i]).filter(Boolean).join(', ')})`);
   } else if (!(q.ans && String(q.ans).trim())) add('err', 'Chưa có đáp án');
   return o;
 }
@@ -1743,9 +1980,19 @@ document.addEventListener('paste', async e => {
 });
 function convType(q, t) {
   if (q.type === t) return;
-  if (t === 'sa') { const a = q.type === 'mc' && q.ans >= 0 && q.opts[q.ans] ? plain(q.opts[q.ans]).trim() : null; q.type = 'sa'; delete q.opts; delete q.items; q.ans = a; }
-  else if (t === 'tf') { const src = q.type === 'mc' ? q.opts : []; q.items = src.map(h => ({ t: h, v: null })); while (q.items.length < 4) q.items.push({ t: '', v: null }); delete q.opts; delete q.ans; q.type = 'tf'; }
-  else { const src = q.type === 'tf' ? q.items.map(i => i.t) : []; q.opts = src.length >= 2 ? src : ['', '', '', '']; q.ans = -1; delete q.items; q.type = 'mc'; }
+  const oldE = q.type === 'mc' ? (q.oe || []) : q.type === 'tf' ? q.items.map(i => i.e || '') : [];
+  if (t === 'sa') { const a = q.type === 'mc' && q.ans >= 0 && q.opts[q.ans] ? plain(q.opts[q.ans]).trim() : null; q.type = 'sa'; delete q.opts; delete q.items; delete q.oe; q.ans = a; }
+  else if (t === 'tf') {
+    const src = q.type === 'mc' ? q.opts : [];
+    q.items = src.map((h, i) => { const it = { t: h, v: null }; if (hasC(oldE[i])) it.e = oldE[i]; return it; });
+    while (q.items.length < 4) q.items.push({ t: '', v: null });
+    delete q.opts; delete q.ans; delete q.oe; q.type = 'tf';
+  } else {
+    const src = q.type === 'tf' ? q.items.map(i => i.t) : [];
+    q.opts = src.length >= 2 ? src : ['', '', '', '']; q.ans = -1;
+    if (oldE.some(hasC)) q.oe = q.opts.map((_, i) => oldE[i] || ''); else delete q.oe;
+    delete q.items; q.type = 'mc';
+  }
   q.id = qid(q);
 }
 
@@ -1887,7 +2134,7 @@ async function applyRemote() {
     }
     const keep = same.find(x => x.id === s.id) || same[0];
     for (const x of same) if (x !== keep) { sets.splice(sets.indexOf(x), 1); nDup++; if (cfg.set === x.id) cfg.set = keep.id; }
-    if (JSON.stringify(keep.qs) !== JSON.stringify(qs)) { keep.qs = qs; nUpd++; }
+    if (JSON.stringify(keep.qs.map(q => cleanQ(q) || q)) !== JSON.stringify(qs)) { keep.qs = qs; nUpd++; }
   }
   if (nAdd || nUpd || nDup) {
     if (cfg.set !== 'all' && !sets.some(x => x.id === cfg.set)) cfg.set = 'all';
@@ -1902,6 +2149,7 @@ async function applyRemote() {
   sets = await loadSets();
   await applyEmbed();
   await applyRemote();
+  normalizeExp();
   applyTheme(); applyFs(); syncSetUI();
   if (!restoreSession()) build();
   showPanel('quiz');
