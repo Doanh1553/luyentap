@@ -471,6 +471,7 @@ const RE = {
   ans: /^\s*(?:Đáp án(?:\s+đúng)?|Dap an|ĐA|Answer|Key)\s*(?:[:：\-–]|là)\s*([\s\S]+)$/i,
   exp: /^\s*(?:Lời giải|Giải thích|Hướng dẫn giải|Giải)\s*(?:chi tiết)?\s*[:：]\s*([\s\S]*)$/i,
   mark: /\s*[\(\[]\s*(Đúng|Sai|Đ|S|đúng|sai)\s*[\)\]]\s*\.?\s*$/u,
+  expHead: /^\s*(?:(?:phần|bảng)\s+)?(?:giải thích|lời giải|hướng dẫn giải)(?:\s+(?:chi tiết|đáp án|các câu(?:\s+hỏi)?|trắc nghiệm))?\s*[:：]?\s*$/i,
   keyLine: /^\s*Câu\s*(\d+)\s*[.:)\-–]?\s*([A-F])\s*\.?\s*$/i,
   keyLineTF: /^\s*Câu\s*(\d+)\s*[.:)\-–]?\s*(.+)$/i
 };
@@ -526,6 +527,7 @@ function addOpt(cur, h, star, fmt, lc) {
 function parseBlocks(blocks) {
   const drafts = [], keys = [], issues = [];
   let cur = null, last = null, sec = 0, secHint = null, lastNum = 0, inKey = false, usesCau = false;
+  const exps = []; let inExp = false, curE = null, lastEN = 0;
   const fin = () => {
     if (!cur) return;
     if (!cur.opts.length) {
@@ -543,7 +545,13 @@ function parseBlocks(blocks) {
   for (let bi = 0; bi < blocks.length; bi++) {
     const b = blocks[bi];
     if (b.k === 'key') { fin(); b.keys.forEach(k => keys.push({ ...k, pos: bi })); inKey = true; continue; }
-    if (b.k === 't') { if (cur && !cur.opts.length) cur.stem.push({ h: b.html, table: true }); continue; }
+    if (b.k === 't') {
+      if (inExp) {
+        (b.rows || []).forEach(r => { const c0 = (r[0] || '').replace(/^câu\s*/i, ''); if (isInt(c0) && r.length >= 2) { const h = r.slice(1).filter(Boolean).map(x => esc(x)).join(' '); if (h) { curE = { num: +c0, parts: [h] }; exps.push(curE); lastEN = +c0; } } });
+        continue;
+      }
+      if (cur && !cur.opts.length) cur.stem.push({ h: b.html, table: true }); continue;
+    }
     const raw = b.raw, tx = raw.trim();
     if (!tx && !/<img/.test(b.html)) continue;
     const kt = textKeys(blocks, bi);
@@ -551,7 +559,28 @@ function parseBlocks(blocks) {
     let m;
     if (inKey && (m = raw.match(RE.keyLine))) { keys.push({ type: 'mc', num: +m[1], v: m[2].toUpperCase(), pos: bi }); continue; }
     if (inKey && (m = raw.match(RE.keyLineTF))) { const tf = parseTF(m[2]); if (tf) { keys.push({ type: 'tf', num: +m[1], v: tf, pos: bi }); continue; } }
-    if (RE.dethead.test(raw)) { fin(); sec++; secHint = null; inKey = false; lastNum = 0; continue; }
+    if (RE.dethead.test(raw)) { fin(); sec++; secHint = null; inKey = false; inExp = false; curE = null; lastNum = 0; continue; }
+    if (RE.expHead.test(raw)) {
+      const nb = blocks[bi + 1], nm = nb && nb.raw && nb.raw.match(RE.q);
+      if (!cur || (nm && +nm[1] !== lastNum + 1)) { fin(); inExp = true; inKey = false; curE = null; lastEN = 0; continue; }
+    }
+    if (inExp) {
+      if (RE.head.test(raw) || RE.head2.test(raw)) { curE = null; continue; }
+      if (RE.keyHead.test(raw) && !RE.expHead.test(raw)) { inExp = false; inKey = true; curE = null; continue; }
+      let em = raw.match(RE.q), en = null, rest = null;
+      if (em) { en = +em[1]; rest = em[2]; }
+      else if (!usesCau && (em = raw.match(RE.qn)) && +em[1] === lastEN + 1) { en = +em[1]; rest = em[2]; }
+      if (en !== null) {
+        curE = { num: en, parts: [] }; exps.push(curE); lastEN = en;
+        let h = rest.trim() || /<img/.test(b.html) ? sub(b.html, raw.length - rest.length) : '';
+        h = h.replace(/^\s*(?:Lời giải|Giải thích|Hướng dẫn giải|Giải)\s*(?:chi tiết)?\s*[:：]\s*/i, '');
+        if (hasC(h)) curE.parts.push(h);
+      } else if (curE) {
+        const h = b.html.replace(/^\s*(?:Lời giải|Giải thích|Hướng dẫn giải|Giải)\s*(?:chi tiết)?\s*[:：]\s*/i, '');
+        if (hasC(h)) curE.parts.push(h);
+      }
+      continue;
+    }
     if (RE.head.test(raw) || RE.head2.test(raw)) { fin(); sec++; secHint = hintOf(tx); lastNum = 0; continue; }
     if (cur && (cur.opts.length || cur.saAns != null) && /^\s*(?:lời giải chi tiết|hướng dẫn giải|lời giải|giải thích(?:\s+chi tiết)?)\s*[:：]?\s*$/i.test(raw) && !(blocks[bi + 1] && blocks[bi + 1].raw && RE.q.test(blocks[bi + 1].raw))) { cur.exp = []; last = { k: 'exp' }; continue; }
     if (RE.keyHead.test(raw)) { fin(); inKey = true; continue; }
@@ -599,12 +628,13 @@ function parseBlocks(blocks) {
     } else if (!inKey && (RE.opt.test(raw) || RE.ans.test(raw))) issues.push({ lvl: 'warn', msg: `Dòng “${shorten(tx)}” nằm ngoài mọi câu hỏi nên bị bỏ qua` });
   }
   fin();
-  return resolve(drafts, keys, issues);
+  return resolve(drafts, keys, issues, exps);
 }
 const stemHtml = st => st.map(x => x.table ? x.h : x.li ? '<p>• ' + x.h + '</p>' : '<p>' + x.h + '</p>').join('');
 const TFRE = /đúng\s*[\/\-]?\s*(hoặc\s*)?sai/i;
-function resolve(drafts, keys, issues) {
+function resolve(drafts, keys, issues, exps) {
   issues = issues || [];
+  exps = exps || []; const usedE = new Set(), seenN = {};
   const qs = [];
   const keyOf = (type, num, pos) => { const c = keys.filter(k => k.type === type && k.num === num); return c.find(k => k.pos > pos) || c[c.length - 1]; };
   const have = { mc: new Set(), tf: new Set(), sa: new Set() };
@@ -623,7 +653,11 @@ function resolve(drafts, keys, issues) {
     (d.warns || []).forEach(w => issues.push({ lvl: 'warn', qi, msg: w }));
     if (guess) issues.push({ lvl: 'warn', qi, msg: 'Không thấy phương án A–D, ý a–d hay đáp án: tạm xếp là Trả lời ngắn. Nếu đây không phải câu hỏi (ví dụ tiêu đề) hãy xóa, nếu đúng là câu hỏi hãy đổi loại hoặc thêm phương án' });
     have[type].add(d.num);
-    const base = { num: d.num, q, exp: d.exp.length ? d.exp.map(x => '<p>' + x + '</p>').join('') : '' };
+    let expH = d.exp.length ? d.exp.map(x => '<p>' + x + '</p>').join('') : '';
+    { const r = seenN[d.num] = (seenN[d.num] === undefined ? 0 : seenN[d.num] + 1), es = exps.filter(e => e.num === d.num && e.parts.length);
+      const e = es[r] || (es.length === 1 ? es[0] : null);
+      if (e) { usedE.add(e); if (!hasC(expH)) expH = e.parts.map(x => '<p>' + x + '</p>').join(''); } }
+    const base = { num: d.num, q, exp: expH };
     if (type === 'mc') {
       let ans = d.opts.findIndex(o => o.star);
       if (ans < 0 && d.ansMC >= 0 && d.ansMC < n) ans = d.ansMC;
@@ -648,6 +682,8 @@ function resolve(drafts, keys, issues) {
       qs.push({ ...base, type: 'sa', ans: d.saAns != null ? d.saAns : (k ? k.v : null) });
     }
   }
+  const orph = [...new Set(exps.filter(e => e.parts.length && !usedE.has(e)).map(e => e.num))];
+  if (orph.length) issues.push({ lvl: 'warn', msg: `Phần giải thích có câu ${orph.slice(0, 20).join(', ')}${orph.length > 20 ? '…' : ''} nhưng không thấy câu hỏi tương ứng (hoặc câu đó đã có lời giải ngay dưới câu hỏi)` });
   qs.forEach(q => { q.id = qid(q); });
   const bySec = new Map();
   drafts.forEach(d => { if (!bySec.has(d.sec)) bySec.set(d.sec, []); bySec.get(d.sec).push(d.num); });
