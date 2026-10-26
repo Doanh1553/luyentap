@@ -733,7 +733,7 @@ const saveCfg = () => saveJSON('tn_cfg', cfg);
    Toàn bộ âm thanh được tạo trực tiếp bằng Web Audio API (không cần file mp3, không lo bản quyền,
    chạy được cả khi offline). Trình duyệt chỉ cho phát tiếng sau lần chạm/bấm đầu tiên của người dùng. */
 const TNS = (() => {
-  const S = Object.assign({ music: true, sfx: true, mvol: 40, svol: 70 }, loadJSON('tn_snd', {}));
+  const S = Object.assign({ music: false, sfx: true, mvol: 40, svol: 70 }, loadJSON('tn_snd', {}));
   const BPM = 86, STEP = 60 / BPM / 2;           // mỗi bước = nốt móc đơn
   let ctx = null, musicBus, sfxBus, delayIn, shaker, timer = null, stopTO = null, nextT = 0, stepN = 0, mi = 4;
   const save = () => saveJSON('tn_snd', S);
