@@ -129,7 +129,7 @@ pre{white-space:pre-wrap;background:var(--bg);border:1px solid var(--line);borde
 <div class="bar">
   <h1>Luyện trắc nghiệm</h1>
   <button id="btnTheme" class="sm"></button>
-  <button id="btnMusic" class="sm" title="Bật / tắt nhạc nền">🎵 Nhạc: bật</button>
+  <button id="btnMusic" class="sm" title="Bật / tắt nhạc nền">🔇 Nhạc: tắt</button>
   <button data-panel="quiz" class="sm">Làm bài</button>
   <button data-panel="import" class="sm">Nhập đề</button>
   <button data-panel="manage" class="sm">Quản lý</button>
@@ -733,10 +733,10 @@ const saveCfg = () => saveJSON('tn_cfg', cfg);
    Toàn bộ âm thanh được tạo trực tiếp bằng Web Audio API (không cần file mp3, không lo bản quyền,
    chạy được cả khi offline). Trình duyệt chỉ cho phát tiếng sau lần chạm/bấm đầu tiên của người dùng. */
 const TNS = (() => {
-  const S = Object.assign({ music: false, sfx: true, mvol: 40, svol: 70 }, loadJSON('tn_snd', {}));
+  const S = Object.assign({ music: false, sfx: true, mvol: 40, svol: 70 }, loadJSON('tn_snd2', {}));
   const BPM = 86, STEP = 60 / BPM / 2;           // mỗi bước = nốt móc đơn
   let ctx = null, musicBus, sfxBus, delayIn, shaker, timer = null, stopTO = null, nextT = 0, stepN = 0, mi = 4;
-  const save = () => saveJSON('tn_snd', S);
+  const save = () => saveJSON('tn_snd2', S);
   const mtof = m => 440 * Math.pow(2, (m - 69) / 12);
   const mGain = () => S.mvol / 100 * 0.8;
   const sGain = () => S.svol / 100;
@@ -848,7 +848,7 @@ const TNS = (() => {
   // ok = true: đúng | false: sai | null: chỉ chọn (chế độ thi thử, chưa biết đúng/sai)
   function answer(ok) {
     const t = ready(); if (t === null) return;
-    if (ok === null) { tone(mtof(79), t, 0.16, 0.08); tone(mtof(91), t, 0.06, 0.02); return; }
+    if (ok === null) { tone(900, t, 0.08, 0.2, { glide: 450, a: 0.003 }); bell(84, t + 0.015, 0.2, 0.6); bell(88, t + 0.06, 0.08, 0.4); return; }
     if (ok) {                                        // 3 nốt đi lên, lấp lánh nhẹ
       bell(76, t, 0.22, 1.1); bell(79, t + 0.09, 0.22, 1.1); bell(84, t + 0.18, 0.26, 1.3); bell(91, t + 0.28, 0.07, 0.9);
     } else {                                         // hạ xuống nhẹ rồi ngẩng lên: "không sao, thử lại nhé"
