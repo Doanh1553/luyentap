@@ -839,7 +839,7 @@ const TNS = (() => {
   function fileStart() {
     if (!au) {
       au = new Audio(); au.loop = true; au.preload = 'auto';
-      au.addEventListener('error', () => { if (au.getAttribute('src')) toast('Không tải được file nhạc. Kiểm tra lại đường dẫn trong MUSIC_TRACKS.'); });
+      au.addEventListener('error', () => { if (au.getAttribute('src')) toast('Lỗi nhạc (mã ' + (au.error ? au.error.code : '?') + '): ' + au.src); });
     }
     const src = curSrc();
     if (au.getAttribute('src') !== src) au.src = src;
